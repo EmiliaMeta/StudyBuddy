@@ -1,6 +1,7 @@
 import json
 from course import Course
 from utils import resource_path
+from dataclasses import asdict
 
 
 def load_courses():
@@ -25,7 +26,6 @@ def save_courses(courses):
 
     try:
         with open(resource_path("data/courses.json"), "w", encoding="utf-8") as f:
-            json.dump([c.__dict__ for c in courses], f, indent=4)
-
+            json.dump([asdict(c) for c in courses], f, indent=4)
     except Exception as e:
         print("Failed to save courses:", e)

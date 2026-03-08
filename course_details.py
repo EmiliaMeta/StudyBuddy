@@ -47,7 +47,7 @@ class CourseDetailsDialog(QDialog):
         progress.setValue(int(course.hp_done))
 
         layout.addWidget(progress)
-        layout.addWidget(QLabel("🔑 Prerequisites"))
+        layout.addWidget(QLabel("<b>🔑 Prerequisites<b>"))
 
         completed = {
             c.code for c in planner.courses
@@ -57,13 +57,10 @@ class CourseDetailsDialog(QDialog):
         missing = missing_prerequisites(course, planner.courses)
 
         if not course.prerequisites:
-
-            layout.addWidget(QLabel("None"))
+            layout.addWidget(QLabel(""))
 
         else:
-
             for group in course.prerequisites:
-
                 satisfied = any(code in completed for code in group)
 
                 text = " OR ".join(group)
@@ -81,7 +78,6 @@ class CourseDetailsDialog(QDialog):
                 layout.addWidget(label)
 
         if missing:
-
             warning = QLabel("⚠ Missing prerequisites")
             warning.setStyleSheet("""
             color:red;
@@ -92,15 +88,13 @@ class CourseDetailsDialog(QDialog):
         edit = QPushButton("Edit Course")
         
         if course.notes:
-            layout.addWidget(QLabel("Notes"))
-
             notes = QLabel(course.notes)
             notes.setWordWrap(True)
 
             layout.addWidget(notes)
         
         if course.important_dates:
-            layout.addWidget(QLabel("Important Dates"))
+            layout.addWidget(QLabel("<b>Important Dates<b>"))
 
             for d in course.important_dates:
                 layout.addWidget(QLabel(f"• {d}"))

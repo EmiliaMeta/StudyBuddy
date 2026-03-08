@@ -9,7 +9,11 @@
         "source": "IT",
         "status": "completed",
         "grade": "D",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "Random ahh kurs",
+        "important_dates": [
+            "2001-05-18"
+        ]
     },
     {
         "name": "Digital Design",
@@ -21,7 +25,9 @@
         "source": "IT",
         "status": "completed",
         "grade": "B",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Programmering 1",
@@ -33,7 +39,9 @@
         "source": "IT",
         "status": "completed",
         "grade": "A",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Algebra och Geometri",
@@ -45,7 +53,9 @@
         "source": "IT",
         "status": "failed",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Algoritmer och Datastrukturer",
@@ -57,7 +67,9 @@
         "source": "IT",
         "status": "in progress",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Envariabelanalys",
@@ -69,7 +81,9 @@
         "source": "IT",
         "status": "completed",
         "grade": "D",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Diskret Matematik",
@@ -81,7 +95,9 @@
         "source": "IT",
         "status": "completed",
         "grade": "E",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Inbyggd Elektronik",
@@ -93,7 +109,9 @@
         "source": "IT",
         "status": "completed",
         "grade": "D",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Datorteknik",
@@ -105,7 +123,9 @@
         "source": "IT",
         "status": "in progress",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Introduktion till programmering",
@@ -117,7 +137,9 @@
         "source": "IT",
         "status": "completed",
         "grade": "A",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "H\u00e5rdvarus\u00e4kerhet",
@@ -133,7 +155,9 @@
             [
                 "IE1204"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Logik f\u00f6r Dataloger",
@@ -152,7 +176,9 @@
             [
                 "SF1610"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Objektorienterad Design",
@@ -168,7 +194,9 @@
             [
                 "ID1018"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Proj. inom Inf.- och Komm.teknik",
@@ -190,7 +218,9 @@
             [
                 "IS1200"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Mekanik 1",
@@ -202,7 +232,9 @@
         "source": "external",
         "status": "in progress",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Elektrom. & v\u00e5g.l\u00e4ra",
@@ -214,7 +246,9 @@
         "source": "external",
         "status": "in progress",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Prak. intro. till energiteknik",
@@ -226,7 +260,9 @@
         "source": "external",
         "status": "completed",
         "grade": "B",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Maskinteknik, introkurs",
@@ -238,7 +274,9 @@
         "source": "external",
         "status": "in progress",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Programmeringsteknik",
@@ -250,7 +288,9 @@
         "source": "external",
         "status": "completed",
         "grade": "B",
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Flervariabelanalys",
@@ -262,7 +302,9 @@
         "source": "IT",
         "status": "failed",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Aktiv Karri\u00e4rstart",
@@ -274,7 +316,9 @@
         "source": "IT",
         "status": "planned",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "N\u00e4tverk och Kommunikation",
@@ -294,7 +338,9 @@
             [
                 "IE1204"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Sanno.teori & statistik",
@@ -311,7 +357,9 @@
                 "SF1625",
                 "SF1685"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Operativsystem",
@@ -334,7 +382,9 @@
             [
                 "IS1200"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Digitali. & innov. f\u00f6r H\u00e5llb. utv.",
@@ -346,7 +396,9 @@
         "source": "IT",
         "status": "planned",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Intro. till datats\u00e4kerhet",
@@ -372,7 +424,9 @@
             [
                 "SF1610"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Kandidat Examensarbete IT",
@@ -384,7 +438,9 @@
         "source": "IT",
         "status": "planned",
         "grade": null,
-        "prerequisites": null
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": []
     },
     {
         "name": "Datalagring",
@@ -400,6 +456,8 @@
             [
                 "ID1018"
             ]
-        ]
+        ],
+        "notes": "",
+        "important_dates": []
     }
 ]

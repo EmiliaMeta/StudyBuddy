@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import (
 )
 
 from course import Course, STATUS_COLORS
+from storage import save_courses
 
 
 # ---------- HELPERS ----------
@@ -114,7 +115,7 @@ def edit_course_dialog(planner, course):
         course.code = code.text().upper()
         course.name = name.text()
         course.grade = grade.currentText() or None
-        course.notes = notes.toPlainText()
+        course.notes = notes.toPlainText().strip() or None
 
         text = dates.text().strip()
 
@@ -131,7 +132,7 @@ def edit_course_dialog(planner, course):
             prerequisites.text()
         )
 
-        planner.save_courses()
+        save_courses(planner.courses)
         planner.refresh_ui()
 
         d.accept()
@@ -139,7 +140,7 @@ def edit_course_dialog(planner, course):
     def delete_course():
 
         planner.courses.remove(course)
-        planner.save_courses()
+        save_courses(planner.courses)
         planner.refresh_ui()
 
         d.accept()
@@ -199,7 +200,7 @@ def add_course_dialog(planner):
             )
         )
 
-        planner.save_courses()
+        save_courses(planner.courses)
         planner.refresh_ui()
 
         d.accept()
