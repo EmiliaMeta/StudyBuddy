@@ -8,7 +8,8 @@
         "period": 0,
         "source": "IT",
         "status": "completed",
-        "grade": "D"
+        "grade": "D",
+        "prerequisites": null
     },
     {
         "name": "Digital Design",
@@ -19,7 +20,8 @@
         "period": 0,
         "source": "IT",
         "status": "completed",
-        "grade": "B"
+        "grade": "B",
+        "prerequisites": null
     },
     {
         "name": "Programmering 1",
@@ -30,7 +32,8 @@
         "period": 1,
         "source": "IT",
         "status": "completed",
-        "grade": "A"
+        "grade": "A",
+        "prerequisites": null
     },
     {
         "name": "Algebra och Geometri",
@@ -41,7 +44,8 @@
         "period": 1,
         "source": "IT",
         "status": "failed",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Algoritmer och Datastrukturer",
@@ -52,7 +56,8 @@
         "period": 2,
         "source": "IT",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Envariabelanalys",
@@ -63,7 +68,8 @@
         "period": 2,
         "source": "IT",
         "status": "completed",
-        "grade": "D"
+        "grade": "D",
+        "prerequisites": null
     },
     {
         "name": "Diskret Matematik",
@@ -74,7 +80,8 @@
         "period": 3,
         "source": "IT",
         "status": "completed",
-        "grade": "E"
+        "grade": "E",
+        "prerequisites": null
     },
     {
         "name": "Inbyggd Elektronik",
@@ -85,7 +92,8 @@
         "period": 3,
         "source": "IT",
         "status": "completed",
-        "grade": "D"
+        "grade": "D",
+        "prerequisites": null
     },
     {
         "name": "Datorteknik",
@@ -96,7 +104,8 @@
         "period": 0,
         "source": "IT",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Introduktion till programmering",
@@ -107,7 +116,8 @@
         "period": 0,
         "source": "IT",
         "status": "completed",
-        "grade": "A"
+        "grade": "A",
+        "prerequisites": null
     },
     {
         "name": "H\u00e5rdvarus\u00e4kerhet",
@@ -118,7 +128,12 @@
         "period": 2,
         "source": "IT",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "IE1204"
+            ]
+        ]
     },
     {
         "name": "Logik f\u00f6r Dataloger",
@@ -129,7 +144,15 @@
         "period": 1,
         "source": "IT",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "DD1310"
+            ],
+            [
+                "SF1610"
+            ]
+        ]
     },
     {
         "name": "Objektorienterad Design",
@@ -140,7 +163,12 @@
         "period": 3,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018"
+            ]
+        ]
     },
     {
         "name": "Proj. inom Inf.- och Komm.teknik",
@@ -151,7 +179,18 @@
         "period": 3,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018"
+            ],
+            [
+                "ID1021"
+            ],
+            [
+                "IS1200"
+            ]
+        ]
     },
     {
         "name": "Mekanik 1",
@@ -162,7 +201,8 @@
         "period": 2,
         "source": "external",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Elektrom. & v\u00e5g.l\u00e4ra",
@@ -173,7 +213,8 @@
         "period": 3,
         "source": "external",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Prak. intro. till energiteknik",
@@ -184,7 +225,8 @@
         "period": 2,
         "source": "external",
         "status": "completed",
-        "grade": "B"
+        "grade": "B",
+        "prerequisites": null
     },
     {
         "name": "Maskinteknik, introkurs",
@@ -195,7 +237,8 @@
         "period": 0,
         "source": "external",
         "status": "in progress",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Programmeringsteknik",
@@ -206,7 +249,8 @@
         "period": 1,
         "source": "external",
         "status": "completed",
-        "grade": "B"
+        "grade": "B",
+        "prerequisites": null
     },
     {
         "name": "Flervariabelanalys",
@@ -217,7 +261,8 @@
         "period": 3,
         "source": "IT",
         "status": "failed",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Aktiv Karri\u00e4rstart",
@@ -228,7 +273,8 @@
         "period": 2,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "N\u00e4tverk och Kommunikation",
@@ -239,7 +285,16 @@
         "period": 2,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018",
+                "DD1310"
+            ],
+            [
+                "IE1204"
+            ]
+        ]
     },
     {
         "name": "Sanno.teori & statistik",
@@ -250,7 +305,13 @@
         "period": 0,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "SF1625",
+                "SF1685"
+            ]
+        ]
     },
     {
         "name": "Operativsystem",
@@ -261,7 +322,19 @@
         "period": 1,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "DD1310",
+                "ID1018"
+            ],
+            [
+                "ID1021"
+            ],
+            [
+                "IS1200"
+            ]
+        ]
     },
     {
         "name": "Digitali. & innov. f\u00f6r H\u00e5llb. utv.",
@@ -272,7 +345,8 @@
         "period": 2,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Intro. till datats\u00e4kerhet",
@@ -283,7 +357,22 @@
         "period": 3,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018",
+                "DD1310"
+            ],
+            [
+                "IS1200"
+            ],
+            [
+                "IK1203"
+            ],
+            [
+                "SF1610"
+            ]
+        ]
     },
     {
         "name": "Kandidat Examensarbete IT",
@@ -294,7 +383,8 @@
         "period": 2,
         "source": "IT",
         "status": "planned",
-        "grade": null
+        "grade": null,
+        "prerequisites": null
     },
     {
         "name": "Datalagring",
@@ -305,6 +395,11 @@
         "period": 1,
         "source": "IT",
         "status": "failed",
-        "grade": null
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018"
+            ]
+        ]
     }
 ]

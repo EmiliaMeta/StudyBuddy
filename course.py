@@ -3,11 +3,7 @@ from dataclasses import dataclass
 from PyQt6.QtWidgets import QLabel
 from PyQt6.QtCore import Qt, QMimeData, QPoint
 from PyQt6.QtGui import QDrag
-
-from stats import GRADE_COLORS, STATUS_COLORS
-
-
-# ---------- DATA MODEL ----------
+from theme import GRADE_COLORS, STATUS_COLORS
 
 @dataclass
 class Course:
@@ -20,16 +16,16 @@ class Course:
     source: str = "IT"
     status: str = "planned"
     grade: str | None = None
-
-
-# ---------- UI WIDGET ----------
+    prerequisites: list[str] | None = None 
 
 class CourseLabel(QLabel):
 
-    def __init__(self, course: Course):
+    def __init__(self, course: Course, planner):
         super().__init__()
 
         self.course = course
+        self.planner = planner
+        self.warning = False
         self.drag_start_position = QPoint()
 
         self.setTextFormat(Qt.TextFormat.RichText)
@@ -38,11 +34,15 @@ class CourseLabel(QLabel):
 
         self.update_default_text()
 
-    # ---------- TEXT HELPERS ----------
-
     def default_text(self):
         c = self.course
-        return f"{c.hp_done}/{c.hp_total} HP {c.code}"
+
+        base = f"{c.hp_done}/{c.hp_total} HP {c.code}"
+
+        if self.warning:
+            base = "⚠ " + base
+
+        return base
     
     def hover_text(self):
         """Text shown on hover"""
@@ -60,8 +60,6 @@ class CourseLabel(QLabel):
     def update_default_text(self):
         self.setText(self.default_text())
 
-    # ---------- HOVER ----------
-
     def enterEvent(self, event):
         self.setText(self.hover_text())
         super().enterEvent(event)
@@ -69,8 +67,6 @@ class CourseLabel(QLabel):
     def leaveEvent(self, event):
         self.update_default_text()
         super().leaveEvent(event)
-
-    # ---------- DRAG SUPPORT ----------
 
     def mousePressEvent(self, event):
 
@@ -99,3 +95,12 @@ class CourseLabel(QLabel):
         drag.setHotSpot(event.pos())
 
         drag.exec(Qt.DropAction.MoveAction)
+    
+    def mouseDoubleClickEvent(self, event):
+
+        from course_details import CourseDetailsDialog
+
+        dialog = CourseDetailsDialog(self.planner, self.course)
+        dialog.exec()
+
+        super().mouseDoubleClickEvent(event)

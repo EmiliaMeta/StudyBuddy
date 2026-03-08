@@ -2,9 +2,6 @@
 
 HP_PER_YEAR = 60
 
-
-# ---------- COURSE BLOCKS ----------
-
 COURSE_BLOCKS = {
     "matnat": {
         "SF1686","SF1626","SF1683","SF1633",
@@ -16,48 +13,10 @@ COURSE_BLOCKS = {
     }
 }
 
-
 EXCLUSIVE_GROUPS = [
     {"EQ1110","SF1683","SF1633"},
     {"DD2350","DD2352"}
 ]
-
-
-# ---------- UI COLORS ----------
-
-BLOCK_COLORS = {
-    "matnat": "#ff6b6b",
-    "it": "#4dabf7",
-}
-
-SOURCE_COLORS = {
-    "external": "#f59f00",
-}
-
-PERIOD_COLORS = [
-    ("#e6ccff","#99ccff"),
-    ("#ffd6e7","#ffb3d1"),
-    ("#d4ffd4","#99ffcc"),
-    ("#fff0b3","#ffd480"),
-]
-
-STATUS_COLORS = {
-    "planned": "white",
-    "in progress": "#87CEFA",
-    "completed": "#7CFC9A",
-    "failed": "#FF7F7F",
-}
-
-GRADE_COLORS = {
-    "A": "#22c55e",
-    "B": "#4ade80",
-    "C": "#facc15",
-    "D": "#fb923c",
-    "E": "#ef4444",
-}
-
-
-# ---------- GRADE SYSTEM ----------
 
 GRADE_VALUES = {
     "A": 5,
@@ -68,6 +27,29 @@ GRADE_VALUES = {
     "F": 0
 }
 
+IT_PROGRAM_HP = 180
+MATNAT_BLOCK_HP = 15
+IT_BLOCK_HP = 21
+
+def missing_prerequisites(course, courses):
+
+    if not course.prerequisites:
+        return []
+
+    completed = {
+        c.code for c in courses
+        if c.status == "completed"
+    }
+
+    missing_groups = []
+
+    for group in course.prerequisites:
+        satisfied = any(code in completed for code in group)
+
+        if not satisfied:
+            missing_groups.append(group)
+
+    return missing_groups
 
 def normalize_grade(grade):
     """Normaliserar grade input."""
@@ -78,8 +60,6 @@ def normalize_grade(grade):
 
     return grade if grade in GRADE_VALUES else None
 
-
-# ---------- STAT FUNCTIONS ----------
 
 def calculate_grade_average(courses):
     """HP-viktat betygssnitt."""
@@ -129,9 +109,6 @@ def total_completed_hp(courses):
 
 def total_it_hp(courses):
     return sum(c.hp_total for c in courses if c.source == "IT")
-
-
-# ---------- BLOCK LOGIC ----------
 
 def course_block(course):
     """Returnerar vilket block kursen tillhör."""
