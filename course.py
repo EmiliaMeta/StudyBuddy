@@ -16,8 +16,10 @@ class Course:
     source: str = "IT"
     status: str = "planned"
     grade: str | None = None
-    prerequisites: list[str] | None = None 
-
+    prerequisites: list[list[str]] | None = None
+    notes: str | None = None
+    important_dates: list[str] | None = None
+    
 class CourseLabel(QLabel):
 
     def __init__(self, course: Course, planner):
@@ -27,6 +29,7 @@ class CourseLabel(QLabel):
         self.planner = planner
         self.warning = False
         self.drag_start_position = QPoint()
+        
 
         self.setTextFormat(Qt.TextFormat.RichText)
         self.setFixedHeight(30)

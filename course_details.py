@@ -90,6 +90,20 @@ class CourseDetailsDialog(QDialog):
 
             layout.addWidget(warning)
         edit = QPushButton("Edit Course")
+        
+        if course.notes:
+            layout.addWidget(QLabel("Notes"))
+
+            notes = QLabel(course.notes)
+            notes.setWordWrap(True)
+
+            layout.addWidget(notes)
+        
+        if course.important_dates:
+            layout.addWidget(QLabel("Important Dates"))
+
+            for d in course.important_dates:
+                layout.addWidget(QLabel(f"• {d}"))
 
         def open_edit():
             edit_course_dialog(planner, course)

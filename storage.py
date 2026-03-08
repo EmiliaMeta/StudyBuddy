@@ -11,6 +11,8 @@ def load_courses():
 
         for c in courses:
             c.setdefault("grade", None)
+            c.setdefault("notes", "")
+            c.setdefault("important_dates", [])
 
         return [Course(**c) for c in courses]
 

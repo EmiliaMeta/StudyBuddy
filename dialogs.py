@@ -1,6 +1,7 @@
 from PyQt6.QtWidgets import (
     QDialog, QFormLayout, QComboBox,
-    QDoubleSpinBox, QLineEdit, QPushButton
+    QDoubleSpinBox, QLineEdit, QPushButton,
+    QTextEdit
 )
 
 from course import Course, STATUS_COLORS
@@ -40,9 +41,6 @@ def text_to_prerequisites(text):
 
     return groups if groups else None
 
-
-# ---------- EDIT COURSE ----------
-
 def edit_course_dialog(planner, course):
 
     d = QDialog(planner)
@@ -75,6 +73,11 @@ def edit_course_dialog(planner, course):
     code = QLineEdit(course.code)
     name = QLineEdit(course.name)
 
+    notes = QTextEdit(course.notes or "")
+
+    dates = QLineEdit(", ".join(course.important_dates))
+    dates.setPlaceholderText("YYYY-MM-DD, YYYY-MM-DD")
+
     prerequisites = QLineEdit(prerequisites_to_text(course.prerequisites))
     prerequisites.setPlaceholderText(
         "Use , for OR and ; for AND (ex: ID1018, MF1000 ; IS1200)"
@@ -89,6 +92,7 @@ def edit_course_dialog(planner, course):
         ("Status",status),("HP",hp),("Completed",done),
         ("Code",code),("Name",name),
         ("Prerequisites", prerequisites),
+        ("Notes", notes),("Important dates", dates),
         ("Grade", grade)
     ]:
         form.addRow(t,w)
@@ -110,6 +114,18 @@ def edit_course_dialog(planner, course):
         course.code = code.text().upper()
         course.name = name.text()
         course.grade = grade.currentText() or None
+        course.notes = notes.toPlainText()
+
+        text = dates.text().strip()
+
+        if text:
+            course.important_dates = [
+                d.strip()
+                for d in text.split(",")
+                if d.strip()
+            ]
+        else:
+            course.important_dates = []
 
         course.prerequisites = text_to_prerequisites(
             prerequisites.text()

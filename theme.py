@@ -2,11 +2,11 @@ from stats import course_block
 
 # ---------- APP COLORS ----------
 
-APP_BACKGROUND = "#C396A1"
+APP_BACKGROUND = "#C9758A"
 CARD_BACKGROUND = "#A28089"
 
-ACCENT_PRIMARY = "#64B9C4"
-ACCENT_SECONDARY = "#9DF9EF"
+ACCENT_PRIMARY = "#A45FA0"
+ACCENT_SECONDARY = "#7D4B7D"
 ACCENT_WARNING = "#FFAFB6"
 
 TEXT_COLOR = "#2f2f2f"
@@ -33,7 +33,7 @@ SOURCE_COLORS = {
 }
 PERIOD_COLORS = [
     ("#e1bdbd", "#F3AAAA"),
-    ("#B497CF", "#7A8BC1"),
+    ("#CEAEEC", "#A17AC1"),
     ("#D7B6D5", "#BD75A7"),
     ("#DF9AAD", "#BC6A7D"),
 ]
