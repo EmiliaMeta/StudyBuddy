@@ -16,22 +16,20 @@ from stats import (
     total_completed_hp,
     total_it_hp,
     block_hp,
-    course_block,
     missing_prerequisites,
-    HP_PER_YEAR,
     IT_BLOCK_HP,
     IT_PROGRAM_HP,
     MATNAT_BLOCK_HP
 )
 from theme import (
     course_label_style,
-    year_progress_style,
     period_box_style,
     course_borders,
     APP_STYLE,
     PERIOD_COLORS,
     STATUS_COLORS
 )
+
 
 class StudyPlanner(QWidget):
 
@@ -66,49 +64,42 @@ class StudyPlanner(QWidget):
         self.anim.setEndValue(0)
 
         self.anim.finished.connect(self.close)
-
         self.anim.start()
 
     def open_add_course(self):
-        add_course_dialog(self) 
+        add_course_dialog(self)
 
     def __init__(self):
         super().__init__()
 
         QShortcut(QKeySequence("Escape"), self, activated=self.fade_and_close)
+
         self.setStyleSheet(APP_STYLE)
         self.showMaximized()
         self.setMinimumSize(900, 700)
 
         self.courses = load_courses()
         self.cells = {}
-        self.year_labels = {}
 
         layout = QVBoxLayout(self)
 
+        #  ADD COURSE 
         add = QPushButton("Add Course")
-        add.clicked.connect(self.open_add_course)        
+        add.clicked.connect(self.open_add_course)
         layout.addWidget(add)
 
+        #  PROGRESS BARS 
         self.progress = create_progress_bars()
         layout.addLayout(self.progress["layout"])
 
+        # GRADE AVERAGE 
         self.grade_avg_label = QLabel("Grade Average: -")
         self.grade_avg_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.grade_avg_label.setStyleSheet("font-weight:bold;padding:4px;")
         layout.addWidget(self.grade_avg_label)
 
-        legend = QLabel(
-            "Legend: 🟥 MatNat block   🟦 IT block   🟧 External course"
-        )
-
-        legend.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        legend.setStyleSheet("font-weight:bold;padding:4px;")
-
-        layout.addWidget(legend)
-
+        # GRID 
         grid = QGridLayout()
-
         grid.setHorizontalSpacing(10)
         grid.setVerticalSpacing(10)
 
@@ -146,17 +137,10 @@ class StudyPlanner(QWidget):
 
                 self.cells[(r, c)] = {"layout": v, "hp": hp}
 
-            year = QLabel("0 HP")
-            year.setMinimumWidth(120)
-            year.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-            grid.addWidget(year, r, 4)
-
-            self.year_labels[r] = year
-
         self.display_courses()
         self.update_hp_labels()
 
+    # COURSE DISPLAY 
     def display_courses(self):
 
         for course in self.courses:
@@ -174,13 +158,16 @@ class StudyPlanner(QWidget):
             label.setStyleSheet(course_label_style(color, left, right))
 
             self.cells[(course.year, course.period)]["layout"].addWidget(label)
-    
+
     def update_bar(self, bar, value, total, label):
+
         bar.setValue(int(value))
         bar.setFormat(f"{label}: {value} / {total} HP")
-        
 
+    #  UPDATE STATS 
     def update_hp_labels(self):
+
+        # period totals
         for (r, c), cell in self.cells.items():
 
             total = sum(
@@ -190,25 +177,15 @@ class StudyPlanner(QWidget):
 
             cell["hp"].setText(f"Total: {total} HP")
 
-        for y, label in self.year_labels.items():
-
-            total = sum(x.hp_done for x in self.courses if x.year == y)
-
-            progress = min(total / HP_PER_YEAR, 1)
-
-            border = "4px solid #2ecc71" if total >= HP_PER_YEAR else "none"
-
-            label.setText(f"{total} / {HP_PER_YEAR} HP")
-
-            label.setStyleSheet(year_progress_style(progress, border))
-
+        # global stats
         completed = total_completed_hp(self.courses)
         it = total_it_hp(self.courses)
 
         matnat = block_hp(self.courses, "matnat")
         it_block = block_hp(self.courses, "it")
-        
+
         p = self.progress["bars"]
+
         self.update_bar(p["it_program"], it, IT_PROGRAM_HP, "IT Program Progress")
         self.update_bar(p["completed"], completed, IT_PROGRAM_HP, "Completed")
         self.update_bar(p["matnat"], matnat, MATNAT_BLOCK_HP, "MatNat block")
@@ -222,8 +199,11 @@ class StudyPlanner(QWidget):
         else:
             self.grade_avg_label.setText(f"Grade Average: {grade} ({avg})")
 
+    #  REFRESH 
     def refresh_ui(self):
+
         for cell in self.cells.values():
+
             layout = cell["layout"]
 
             while layout.count() > 2:

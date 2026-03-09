@@ -40,8 +40,8 @@ def create_progress_bars():
 
     style_bar(bars["it_program"], "#3b82f6", "#1d4ed8")   # blue
     style_bar(bars["completed"], "#4ade80", "#16a34a")    # green
-    style_bar(bars["matnat"], "#f87171", "#dc2626")       # red
-    style_bar(bars["it_block"], "#60a5fa", "#2563eb")     # light blue
+    style_bar(bars["matnat"], "#8e90d0", "#6569cf")       # red
+    style_bar(bars["it_block"], "#e585d5", "#e35ccd")     # light blue
 
     # ---------- layout ----------
 
