@@ -18,8 +18,8 @@ STATUS_COLORS = {
     "failed": "#F5737D",
 }
 GRADE_COLORS = {
-    "A": "#6ee7b7",
-    "B": "#a7f3d0",
+    "A": "#02A061",
+    "B": "#b7f4d8",
     "C": "#fde68a",
     "D": "#fdba74",
     "E": "#fca5a5",

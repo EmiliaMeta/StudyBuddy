@@ -69,7 +69,7 @@
         "period": 2,
         "source": "IT",
         "status": "in progress",
-        "grade": null,
+        "grade": "A",
         "prerequisites": null,
         "notes": null,
         "important_dates": [
@@ -155,7 +155,7 @@
         "status": "completed",
         "grade": "A",
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -225,12 +225,12 @@
         "important_dates": []
     },
     {
-        "name": "Proj. inom Inf.- och Komm.teknik",
+        "name": "Projekt inom Inf.- & Komm.teknik",
         "code": "II1305",
         "hp_total": 7.5,
         "hp_done": 0.0,
         "year": 1,
-        "period": 3,
+        "period": 2,
         "source": "IT",
         "status": "planned",
         "grade": null,
@@ -245,7 +245,7 @@
                 "IS1200"
             ]
         ],
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -263,7 +263,7 @@
         "important_dates": []
     },
     {
-        "name": "Elektrom. & v\u00e5g.l\u00e4ra",
+        "name": "Elektromagnetism & v\u00e5gr\u00f6relsel\u00e4ra",
         "code": "SK1110",
         "hp_total": 7.5,
         "hp_done": 3.5,
@@ -277,7 +277,7 @@
         "important_dates": []
     },
     {
-        "name": "Prak. intro. till energiteknik",
+        "name": "Praktisk introduktion till energiteknik",
         "code": "MJ1104",
         "hp_total": 6.0,
         "hp_done": 6.0,
@@ -295,7 +295,7 @@
         "code": "MF1001",
         "hp_total": 9.0,
         "hp_done": 7.5,
-        "year": 0,
+        "year": 1,
         "period": 0,
         "source": "external",
         "status": "in progress",
@@ -338,7 +338,7 @@
         "hp_total": 1.5,
         "hp_done": 0.0,
         "year": 1,
-        "period": 2,
+        "period": 3,
         "source": "IT",
         "status": "planned",
         "grade": null,
@@ -352,7 +352,7 @@
         "hp_total": 7.5,
         "hp_done": 0.0,
         "year": 1,
-        "period": 2,
+        "period": 3,
         "source": "IT",
         "status": "planned",
         "grade": null,
@@ -369,7 +369,7 @@
         "important_dates": []
     },
     {
-        "name": "Sanno.teori & statistik",
+        "name": "Sannolikhetsteori & statistik",
         "code": "SF1912",
         "hp_total": 6.0,
         "hp_done": 0.0,
@@ -384,7 +384,7 @@
                 "SF1685"
             ]
         ],
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -413,7 +413,7 @@
         "important_dates": []
     },
     {
-        "name": "Digitali. & innov. f\u00f6r H\u00e5llb. utv.",
+        "name": "Digitalisering & Innovation f\u00f6r HU",
         "code": "AL1523",
         "hp_total": 7.5,
         "hp_done": 0.0,
@@ -423,11 +423,11 @@
         "status": "planned",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
-        "name": "Intro. till datats\u00e4kerhet",
+        "name": "Introduktion till datats\u00e4kerhet",
         "code": "IV1013",
         "hp_total": 7.5,
         "hp_done": 0.0,
@@ -451,7 +451,7 @@
                 "SF1610"
             ]
         ],
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -460,7 +460,7 @@
         "hp_total": 15.0,
         "hp_done": 0.0,
         "year": 2,
-        "period": 2,
+        "period": 3,
         "source": "IT",
         "status": "planned",
         "grade": null,
