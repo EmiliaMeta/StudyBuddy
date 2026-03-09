@@ -76,7 +76,15 @@ def edit_course_dialog(planner, course):
 
     notes = QTextEdit(course.notes or "")
 
-    dates = QLineEdit(", ".join(course.important_dates))
+    if course.important_dates:
+        text = ", ".join(
+            f"{d['title']} - {d['date']}"
+            for d in course.important_dates
+        )
+    else:
+        text = ""
+
+    dates = QLineEdit(text)
     dates.setPlaceholderText("YYYY-MM-DD, YYYY-MM-DD")
 
     prerequisites = QLineEdit(prerequisites_to_text(course.prerequisites))
@@ -119,14 +127,21 @@ def edit_course_dialog(planner, course):
 
         text = dates.text().strip()
 
+        dates_list = []
+
         if text:
-            course.important_dates = [
-                d.strip()
-                for d in text.split(",")
-                if d.strip()
-            ]
-        else:
-            course.important_dates = []
+            for item in text.split(","):
+                item = item.strip()
+
+                if "-" in item:
+                    title, date = item.split("-", 1)
+
+                    dates_list.append({
+                        "title": title.strip(),
+                        "date": date.strip()
+                    })
+
+        course.important_dates = dates_list
 
         course.prerequisites = text_to_prerequisites(
             prerequisites.text()

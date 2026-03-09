@@ -97,7 +97,10 @@ class CourseDetailsDialog(QDialog):
             layout.addWidget(QLabel("<b>Important Dates<b>"))
 
             for d in course.important_dates:
-                layout.addWidget(QLabel(f"• {d}"))
+                title = d.get("title", "")
+                date = d.get("date", "")
+
+                layout.addWidget(QLabel(f"• {title} ({date})"))
 
         def open_edit():
             edit_course_dialog(planner, course)
