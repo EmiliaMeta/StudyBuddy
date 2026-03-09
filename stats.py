@@ -1,3 +1,4 @@
+from datetime import datetime
 # ---------- PROGRAM CONSTANTS ----------
 
 HP_PER_YEAR = 60
@@ -153,7 +154,6 @@ def filter_exclusive_courses(courses):
 
 def block_hp(courses, block):
     """Returnerar HP för ett block."""
-
     codes = COURSE_BLOCKS.get(block, set())
 
     filtered = [
@@ -163,3 +163,38 @@ def block_hp(courses, block):
     filtered = filter_exclusive_courses(filtered)
 
     return sum(c.hp_done for c in filtered)
+
+def upcoming_events(courses):
+    """Returnerar alla upcoming events sorterade efter datum."""
+
+    events = []
+
+    for c in courses:
+
+        if not c.important_dates:
+            continue
+
+        for d in c.important_dates:
+
+            # stöd för både gamla och nya format
+            if isinstance(d, str):
+                title = ""
+                date = d
+            else:
+                title = d.get("title", "")
+                date = d.get("date", "")
+
+            try:
+                dt = datetime.strptime(date, "%Y-%m-%d")
+            except:
+                continue
+
+            events.append({
+                "date": dt,
+                "title": title,
+                "course": c.code
+            })
+
+    events.sort(key=lambda x: x["date"])
+
+    return events

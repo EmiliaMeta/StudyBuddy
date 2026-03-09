@@ -17,6 +17,7 @@ from stats import (
     total_it_hp,
     block_hp,
     missing_prerequisites,
+    upcoming_events,
     IT_BLOCK_HP,
     IT_PROGRAM_HP,
     MATNAT_BLOCK_HP
@@ -25,6 +26,7 @@ from theme import (
     course_label_style,
     period_box_style,
     course_borders,
+    events_panel_style,
     APP_STYLE,
     PERIOD_COLORS,
     STATUS_COLORS
@@ -100,11 +102,29 @@ class StudyPlanner(QWidget):
 
         # GRID 
         grid = QGridLayout()
+            # EVENTS PANEL 
+        self.events_frame = QFrame()
+        self.events_frame.setStyleSheet(events_panel_style())
+
+        events_layout = QVBoxLayout(self.events_frame)
+
+        self.events_title = QLabel("Upcoming Deadlines")
+        self.events_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.events_title.setStyleSheet("font-weight:bold;font-size:16px")
+
+        events_layout.addWidget(self.events_title)
+
+        self.events_box = QVBoxLayout()
+        events_layout.addLayout(self.events_box)
         grid.setHorizontalSpacing(10)
         grid.setVerticalSpacing(10)
 
         layout.addLayout(grid)
-
+        # period columns
+        for i in range(5):
+            grid.setColumnStretch(i, 1)
+        # calendar column
+        grid.setColumnStretch(1, 1)
         for r in range(3):
 
             for c in range(4):
@@ -136,9 +156,10 @@ class StudyPlanner(QWidget):
                 grid.addWidget(box, r, c)
 
                 self.cells[(r, c)] = {"layout": v, "hp": hp}
-
+        grid.addWidget(self.events_frame, 0, 4, 3, 1)
         self.display_courses()
         self.update_hp_labels()
+        self.update_events()
 
     # COURSE DISPLAY 
     def display_courses(self):
@@ -158,13 +179,55 @@ class StudyPlanner(QWidget):
             label.setStyleSheet(course_label_style(color, left, right))
 
             self.cells[(course.year, course.period)]["layout"].addWidget(label)
-
+    
+    #  UPDATE STATS 
     def update_bar(self, bar, value, total, label):
 
         bar.setValue(int(value))
         bar.setFormat(f"{label}: {value} / {total} HP")
 
-    #  UPDATE STATS 
+    def update_events(self):
+        while self.events_box.count():
+            w = self.events_box.takeAt(0).widget()
+            if w:
+                w.deleteLater()
+
+        events = upcoming_events(self.courses)
+
+        for e in events[:8]:
+
+            date = e["date"].strftime("%d %b")
+            title = e["title"]
+            course = e["course"]
+
+            card = QFrame()
+            card.setStyleSheet("""
+            QFrame {
+                background: rgba(255,255,255,0.45);
+                border-radius:8px;
+                padding:6px;
+            }
+            """)
+
+            layout = QVBoxLayout(card)
+
+            date_label = QLabel(date)
+            date_label.setStyleSheet("font-weight:bold;font-size:14px")
+
+            title_label = QLabel(title)
+            title_label.setWordWrap(True)
+
+            course_label = QLabel(course)
+            course_label.setStyleSheet("color:#444")
+
+            layout.addWidget(date_label)
+            layout.addWidget(title_label)
+            layout.addWidget(course_label)
+
+            self.events_box.addWidget(card)
+
+        self.events_box.addStretch()
+
     def update_hp_labels(self):
 
         # period totals
@@ -213,3 +276,4 @@ class StudyPlanner(QWidget):
 
         self.display_courses()
         self.update_hp_labels()
+        self.update_events()

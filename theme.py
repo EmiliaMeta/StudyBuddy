@@ -121,6 +121,18 @@ def period_box_style(color1, color2):
         border-radius:8px;
     }}
     """
+def events_panel_style():
+    return """
+    QFrame {
+        background:qlineargradient(
+            x1:0,y1:0,x2:1,y2:1,
+            stop:0 #f2d6f0,
+            stop:1 #e6c8ec
+        );
+        border-radius:10px;
+        padding:8px;
+    }
+    """
 
 def course_borders(course):
     left = (

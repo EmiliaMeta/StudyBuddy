@@ -11,12 +11,7 @@
         "grade": "D",
         "prerequisites": null,
         "notes": "Random ahh kurs",
-        "important_dates": [
-            {
-                "title": "Labb 1",
-                "date": "2001-05-18"
-            }
-        ]
+        "important_dates": []
     },
     {
         "name": "Digital Design",
@@ -57,8 +52,13 @@
         "status": "failed",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
-        "important_dates": []
+        "notes": null,
+        "important_dates": [
+            {
+                "title": "TENTA",
+                "date": "2026-04-08"
+            }
+        ]
     },
     {
         "name": "Algoritmer och Datastrukturer",
@@ -71,8 +71,17 @@
         "status": "in progress",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
-        "important_dates": []
+        "notes": null,
+        "important_dates": [
+            {
+                "title": "Labb 8: Grafer",
+                "date": "2026-03-15"
+            },
+            {
+                "title": "Labb A: Dijkstras",
+                "date": "2026-03-15"
+            }
+        ]
     },
     {
         "name": "Envariabelanalys",
@@ -127,8 +136,13 @@
         "status": "in progress",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
-        "important_dates": []
+        "notes": null,
+        "important_dates": [
+            {
+                "title": "TENTA",
+                "date": "2026-04-10"
+            }
+        ]
     },
     {
         "name": "Introduktion till programmering",
