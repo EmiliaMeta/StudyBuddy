@@ -115,6 +115,7 @@ class StudyPlanner(QWidget):
         events_layout.addWidget(self.events_title)
 
         self.events_box = QVBoxLayout()
+        self.events_box.setSpacing(2)
         events_layout.addLayout(self.events_box)
         grid.setHorizontalSpacing(10)
         grid.setVerticalSpacing(10)
@@ -194,37 +195,46 @@ class StudyPlanner(QWidget):
 
         events = upcoming_events(self.courses)
 
-        for e in events[:8]:
+        current_date = None
+        current_container = None
+        container_layout = None
 
-            date = e["date"].strftime("%d %b")
+        for e in events:
+            date_str = e["date"].strftime("%d %b")
             title = e["title"]
             course = e["course"]
 
-            card = QFrame()
-            card.setStyleSheet("""
-            QFrame {
-                background: rgba(255,255,255,0.45);
-                border-radius:8px;
-                padding:6px;
-            }
+            if date_str != current_date:
+                header = QLabel(date_str)
+                header.setStyleSheet("""
+                font-weight:bold;
+                font-size:15px;
+                margin-top:6px;
+                """)
+
+                self.events_box.addWidget(header)
+                current_container = QFrame()
+                current_container.setStyleSheet("""
+                QFrame {
+                    background:white;
+                    border-radius:8px;
+                    padding:4px;
+                }
+                """)
+
+                container_layout = QVBoxLayout(current_container)
+                container_layout.setSpacing(2)
+
+                self.events_box.addWidget(current_container)
+
+                current_date = date_str
+            label = QLabel(f"{title} — {course}")
+            label.setStyleSheet("""
+            font-size:15px;
+            padding-left:4px;
             """)
 
-            layout = QVBoxLayout(card)
-
-            date_label = QLabel(date)
-            date_label.setStyleSheet("font-weight:bold;font-size:14px")
-
-            title_label = QLabel(title)
-            title_label.setWordWrap(True)
-
-            course_label = QLabel(course)
-            course_label.setStyleSheet("color:#444")
-
-            layout.addWidget(date_label)
-            layout.addWidget(title_label)
-            layout.addWidget(course_label)
-
-            self.events_box.addWidget(card)
+            container_layout.addWidget(label)
 
         self.events_box.addStretch()
 

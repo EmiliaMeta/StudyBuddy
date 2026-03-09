@@ -130,7 +130,7 @@ def events_panel_style():
             stop:1 #e6c8ec
         );
         border-radius:10px;
-        padding:8px;
+        padding:4px;
     }
     """
 

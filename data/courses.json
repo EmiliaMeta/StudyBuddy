@@ -173,8 +173,13 @@
                 "IE1204"
             ]
         ],
-        "notes": "",
-        "important_dates": []
+        "notes": null,
+        "important_dates": [
+            {
+                "title": "TENTA",
+                "date": "2026-03-12"
+            }
+        ]
     },
     {
         "name": "Logik f\u00f6r Dataloger",
@@ -278,7 +283,7 @@
         "status": "completed",
         "grade": "B",
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
