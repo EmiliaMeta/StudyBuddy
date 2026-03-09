@@ -178,6 +178,10 @@
             {
                 "title": "TENTA",
                 "date": "2026-03-12"
+            },
+            {
+                "title": "PRO1",
+                "date": "2026-04-01"
             }
         ]
     },
@@ -199,7 +203,7 @@
                 "SF1610"
             ]
         ],
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -262,14 +266,14 @@
         "name": "Elektrom. & v\u00e5g.l\u00e4ra",
         "code": "SK1110",
         "hp_total": 7.5,
-        "hp_done": 3.0,
+        "hp_done": 3.5,
         "year": 0,
         "period": 3,
         "source": "external",
         "status": "in progress",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -453,7 +457,7 @@
     {
         "name": "Kandidat Examensarbete IT",
         "code": "IA150X",
-        "hp_total": 30.0,
+        "hp_total": 15.0,
         "hp_done": 0.0,
         "year": 2,
         "period": 2,
@@ -461,7 +465,7 @@
         "status": "planned",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {

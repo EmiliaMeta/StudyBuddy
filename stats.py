@@ -105,7 +105,11 @@ def numeric_to_grade(avg):
 
 
 def total_completed_hp(courses):
-    return sum(c.hp_done for c in courses)
+    return sum(
+        c.hp_done
+        for c in courses
+        if c.source == "IT"
+    )
 
 
 def total_it_hp(courses):
