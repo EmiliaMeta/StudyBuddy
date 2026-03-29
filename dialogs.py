@@ -4,11 +4,11 @@ from PyQt6.QtWidgets import (
     QTextEdit
 )
 
-from course import Course, STATUS_COLORS
+from course import Course
 from storage import save_courses
 
 
-# ---------- HELPERS ----------
+# HELPERS
 
 def prerequisites_to_text(prereqs):
     """Convert internal prerequisite structure to text."""
@@ -56,8 +56,10 @@ def edit_course_dialog(planner, course):
     period.setCurrentIndex(course.period)
 
     status = QComboBox()
-    status.addItems(list(STATUS_COLORS))
-    status.setCurrentText(course.status)
+    status.addItems(["planned", "failed"])
+    # Om kursen är completed/in progress, visa planned som default
+    current = course.status if course.status in ("planned", "failed") else "planned"
+    status.setCurrentText(current)
 
     source = QComboBox()
     source.addItems(["IT","external"])
@@ -147,6 +149,15 @@ def edit_course_dialog(planner, course):
             prerequisites.text()
         )
 
+        # Automatisk status baserat på HP
+        if course.hp_done >= course.hp_total and course.hp_total > 0:
+            course.status = "completed"
+        elif course.hp_done > 0:
+            course.status = "in progress"
+        else:
+            # hp_done == 0: använd manuellt val (planned eller failed)
+            course.status = status.currentText()
+
         save_courses(planner.courses)
         planner.refresh_ui()
 
@@ -166,7 +177,7 @@ def edit_course_dialog(planner, course):
     d.exec()
 
 
-# ---------- ADD COURSE ----------
+# ADD COURSE 
 
 def add_course_dialog(planner):
 

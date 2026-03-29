@@ -46,7 +46,7 @@
         "code": "SF1624",
         "hp_total": 7.5,
         "hp_done": 0.0,
-        "year": 0,
+        "year": 1,
         "period": 1,
         "source": "IT",
         "status": "failed",
@@ -64,24 +64,15 @@
         "name": "Algoritmer och Datastrukturer",
         "code": "ID1021",
         "hp_total": 7.5,
-        "hp_done": 0.0,
-        "year": 0,
+        "hp_done": 7.5,
+        "year": 1,
         "period": 2,
         "source": "IT",
-        "status": "in progress",
+        "status": "completed",
         "grade": "A",
         "prerequisites": null,
         "notes": null,
-        "important_dates": [
-            {
-                "title": "Labb 8: Grafer",
-                "date": "2026-03-15"
-            },
-            {
-                "title": "Labb A: Dijkstras",
-                "date": "2026-03-15"
-            }
-        ]
+        "important_dates": []
     },
     {
         "name": "Envariabelanalys",
@@ -162,28 +153,19 @@
         "name": "H\u00e5rdvarus\u00e4kerhet",
         "code": "IL1333",
         "hp_total": 7.5,
-        "hp_done": 0.0,
+        "hp_done": 7.5,
         "year": 1,
         "period": 2,
         "source": "IT",
-        "status": "in progress",
-        "grade": null,
+        "status": "completed",
+        "grade": "D",
         "prerequisites": [
             [
                 "IE1204"
             ]
         ],
         "notes": null,
-        "important_dates": [
-            {
-                "title": "TENTA",
-                "date": "2026-03-12"
-            },
-            {
-                "title": "PRO1",
-                "date": "2026-04-01"
-            }
-        ]
+        "important_dates": []
     },
     {
         "name": "Logik f\u00f6r Dataloger",
@@ -203,7 +185,7 @@
                 "SF1610"
             ]
         ],
-        "notes": null,
+        "notes": "LAB1 - 1,5HP\nLAB2 - 2HP\nHEM1 - 4HP",
         "important_dates": []
     },
     {
@@ -221,8 +203,21 @@
                 "ID1018"
             ]
         ],
-        "notes": "",
-        "important_dates": []
+        "notes": "INL1 - 7,5HP",
+        "important_dates": [
+            {
+                "title": "Sem2 Design",
+                "date": "2026-04-16"
+            },
+            {
+                "title": "Sem3 Implementation",
+                "date": "2026-05-04"
+            },
+            {
+                "title": "Sem4 Excep. and Des. Patterns",
+                "date": "2026-05-17"
+            }
+        ]
     },
     {
         "name": "Projekt inom Inf.- & Komm.teknik",
@@ -230,9 +225,9 @@
         "hp_total": 7.5,
         "hp_done": 0.0,
         "year": 1,
-        "period": 2,
+        "period": 3,
         "source": "IT",
-        "status": "planned",
+        "status": "in progress",
         "grade": null,
         "prerequisites": [
             [
@@ -245,8 +240,13 @@
                 "IS1200"
             ]
         ],
-        "notes": null,
-        "important_dates": []
+        "notes": "PRO1 - 7,5HP",
+        "important_dates": [
+            {
+                "title": "2026",
+                "date": "26-03"
+            }
+        ]
     },
     {
         "name": "Mekanik 1",
@@ -266,10 +266,10 @@
         "name": "Elektromagnetism & v\u00e5gr\u00f6relsel\u00e4ra",
         "code": "SK1110",
         "hp_total": 7.5,
-        "hp_done": 3.5,
+        "hp_done": 3.0,
         "year": 0,
         "period": 3,
-        "source": "external",
+        "source": "IT",
         "status": "in progress",
         "grade": null,
         "prerequisites": null,
@@ -283,7 +283,7 @@
         "hp_done": 6.0,
         "year": 0,
         "period": 2,
-        "source": "external",
+        "source": "IT",
         "status": "completed",
         "grade": "B",
         "prerequisites": null,
@@ -311,11 +311,11 @@
         "hp_done": 6.0,
         "year": 0,
         "period": 1,
-        "source": "external",
+        "source": "IT",
         "status": "completed",
         "grade": "B",
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -329,7 +329,7 @@
         "status": "failed",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
+        "notes": null,
         "important_dates": []
     },
     {
@@ -340,10 +340,10 @@
         "year": 1,
         "period": 3,
         "source": "IT",
-        "status": "planned",
+        "status": "in progress",
         "grade": null,
         "prerequisites": null,
-        "notes": "",
+        "notes": "UPP1 - 1,5HP",
         "important_dates": []
     },
     {
@@ -351,8 +351,8 @@
         "code": "IK1203",
         "hp_total": 7.5,
         "hp_done": 0.0,
-        "year": 1,
-        "period": 3,
+        "year": 2,
+        "period": 2,
         "source": "IT",
         "status": "planned",
         "grade": null,
@@ -365,7 +365,7 @@
                 "IE1204"
             ]
         ],
-        "notes": "",
+        "notes": "LABB - 1,5HP\nPROJ - 1,5HP\nTEN - 4,5HP",
         "important_dates": []
     },
     {
@@ -384,7 +384,7 @@
                 "SF1685"
             ]
         ],
-        "notes": null,
+        "notes": "TEN1 - 6HP",
         "important_dates": []
     },
     {
@@ -409,7 +409,7 @@
                 "IS1200"
             ]
         ],
-        "notes": "",
+        "notes": "SEM1 - 1,5HP\nLAB1 - 3HP\nTEN1 - 3HP",
         "important_dates": []
     },
     {
@@ -423,7 +423,7 @@
         "status": "planned",
         "grade": null,
         "prerequisites": null,
-        "notes": null,
+        "notes": "SEM1 - 1HP \nPRO1 - 5HP \nTEN1 - 1,5HP (Hemtentamen)",
         "important_dates": []
     },
     {
@@ -451,7 +451,7 @@
                 "SF1610"
             ]
         ],
-        "notes": null,
+        "notes": "PRO1 - 6HP \nTEN - 1,5HP (Digital examination)",
         "important_dates": []
     },
     {
@@ -473,7 +473,7 @@
         "code": "IV1351",
         "hp_total": 7.5,
         "hp_done": 0.0,
-        "year": 1,
+        "year": 2,
         "period": 1,
         "source": "IT",
         "status": "failed",
@@ -483,7 +483,7 @@
                 "ID1018"
             ]
         ],
-        "notes": null,
+        "notes": "LAB1 - 4,5HP TEN1 - 3HP",
         "important_dates": []
     }
 ]

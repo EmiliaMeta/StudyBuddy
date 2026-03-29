@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from PyQt6.QtWidgets import QLabel
 from PyQt6.QtCore import Qt, QMimeData, QPoint
 from PyQt6.QtGui import QDrag
-from theme import GRADE_COLORS, STATUS_COLORS
+from theme import GRADE_COLORS
 
 @dataclass
 class Course:
@@ -19,17 +19,16 @@ class Course:
     prerequisites: list[list[str]] | None = None
     notes: str | None = None
     important_dates: list[dict] | None = None
-    
+
 class CourseLabel(QLabel):
 
-    def __init__(self, course: Course, planner):
+    def __init__(self, course: Course, on_double_click=None):
         super().__init__()
 
         self.course = course
-        self.planner = planner
+        self.on_double_click = on_double_click
         self.warning = False
         self.drag_start_position = QPoint()
-        
 
         self.setTextFormat(Qt.TextFormat.RichText)
         self.setFixedHeight(30)
@@ -39,14 +38,11 @@ class CourseLabel(QLabel):
 
     def default_text(self):
         c = self.course
-
         base = f"{c.hp_done}/{c.hp_total} HP {c.code}"
-
         if self.warning:
             base = "⚠ " + base
-
         return base
-    
+
     def hover_text(self):
         """Text shown on hover"""
         c = self.course
@@ -72,38 +68,25 @@ class CourseLabel(QLabel):
         super().leaveEvent(event)
 
     def mousePressEvent(self, event):
-
         if event.button() == Qt.MouseButton.LeftButton:
             self.drag_start_position = event.pos()
-
         super().mousePressEvent(event)
 
     def mouseMoveEvent(self, event):
-
         if not (event.buttons() & Qt.MouseButton.LeftButton):
             return
-
-        if (
-            event.pos() - self.drag_start_position
-        ).manhattanLength() < 8:
+        if (event.pos() - self.drag_start_position).manhattanLength() < 8:
             return
 
         drag = QDrag(self)
-
         mime = QMimeData()
         mime.setText(self.course.code)
-
         drag.setMimeData(mime)
         drag.setPixmap(self.grab())
         drag.setHotSpot(event.pos())
-
         drag.exec(Qt.DropAction.MoveAction)
-    
+
     def mouseDoubleClickEvent(self, event):
-
-        from course_details import CourseDetailsDialog
-
-        dialog = CourseDetailsDialog(self.planner, self.course)
-        dialog.exec()
-
+        if self.on_double_click:
+            self.on_double_click(self.course)
         super().mouseDoubleClickEvent(event)
