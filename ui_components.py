@@ -148,7 +148,7 @@ class SimulatePanel(QFrame):
         layout = QVBoxLayout(self)
         layout.setSpacing(10)
 
-        title = QLabel("Snabbval")
+        title = QLabel("⚡ Snabbval")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet("font-size:17px; font-weight:bold; background:transparent;")
         layout.addWidget(title)
@@ -156,15 +156,16 @@ class SimulatePanel(QFrame):
         layout.addWidget(self._divider())
         layout.addWidget(QLabel("Ej avklarade kurser:"))
 
-        btn_grade = QPushButton("Sätt betyg A på alla")
-        btn_grade.clicked.connect(self._set_all_grade_a)
-        layout.addWidget(btn_grade)
+        for grade in ["A", "B", "C", "D", "E"]:
+            btn = QPushButton(f"🎓  Sätt betyg {grade} på alla")
+            btn.clicked.connect(lambda checked, g=grade: self._set_all_grade(g))
+            layout.addWidget(btn)
 
-        btn_hp = QPushButton("Sätt max HP på alla")
+        btn_hp = QPushButton("✅  Sätt max HP på alla")
         btn_hp.clicked.connect(self._set_all_max_hp)
         layout.addWidget(btn_hp)
 
-        btn_both = QPushButton("Betyg A + max HP på alla")
+        btn_both = QPushButton("🚀  Betyg A + max HP på alla")
         btn_both.clicked.connect(self._set_all_grade_a_and_hp)
         layout.addWidget(btn_both)
 
@@ -206,9 +207,9 @@ class SimulatePanel(QFrame):
             if not c.pass_fail
         ]
 
-    def _set_all_grade_a(self):
+    def _set_all_grade(self, grade):
         for c in self._not_completed_gradable():
-            c.grade = "A"
+            c.grade = grade
         self.planner.refresh_ui()
 
     def _set_all_max_hp(self):

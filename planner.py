@@ -2,7 +2,7 @@ import copy
 
 from PyQt6.QtWidgets import (
     QWidget, QLabel, QFrame, QPushButton,
-    QVBoxLayout, QGridLayout
+    QVBoxLayout, QHBoxLayout, QGridLayout, QScrollArea
 )
 from PyQt6.QtCore import Qt, QPropertyAnimation
 from PyQt6.QtGui import QShortcut, QKeySequence
@@ -20,6 +20,7 @@ from stats import (
     block_hp,
     missing_prerequisites,
     upcoming_events,
+    csn_stats,
     IT_BLOCK_HP,
     IT_PROGRAM_HP,
     MATNAT_BLOCK_HP
@@ -44,16 +45,38 @@ class EventsPanel(QFrame):
         super().__init__(parent)
         self.setStyleSheet(events_panel_style())
 
-        layout = QVBoxLayout(self)
+        outer = QVBoxLayout(self)
+        outer.setContentsMargins(6, 6, 6, 6)
 
         title = QLabel("Upcoming Deadlines")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet("font-weight:bold;font-size:16px")
-        layout.addWidget(title)
+        outer.addWidget(title)
 
-        self.events_box = QVBoxLayout()
+        # Scroll area för events
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QFrame.Shape.NoFrame)
+        scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
+        scroll.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
+        scroll.setStyleSheet("QScrollArea { background: transparent; }")
+
+        content = QWidget()
+        content.setStyleSheet("background: transparent;")
+
+        self.events_box = QVBoxLayout(content)
         self.events_box.setSpacing(2)
-        layout.addLayout(self.events_box)
+        self.events_box.setContentsMargins(0, 0, 0, 0)
+
+        scroll.setWidget(content)
+
+        # Tvinga content att hålla sig inom scroll-areans bredd
+        scroll.horizontalScrollBar().setEnabled(False)
+        def _resize_content(event):
+            content.setMaximumWidth(scroll.viewport().width())
+        scroll.resizeEvent = _resize_content
+
+        outer.addWidget(scroll)
 
     def refresh(self, courses):
         while self.events_box.count():
@@ -82,7 +105,8 @@ class EventsPanel(QFrame):
                 current_date = date_str
 
             label = QLabel(f"{e['title']} — {e['course']}")
-            label.setStyleSheet("font-size:15px;padding-left:4px;")
+            label.setWordWrap(True)
+            label.setStyleSheet("font-size:13px;padding-left:4px;")
             container_layout.addWidget(label)
 
         self.events_box.addStretch()
@@ -126,16 +150,70 @@ class StudyPlanner(QWidget):
         self.inner_layout = QVBoxLayout(inner)
         self.main_layout.addWidget(inner)
 
-        # TOPPRAD: Add Course + Simulate-knapp
-        top_row_layout = QGridLayout()
-        top_row_layout.setColumnStretch(0, 1)
-        top_row_layout.setColumnStretch(1, 0)
+        self.progress = create_progress_bars()
 
+        CARD_STYLE = """
+            QFrame {
+                background: #EFCDD6;
+                border-radius: 10px;
+            }
+        """
+
+        # GRADE-KORT
+        self.grade_avg_label = QLabel("-")
+        self.grade_avg_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.grade_avg_label.setStyleSheet("font-size:28px; font-weight:bold; padding:0;")
+
+        self.grade_avg_sub = QLabel("")
+        self.grade_avg_sub.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.grade_avg_sub.setStyleSheet("color:gray; font-size:13px; padding:0;")
+
+        grade_title = QLabel("Grade Average")
+        grade_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        grade_title.setStyleSheet("font-size:12px; color:gray; padding:0;")
+
+        grade_card = QFrame()
+        grade_card.setStyleSheet(CARD_STYLE)
+        grade_inner = QVBoxLayout(grade_card)
+        grade_inner.setSpacing(2)
+        grade_inner.setContentsMargins(10, 8, 10, 8)
+        grade_inner.addWidget(grade_title)
+        grade_inner.addWidget(self.grade_avg_label)
+        grade_inner.addWidget(self.grade_avg_sub)
+
+        # CSN-KORT
+        self.csn_terms_label = QLabel("-")
+        self.csn_terms_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; padding:0;")
+
+        self.csn_hp_label = QLabel("- HP/termin")
+        self.csn_hp_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.csn_hp_label.setStyleSheet("font-size:13px; color:gray; padding:0;")
+
+        self.csn_warning_label = QLabel("")
+        self.csn_warning_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.csn_warning_label.setWordWrap(True)
+        self.csn_warning_label.setStyleSheet("font-size:11px; color:#dc2626; font-weight:bold; padding:0;")
+
+        csn_title = QLabel("CSN kvar")
+        csn_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        csn_title.setStyleSheet("font-size:12px; color:gray; padding:0;")
+
+        csn_card = QFrame()
+        csn_card.setStyleSheet(CARD_STYLE)
+        csn_inner = QVBoxLayout(csn_card)
+        csn_inner.setSpacing(2)
+        csn_inner.setContentsMargins(10, 8, 10, 8)
+        csn_inner.addWidget(csn_title)
+        csn_inner.addWidget(self.csn_terms_label)
+        csn_inner.addWidget(self.csn_hp_label)
+        csn_inner.addWidget(self.csn_warning_label)
+
+        # KNAPPAR under grade-kortet
         add = QPushButton("Add Course")
         add.clicked.connect(self.open_add_course)
 
         self.simulate_btn = QPushButton("▶ Simulate")
-        self.simulate_btn.setFixedWidth(130)
         self.simulate_btn.clicked.connect(self.toggle_simulate)
         self.simulate_btn.setStyleSheet("""
         QPushButton {
@@ -149,19 +227,32 @@ class StudyPlanner(QWidget):
         QPushButton:hover { background: #4f46e5; }
         """)
 
-        top_row_layout.addWidget(add, 0, 0)
-        top_row_layout.addWidget(self.simulate_btn, 0, 1)
-        self.inner_layout.addLayout(top_row_layout)
+        left_col = QVBoxLayout()
+        left_col.setSpacing(6)
+        left_col.addWidget(grade_card)
+        left_col.addWidget(add)
+        left_col.addWidget(self.simulate_btn)
 
-        # PROGRESS BARS
-        self.progress = create_progress_bars()
-        self.inner_layout.addLayout(self.progress["layout"])
+        # MITTEN: CSN-kort (sträcker sig i höjd)
+        csn_col = QVBoxLayout()
+        csn_col.addWidget(csn_card)
 
-        # GRADE AVERAGE
-        self.grade_avg_label = QLabel("Grade Average: -")
-        self.grade_avg_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.grade_avg_label.setStyleSheet("font-weight:bold;padding:4px;")
-        self.inner_layout.addWidget(self.grade_avg_label)
+        # HÖGER: 2x2 bars grid
+        p = self.progress["bars"]
+        bars_grid = QGridLayout()
+        bars_grid.setSpacing(6)
+        bars_grid.addWidget(p["it_program"], 0, 0)
+        bars_grid.addWidget(p["completed"],  0, 1)
+        bars_grid.addWidget(p["matnat"],     1, 0)
+        bars_grid.addWidget(p["it_block"],   1, 1)
+
+        top_layout = QHBoxLayout()
+        top_layout.setSpacing(12)
+        top_layout.addLayout(left_col,   0)
+        top_layout.addLayout(csn_col,    0)
+        top_layout.addLayout(bars_grid,  1)
+
+        self.inner_layout.addLayout(top_layout)
 
         # GRID
         grid = QGridLayout()
@@ -331,6 +422,25 @@ class StudyPlanner(QWidget):
         else:
             bar.setFormat(f"{label}: {int(display_value)} / {total} HP")
 
+    def update_csn(self):
+        s = csn_stats(self.courses)
+
+        self.csn_terms_label.setText(f"{s['terms_left']} term")
+
+        if not s["csn_ok"]:
+            missing = round(s["required_current"] - s["completed_hp"], 1)
+            self.csn_hp_label.setText(f"Saknar {missing} HP denna termin")
+            self.csn_warning_label.setText("⚠ CSN-kravet ej uppfyllt!")
+            self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; color:#dc2626; padding:0;")
+        elif s["hp_needed_next_term"] > 0:
+            self.csn_hp_label.setText(f"Behöver {s['hp_needed_next_term']} HP nästa termin")
+            self.csn_warning_label.setText("")
+            self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; padding:0;")
+        else:
+            self.csn_hp_label.setText("Krav uppfyllt nästa termin ✔")
+            self.csn_warning_label.setText("")
+            self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; padding:0;")
+
     def update_hp_labels(self):
         for (r, c), cell in self.cells.items():
             total = sum(
@@ -354,9 +464,13 @@ class StudyPlanner(QWidget):
         grade = numeric_to_grade(avg)
 
         if avg is None:
-            self.grade_avg_label.setText("Grade Average: -")
+            self.grade_avg_label.setText("-")
+            self.grade_avg_sub.setText("")
         else:
-            self.grade_avg_label.setText(f"Grade Average: {grade} ({avg})")
+            self.grade_avg_label.setText(grade)
+            self.grade_avg_sub.setText(f"{avg}")
+
+        self.update_csn()
 
     # ---------- REFRESH ----------
 

@@ -240,7 +240,7 @@
         "year": 1,
         "period": 3,
         "source": "IT",
-        "status": "planned",
+        "status": "in progress",
         "grade": null,
         "prerequisites": [
             [
@@ -360,11 +360,16 @@
         "year": 1,
         "period": 3,
         "source": "IT",
-        "status": "planned",
+        "status": "in progress",
         "grade": null,
         "prerequisites": null,
         "notes": "UPP1 - 1,5HP",
-        "important_dates": [],
+        "important_dates": [
+            {
+                "title": "E portfolio",
+                "date": "2026-04-29"
+            }
+        ],
         "pass_fail": true
     },
     {
