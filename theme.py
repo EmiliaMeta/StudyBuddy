@@ -78,6 +78,34 @@ QPushButton:hover {{
 }}
 """
 
+SIMULATE_STYLE = f"""
+QWidget {{
+    background: {APP_BACKGROUND};
+    color: {TEXT_COLOR};
+    font-family: "Segoe UI";
+}}
+
+QFrame {{
+    background: {CARD_BACKGROUND};
+    border-radius:8px;
+}}
+
+QPushButton {{
+    background:{ACCENT_PRIMARY};
+    border:none;
+    padding:6px;
+    border-radius:6px;
+}}
+
+QPushButton:hover {{
+    background:{ACCENT_SECONDARY};
+}}
+
+StudyPlanner {{
+    border: 4px solid #f59e0b;
+}}
+"""
+
 def course_label_style(background, left_border, right_border):
     """Return stylesheet for course labels."""
 

@@ -5,7 +5,6 @@ from dataclasses import asdict
 
 
 def load_courses():
-
     try:
         with open(resource_path("data/courses.json"), encoding="utf-8") as f:
             courses = json.load(f)
@@ -22,7 +21,9 @@ def load_courses():
         return []
 
 
-def save_courses(courses):
+def save_courses(courses, simulate=False):
+    if simulate:
+        return  # aldrig spara i simulate-läge
 
     try:
         with open(resource_path("data/courses.json"), "w", encoding="utf-8") as f:

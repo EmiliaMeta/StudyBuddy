@@ -1,3 +1,5 @@
+import copy
+
 from PyQt6.QtWidgets import (
     QWidget, QLabel, QFrame, QPushButton,
     QVBoxLayout, QGridLayout
@@ -8,7 +10,7 @@ from PyQt6.QtGui import QShortcut, QKeySequence
 from course import CourseLabel
 from course_details import CourseDetailsDialog
 from dialogs import add_course_dialog
-from ui_components import create_progress_bars, animate_bar_success, ConfettiWidget
+from ui_components import create_progress_bars, animate_bar_success, ConfettiWidget, SimulateBanner, SimulatePanel
 from storage import load_courses, save_courses
 from stats import (
     calculate_grade_average,
@@ -28,6 +30,7 @@ from theme import (
     course_borders,
     events_panel_style,
     APP_STYLE,
+    SIMULATE_STYLE,
     PERIOD_COLORS,
     STATUS_COLORS
 )
@@ -94,30 +97,71 @@ class StudyPlanner(QWidget):
 
         QShortcut(QKeySequence("Escape"), self, activated=self.fade_and_close)
 
-        self.setStyleSheet(APP_STYLE)
-        self.showMaximized()
         self.setMinimumSize(900, 700)
+        self.showMaximized()
+
+        # Simulate state
+        self.simulate = False
+        self._real_courses = None  # snapshot av riktiga kurser
 
         self.courses = load_courses()
         self.cells = {}
         self.completed_bars = set()
 
-        layout = QVBoxLayout(self)
+        self._build_ui()
+        self.setStyleSheet(APP_STYLE)
 
-        # ADD COURSE
+    def _build_ui(self):
+        self.main_layout = QVBoxLayout(self)
+        self.main_layout.setContentsMargins(0, 0, 0, 0)
+        self.main_layout.setSpacing(0)
+
+        # SIMULATE BANNER (dold från start)
+        self.banner = SimulateBanner(on_exit=self.exit_simulate)
+        self.banner.hide()
+        self.main_layout.addWidget(self.banner)
+
+        # INNER CONTENT
+        inner = QWidget()
+        self.inner_layout = QVBoxLayout(inner)
+        self.main_layout.addWidget(inner)
+
+        # TOPPRAD: Add Course + Simulate-knapp
+        top_row_layout = QGridLayout()
+        top_row_layout.setColumnStretch(0, 1)
+        top_row_layout.setColumnStretch(1, 0)
+
         add = QPushButton("Add Course")
         add.clicked.connect(self.open_add_course)
-        layout.addWidget(add)
+
+        self.simulate_btn = QPushButton("▶ Simulate")
+        self.simulate_btn.setFixedWidth(130)
+        self.simulate_btn.clicked.connect(self.toggle_simulate)
+        self.simulate_btn.setStyleSheet("""
+        QPushButton {
+            background: #6366f1;
+            border: none;
+            padding: 6px;
+            border-radius: 6px;
+            color: white;
+            font-weight: bold;
+        }
+        QPushButton:hover { background: #4f46e5; }
+        """)
+
+        top_row_layout.addWidget(add, 0, 0)
+        top_row_layout.addWidget(self.simulate_btn, 0, 1)
+        self.inner_layout.addLayout(top_row_layout)
 
         # PROGRESS BARS
         self.progress = create_progress_bars()
-        layout.addLayout(self.progress["layout"])
+        self.inner_layout.addLayout(self.progress["layout"])
 
         # GRADE AVERAGE
         self.grade_avg_label = QLabel("Grade Average: -")
         self.grade_avg_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.grade_avg_label.setStyleSheet("font-weight:bold;padding:4px;")
-        layout.addWidget(self.grade_avg_label)
+        self.inner_layout.addWidget(self.grade_avg_label)
 
         # GRID
         grid = QGridLayout()
@@ -155,13 +199,67 @@ class StudyPlanner(QWidget):
 
         # EVENTS PANEL
         self.events_panel = EventsPanel()
+        self.right_panel = self.events_panel  # håller koll på vad som sitter i kolumn 4
         grid.addWidget(self.events_panel, 0, 4, 3, 1)
 
-        layout.addLayout(grid)
+        self.grid = grid  # spara referens för att byta panel senare
+        self.inner_layout.addLayout(grid)
 
         self.display_courses()
         self.update_hp_labels()
         self.events_panel.refresh(self.courses)
+
+    # ---------- SIMULATE ----------
+
+    def _set_right_panel(self, widget):
+        """Byt ut panelen i kolumn 4 i griden."""
+        self.right_panel.hide()
+        self.right_panel = widget
+        self.grid.addWidget(widget, 0, 4, 3, 1)
+        widget.show()
+
+    def toggle_simulate(self):
+        if self.simulate:
+            self.exit_simulate()
+        else:
+            self.enter_simulate()
+
+    def enter_simulate(self):
+        self.simulate = True
+        self._real_courses = load_courses()
+        self.courses = copy.deepcopy(self._real_courses)
+        self.completed_bars = set()
+
+        self.banner.show()
+        self.setStyleSheet(SIMULATE_STYLE)
+        self.simulate_btn.hide()
+
+        # Byt kalender mot simulate-panel
+        self.simulate_panel = SimulatePanel(self)
+        self._set_right_panel(self.simulate_panel)
+
+        self.refresh_ui()
+
+    def exit_simulate(self):
+        self.simulate = False
+        self.courses = self._real_courses
+        self._real_courses = None
+        self.completed_bars = set()
+
+        self.banner.hide()
+        self.setStyleSheet(APP_STYLE)
+        self.simulate_btn.show()
+
+        # Återställ kalender
+        self._set_right_panel(self.events_panel)
+
+        self.refresh_ui()
+
+    def reset_simulate(self):
+        """Återställ simulate-kurser till snapshot utan att lämna simulate-läge."""
+        self.courses = copy.deepcopy(self._real_courses)
+        self.completed_bars = set()
+        self.refresh_ui()
 
     # ---------- DRAG & DROP ----------
 
@@ -176,7 +274,7 @@ class StudyPlanner(QWidget):
                 course.year = r
                 course.period = c
                 break
-        save_courses(self.courses)
+        save_courses(self.courses, simulate=self.simulate)
         self.refresh_ui()
         event.acceptProposedAction()
 
@@ -228,7 +326,8 @@ class StudyPlanner(QWidget):
             if label not in self.completed_bars:
                 self.completed_bars.add(label)
                 animate_bar_success(bar)
-                ConfettiWidget(self)
+                if not self.simulate:
+                    ConfettiWidget(self)
         else:
             bar.setFormat(f"{label}: {int(display_value)} / {total} HP")
 
@@ -246,10 +345,10 @@ class StudyPlanner(QWidget):
         it_block  = block_hp(self.courses, "it")
 
         p = self.progress["bars"]
-        self.update_bar(p["it_program"], it,        IT_PROGRAM_HP,  "IT Program Progress")
-        self.update_bar(p["completed"],  completed,  IT_PROGRAM_HP,  "Completed")
-        self.update_bar(p["matnat"],     matnat,     MATNAT_BLOCK_HP, "MatNat block")
-        self.update_bar(p["it_block"],   it_block,   IT_BLOCK_HP,    "IT block")
+        self.update_bar(p["it_program"], it,       IT_PROGRAM_HP,   "IT Program Progress")
+        self.update_bar(p["completed"],  completed, IT_PROGRAM_HP,   "Completed")
+        self.update_bar(p["matnat"],     matnat,    MATNAT_BLOCK_HP, "MatNat block")
+        self.update_bar(p["it_block"],   it_block,  IT_BLOCK_HP,     "IT block")
 
         avg = calculate_grade_average(self.courses)
         grade = numeric_to_grade(avg)
@@ -271,4 +370,6 @@ class StudyPlanner(QWidget):
 
         self.display_courses()
         self.update_hp_labels()
-        self.events_panel.refresh(self.courses)
+
+        if not self.simulate:
+            self.events_panel.refresh(self.courses)

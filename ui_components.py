@@ -1,8 +1,50 @@
 import random
 
-from PyQt6.QtWidgets import QProgressBar, QGridLayout, QWidget
-from PyQt6.QtCore import QPropertyAnimation, QEasingCurve, QTimer, Qt
+from PyQt6.QtWidgets import QProgressBar, QGridLayout, QWidget, QLabel, QHBoxLayout, QVBoxLayout, QPushButton, QFrame
+from PyQt6.QtCore import QTimer, Qt
 from PyQt6.QtGui import QPainter, QColor
+
+
+# SIMULATE BANNER 
+
+class SimulateBanner(QWidget):
+    def __init__(self, on_exit, parent=None):
+        super().__init__(parent)
+        self.setStyleSheet("""
+        QWidget {
+            background: #f59e0b;
+            border-radius: 0px;
+        }
+        QLabel {
+            background: transparent;
+            color: #1c1917;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        QPushButton {
+            background: #1c1917;
+            color: #f59e0b;
+            border: none;
+            padding: 4px 14px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        QPushButton:hover {
+            background: #44403c;
+        }
+        """)
+        self.setFixedHeight(40)
+
+        layout = QHBoxLayout(self)
+        layout.setContentsMargins(12, 4, 12, 4)
+
+        icon = QLabel("⚠ SIMULERINGSLÄGE — ändringar sparas inte")
+        layout.addWidget(icon)
+        layout.addStretch()
+
+        exit_btn = QPushButton("Avsluta simulering")
+        exit_btn.clicked.connect(on_exit)
+        layout.addWidget(exit_btn)
 
 
 # ---------- PROGRESS BARS ----------
@@ -66,7 +108,115 @@ def animate_bar_success(bar):
     QTimer.singleShot(600, lambda: bar.setStyleSheet(original))
 
 
-# ---------- CONFETTI ----------
+
+# ---------- SIMULATE PANEL ----------
+
+class SimulatePanel(QFrame):
+    """Snabbval-panel som visas i simulate-läge istället för kalender."""
+
+    def __init__(self, planner, parent=None):
+        super().__init__(parent)
+        self.planner = planner
+
+        self.setStyleSheet("""
+        QFrame {
+            background: qlineargradient(
+                x1:0, y1:0, x2:1, y2:1,
+                stop:0 #fef3c7, stop:1 #fde68a
+            );
+            border-radius: 10px;
+            padding: 4px;
+        }
+        QLabel {
+            background: transparent;
+            font-weight: bold;
+            font-size: 15px;
+            color: #1c1917;
+        }
+        QPushButton {
+            background: #f59e0b;
+            color: #1c1917;
+            border: none;
+            padding: 8px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        QPushButton:hover { background: #d97706; }
+        """)
+
+        layout = QVBoxLayout(self)
+        layout.setSpacing(10)
+
+        title = QLabel("⚡ Snabbval")
+        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        title.setStyleSheet("font-size:17px; font-weight:bold; background:transparent;")
+        layout.addWidget(title)
+
+        layout.addWidget(self._divider())
+        layout.addWidget(QLabel("Ej avklarade kurser:"))
+
+        btn_grade = QPushButton("🎓  Sätt betyg A på alla")
+        btn_grade.clicked.connect(self._set_all_grade_a)
+        layout.addWidget(btn_grade)
+
+        btn_hp = QPushButton("✅  Sätt max HP på alla")
+        btn_hp.clicked.connect(self._set_all_max_hp)
+        layout.addWidget(btn_hp)
+
+        btn_both = QPushButton("🚀  Betyg A + max HP på alla")
+        btn_both.clicked.connect(self._set_all_grade_a_and_hp)
+        layout.addWidget(btn_both)
+
+        layout.addWidget(self._divider())
+
+        btn_reset = QPushButton("↺  Återställ simulering")
+        btn_reset.setStyleSheet("""
+        QPushButton {
+            background: #dc2626;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        QPushButton:hover { background: #b91c1c; }
+        """)
+        btn_reset.clicked.connect(self.planner.reset_simulate)
+        layout.addWidget(btn_reset)
+
+        layout.addStretch()
+
+    def _divider(self):
+        line = QFrame()
+        line.setFrameShape(QFrame.Shape.HLine)
+        line.setStyleSheet("background: #d97706; max-height: 1px;")
+        return line
+
+    def _not_completed(self):
+        return [
+            c for c in self.planner.courses
+            if c.status in ("planned", "in progress", "failed")
+        ]
+
+    def _set_all_grade_a(self):
+        for c in self._not_completed():
+            c.grade = "A"
+        self.planner.refresh_ui()
+
+    def _set_all_max_hp(self):
+        for c in self._not_completed():
+            c.hp_done = c.hp_total
+            c.status = "completed"
+        self.planner.refresh_ui()
+
+    def _set_all_grade_a_and_hp(self):
+        for c in self._not_completed():
+            c.grade = "A"
+            c.hp_done = c.hp_total
+            c.status = "completed"
+        self.planner.refresh_ui()
 
 class ConfettiWidget(QWidget):
     def __init__(self, parent=None):

@@ -5,10 +5,11 @@ from PyQt6.QtWidgets import (
 )
 
 from course import Course
+from theme import STATUS_COLORS
 from storage import save_courses
 
 
-# HELPERS
+# ---------- HELPERS ----------
 
 def prerequisites_to_text(prereqs):
     """Convert internal prerequisite structure to text."""
@@ -158,7 +159,7 @@ def edit_course_dialog(planner, course):
             # hp_done == 0: använd manuellt val (planned eller failed)
             course.status = status.currentText()
 
-        save_courses(planner.courses)
+        save_courses(planner.courses, simulate=planner.simulate)
         planner.refresh_ui()
 
         d.accept()
@@ -166,7 +167,7 @@ def edit_course_dialog(planner, course):
     def delete_course():
 
         planner.courses.remove(course)
-        save_courses(planner.courses)
+        save_courses(planner.courses, simulate=planner.simulate)
         planner.refresh_ui()
 
         d.accept()
@@ -177,7 +178,7 @@ def edit_course_dialog(planner, course):
     d.exec()
 
 
-# ADD COURSE 
+# ---------- ADD COURSE ----------
 
 def add_course_dialog(planner):
 
@@ -226,7 +227,7 @@ def add_course_dialog(planner):
             )
         )
 
-        save_courses(planner.courses)
+        save_courses(planner.courses, simulate=planner.simulate)
         planner.refresh_ui()
 
         d.accept()
