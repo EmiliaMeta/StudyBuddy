@@ -19,6 +19,7 @@ class Course:
     prerequisites: list[list[str]] | None = None
     notes: str | None = None
     important_dates: list[dict] | None = None
+    pass_fail: bool = False
 
 class CourseLabel(QLabel):
 

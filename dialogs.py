@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import (
     QDialog, QFormLayout, QComboBox,
     QDoubleSpinBox, QLineEdit, QPushButton,
-    QTextEdit
+    QTextEdit, QCheckBox
 )
 
 from course import Course
@@ -99,12 +99,25 @@ def edit_course_dialog(planner, course):
     grade.addItems(["", "A", "B", "C", "D", "E", "F"])
     grade.setCurrentText(course.grade or "")
 
-    for t,w in [
-        ("Year",year),("Period",period),("Source",source),
-        ("Status",status),("HP",hp),("Completed",done),
-        ("Code",code),("Name",name),
+    pass_fail = QCheckBox()
+    pass_fail.setChecked(course.pass_fail)
+
+    # Grå ut grade-dropdown om P/F är ikryssad
+    def on_pass_fail_toggled(checked):
+        grade.setEnabled(not checked)
+        if checked:
+            grade.setCurrentText("")
+
+    pass_fail.toggled.connect(on_pass_fail_toggled)
+    on_pass_fail_toggled(course.pass_fail)
+
+    for t, w in [
+        ("Year", year), ("Period", period), ("Source", source),
+        ("Status", status), ("HP", hp), ("Completed", done),
+        ("Code", code), ("Name", name),
+        ("Pass/Fail-kurs", pass_fail),
         ("Prerequisites", prerequisites),
-        ("Notes", notes),("Important dates", dates),
+        ("Notes", notes), ("Important dates", dates),
         ("Grade", grade)
     ]:
         form.addRow(t,w)
@@ -126,6 +139,7 @@ def edit_course_dialog(planner, course):
         course.code = code.text().upper()
         course.name = name.text()
         course.grade = grade.currentText() or None
+        course.pass_fail = pass_fail.isChecked()
         course.notes = notes.toPlainText().strip() or None
 
         text = dates.text().strip()
@@ -201,10 +215,19 @@ def add_course_dialog(planner):
     grade = QComboBox()
     grade.addItems(["", "A", "B", "C", "D", "E", "F"])
 
-    for t,w in [
-        ("Year",year),("Period",period),
-        ("HP",hp),("Code",code),("Name",name),
-        ("Source",source),("Grade",grade)
+    pass_fail = QCheckBox()
+
+    def on_pass_fail_toggled(checked):
+        grade.setEnabled(not checked)
+        if checked:
+            grade.setCurrentText("")
+
+    pass_fail.toggled.connect(on_pass_fail_toggled)
+
+    for t, w in [
+        ("Year", year), ("Period", period),
+        ("HP", hp), ("Code", code), ("Name", name),
+        ("Source", source), ("Pass/Fail-kurs", pass_fail), ("Grade", grade)
     ]:
         form.addRow(t,w)
 
@@ -223,7 +246,8 @@ def add_course_dialog(planner):
                 period=period.currentIndex(),
                 source=source.currentText(),
                 grade=grade.currentText() or None,
-                prerequisites=None
+                prerequisites=None,
+                pass_fail=pass_fail.isChecked()
             )
         )
 

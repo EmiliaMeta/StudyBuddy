@@ -1,11 +1,11 @@
 import random
 
 from PyQt6.QtWidgets import QProgressBar, QGridLayout, QWidget, QLabel, QHBoxLayout, QVBoxLayout, QPushButton, QFrame
-from PyQt6.QtCore import QTimer, Qt
+from PyQt6.QtCore import QPropertyAnimation, QEasingCurve, QTimer, Qt
 from PyQt6.QtGui import QPainter, QColor
 
 
-# SIMULATE BANNER 
+# ---------- SIMULATE BANNER ----------
 
 class SimulateBanner(QWidget):
     def __init__(self, on_exit, parent=None):
@@ -148,7 +148,7 @@ class SimulatePanel(QFrame):
         layout = QVBoxLayout(self)
         layout.setSpacing(10)
 
-        title = QLabel("⚡ Snabbval")
+        title = QLabel("Snabbval")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet("font-size:17px; font-weight:bold; background:transparent;")
         layout.addWidget(title)
@@ -156,15 +156,15 @@ class SimulatePanel(QFrame):
         layout.addWidget(self._divider())
         layout.addWidget(QLabel("Ej avklarade kurser:"))
 
-        btn_grade = QPushButton("🎓  Sätt betyg A på alla")
+        btn_grade = QPushButton("Sätt betyg A på alla")
         btn_grade.clicked.connect(self._set_all_grade_a)
         layout.addWidget(btn_grade)
 
-        btn_hp = QPushButton("✅  Sätt max HP på alla")
+        btn_hp = QPushButton("Sätt max HP på alla")
         btn_hp.clicked.connect(self._set_all_max_hp)
         layout.addWidget(btn_hp)
 
-        btn_both = QPushButton("🚀  Betyg A + max HP på alla")
+        btn_both = QPushButton("Betyg A + max HP på alla")
         btn_both.clicked.connect(self._set_all_grade_a_and_hp)
         layout.addWidget(btn_both)
 
@@ -200,8 +200,14 @@ class SimulatePanel(QFrame):
             if c.status in ("planned", "in progress", "failed")
         ]
 
+    def _not_completed_gradable(self):
+        return [
+            c for c in self._not_completed()
+            if not c.pass_fail
+        ]
+
     def _set_all_grade_a(self):
-        for c in self._not_completed():
+        for c in self._not_completed_gradable():
             c.grade = "A"
         self.planner.refresh_ui()
 
@@ -213,9 +219,10 @@ class SimulatePanel(QFrame):
 
     def _set_all_grade_a_and_hp(self):
         for c in self._not_completed():
-            c.grade = "A"
             c.hp_done = c.hp_total
             c.status = "completed"
+            if not c.pass_fail:
+                c.grade = "A"
         self.planner.refresh_ui()
 
 class ConfettiWidget(QWidget):

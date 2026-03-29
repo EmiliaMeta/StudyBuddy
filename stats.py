@@ -69,6 +69,8 @@ def calculate_grade_average(courses):
     total_hp = 0
 
     for c in courses:
+        if c.pass_fail:
+            continue
 
         grade = normalize_grade(c.grade)
 

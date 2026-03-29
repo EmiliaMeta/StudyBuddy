@@ -11,7 +11,8 @@
         "grade": "D",
         "prerequisites": null,
         "notes": "Random ahh kurs",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Digital Design",
@@ -25,7 +26,8 @@
         "grade": "B",
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Programmering 1",
@@ -39,7 +41,8 @@
         "grade": "A",
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Algebra och Geometri",
@@ -58,7 +61,8 @@
                 "title": "TENTA",
                 "date": "2026-04-08"
             }
-        ]
+        ],
+        "pass_fail": false
     },
     {
         "name": "Algoritmer och Datastrukturer",
@@ -72,7 +76,8 @@
         "grade": "A",
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Envariabelanalys",
@@ -86,7 +91,8 @@
         "grade": "D",
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Diskret Matematik",
@@ -100,7 +106,8 @@
         "grade": "E",
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Inbyggd Elektronik",
@@ -114,7 +121,8 @@
         "grade": "D",
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Datorteknik",
@@ -133,7 +141,8 @@
                 "title": "TENTA",
                 "date": "2026-04-10"
             }
-        ]
+        ],
+        "pass_fail": false
     },
     {
         "name": "Introduktion till programmering",
@@ -144,10 +153,11 @@
         "period": 0,
         "source": "IT",
         "status": "completed",
-        "grade": "A",
+        "grade": null,
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": true
     },
     {
         "name": "H\u00e5rdvarus\u00e4kerhet",
@@ -165,7 +175,8 @@
             ]
         ],
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Logik f\u00f6r Dataloger",
@@ -186,7 +197,8 @@
             ]
         ],
         "notes": "LAB1 - 1,5HP\nLAB2 - 2HP\nHEM1 - 4HP",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Objektorienterad Design",
@@ -217,7 +229,8 @@
                 "title": "Sem4 Excep. and Des. Patterns",
                 "date": "2026-05-17"
             }
-        ]
+        ],
+        "pass_fail": false
     },
     {
         "name": "Projekt inom Inf.- & Komm.teknik",
@@ -227,7 +240,7 @@
         "year": 1,
         "period": 3,
         "source": "IT",
-        "status": "in progress",
+        "status": "planned",
         "grade": null,
         "prerequisites": [
             [
@@ -246,7 +259,8 @@
                 "title": "2026",
                 "date": "26-03"
             }
-        ]
+        ],
+        "pass_fail": true
     },
     {
         "name": "Mekanik 1",
@@ -260,7 +274,8 @@
         "grade": null,
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Elektromagnetism & v\u00e5gr\u00f6relsel\u00e4ra",
@@ -274,7 +289,8 @@
         "grade": null,
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Praktisk introduktion till energiteknik",
@@ -288,7 +304,8 @@
         "grade": "B",
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Maskinteknik, introkurs",
@@ -302,7 +319,8 @@
         "grade": null,
         "prerequisites": null,
         "notes": "",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Programmeringsteknik",
@@ -316,7 +334,8 @@
         "grade": "B",
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Flervariabelanalys",
@@ -330,7 +349,8 @@
         "grade": null,
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Aktiv Karri\u00e4rstart",
@@ -340,11 +360,12 @@
         "year": 1,
         "period": 3,
         "source": "IT",
-        "status": "in progress",
+        "status": "planned",
         "grade": null,
         "prerequisites": null,
         "notes": "UPP1 - 1,5HP",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": true
     },
     {
         "name": "N\u00e4tverk och Kommunikation",
@@ -366,7 +387,8 @@
             ]
         ],
         "notes": "LABB - 1,5HP\nPROJ - 1,5HP\nTEN - 4,5HP",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Sannolikhetsteori & statistik",
@@ -385,7 +407,8 @@
             ]
         ],
         "notes": "TEN1 - 6HP",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Operativsystem",
@@ -410,7 +433,8 @@
             ]
         ],
         "notes": "SEM1 - 1,5HP\nLAB1 - 3HP\nTEN1 - 3HP",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Digitalisering & Innovation f\u00f6r HU",
@@ -424,7 +448,8 @@
         "grade": null,
         "prerequisites": null,
         "notes": "SEM1 - 1HP \nPRO1 - 5HP \nTEN1 - 1,5HP (Hemtentamen)",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Introduktion till datats\u00e4kerhet",
@@ -452,7 +477,8 @@
             ]
         ],
         "notes": "PRO1 - 6HP \nTEN - 1,5HP (Digital examination)",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     },
     {
         "name": "Kandidat Examensarbete IT",
@@ -466,7 +492,8 @@
         "grade": null,
         "prerequisites": null,
         "notes": null,
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": true
     },
     {
         "name": "Datalagring",
@@ -484,6 +511,7 @@
             ]
         ],
         "notes": "LAB1 - 4,5HP TEN1 - 3HP",
-        "important_dates": []
+        "important_dates": [],
+        "pass_fail": false
     }
 ]
