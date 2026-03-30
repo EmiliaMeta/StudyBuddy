@@ -1,12 +1,24 @@
 from PyQt6.QtWidgets import (
     QDialog, QFormLayout, QComboBox,
     QDoubleSpinBox, QLineEdit, QPushButton,
-    QTextEdit, QCheckBox
+    QTextEdit, QCheckBox, QCompleter
 )
+from PyQt6.QtCore import Qt
 
 from course import Course
 from theme import STATUS_COLORS
 from storage import save_courses
+from utils import resource_path
+import json
+
+
+def load_kth_db():
+    """Ladda lokal KTH-kursdatabas om den finns."""
+    try:
+        with open(resource_path("data/kth_courses.json"), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
 
 
 # ---------- HELPERS ----------
@@ -196,6 +208,8 @@ def edit_course_dialog(planner, course):
 
 def add_course_dialog(planner):
 
+    kth_db = load_kth_db()
+
     d = QDialog(planner)
     form = QFormLayout(d)
 
@@ -203,11 +217,27 @@ def add_course_dialog(planner):
     period = QComboBox(); period.addItems(["1","2","3","4"])
 
     hp = QDoubleSpinBox()
-    hp.setRange(0,30)
+    hp.setRange(0, 30)
     hp.setValue(7.5)
 
     code = QLineEdit()
+    code.setPlaceholderText("t.ex. DD1351")
     name = QLineEdit()
+
+    # Autocomplete från KTH-databasen
+    if kth_db:
+        completer = QCompleter(list(kth_db.keys()))
+        completer.setCaseSensitivity(Qt.CaseSensitivity.CaseInsensitive)
+        code.setCompleter(completer)
+
+        def on_code_changed(text):
+            key = text.strip().upper()
+            if key in kth_db:
+                entry = kth_db[key]
+                name.setText(entry["name"])
+                hp.setValue(entry["hp"])
+
+        code.textChanged.connect(on_code_changed)
 
     source = QComboBox()
     source.addItems(["IT","external"])
@@ -229,13 +259,12 @@ def add_course_dialog(planner):
         ("HP", hp), ("Code", code), ("Name", name),
         ("Source", source), ("Pass/Fail-kurs", pass_fail), ("Grade", grade)
     ]:
-        form.addRow(t,w)
+        form.addRow(t, w)
 
     add = QPushButton("Add")
     form.addRow(add)
 
     def submit():
-
         planner.courses.append(
             Course(
                 name=name.text(),
@@ -250,12 +279,9 @@ def add_course_dialog(planner):
                 pass_fail=pass_fail.isChecked()
             )
         )
-
         save_courses(planner.courses, simulate=planner.simulate)
         planner.refresh_ui()
-
         d.accept()
 
     add.clicked.connect(submit)
-
     d.exec()
