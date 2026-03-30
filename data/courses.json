@@ -145,8 +145,8 @@
         "pass_fail": false
     },
     {
-        "name": "Introduktion till programmering",
-        "code": "II1308",
+        "name": "Introduktion till IT",
+        "code": "II1306",
         "hp_total": 1.5,
         "hp_done": 1.5,
         "year": 0,
@@ -163,11 +163,11 @@
         "name": "H\u00e5rdvarus\u00e4kerhet",
         "code": "IL1333",
         "hp_total": 7.5,
-        "hp_done": 7.5,
+        "hp_done": 6.5,
         "year": 1,
         "period": 2,
         "source": "IT",
-        "status": "completed",
+        "status": "in progress",
         "grade": "D",
         "prerequisites": [
             [

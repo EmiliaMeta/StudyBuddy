@@ -2,7 +2,7 @@ import copy
 
 from PyQt6.QtWidgets import (
     QWidget, QLabel, QFrame, QPushButton,
-    QVBoxLayout, QHBoxLayout, QGridLayout, QScrollArea
+    QVBoxLayout, QHBoxLayout, QGridLayout, QScrollArea, QSpinBox
 )
 from PyQt6.QtCore import Qt, QPropertyAnimation
 from PyQt6.QtGui import QShortcut, QKeySequence
@@ -11,7 +11,7 @@ from course import CourseLabel
 from course_details import CourseDetailsDialog
 from dialogs import add_course_dialog
 from ui_components import create_progress_bars, animate_bar_success, ConfettiWidget, SimulateBanner, SimulatePanel
-from storage import load_courses, save_courses
+from storage import load_courses, save_courses, load_csn_weeks, save_csn_weeks
 from stats import (
     calculate_grade_average,
     numeric_to_grade,
@@ -131,6 +131,7 @@ class StudyPlanner(QWidget):
         self.courses = load_courses()
         self.cells = {}
         self.completed_bars = set()
+        self.csn_weeks_used = load_csn_weeks()
 
         self._build_ui()
         self.setStyleSheet(APP_STYLE)
@@ -199,12 +200,32 @@ class StudyPlanner(QWidget):
         csn_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         csn_title.setStyleSheet("font-size:12px; color:gray; padding:0;")
 
+        # Spinbox för förbrukade veckor
+        weeks_row = QHBoxLayout()
+        weeks_row.setContentsMargins(0, 0, 0, 0)
+
+        weeks_lbl = QLabel("Veckor:")
+        weeks_lbl.setStyleSheet("font-size:11px; color:gray; padding:0; background:transparent;")
+
+        self.csn_weeks_spin = QSpinBox()
+        self.csn_weeks_spin.setRange(0, 220)
+        self.csn_weeks_spin.setValue(self.csn_weeks_used)
+        self.csn_weeks_spin.setSuffix(" v")
+        self.csn_weeks_spin.setFixedWidth(72)
+        self.csn_weeks_spin.setStyleSheet("font-size:11px;")
+        self.csn_weeks_spin.valueChanged.connect(self._on_csn_weeks_changed)
+
+        weeks_row.addWidget(weeks_lbl)
+        weeks_row.addWidget(self.csn_weeks_spin)
+        weeks_row.addStretch()
+
         csn_card = QFrame()
         csn_card.setStyleSheet(CARD_STYLE)
         csn_inner = QVBoxLayout(csn_card)
         csn_inner.setSpacing(2)
         csn_inner.setContentsMargins(10, 8, 10, 8)
         csn_inner.addWidget(csn_title)
+        csn_inner.addLayout(weeks_row)
         csn_inner.addWidget(self.csn_terms_label)
         csn_inner.addWidget(self.csn_hp_label)
         csn_inner.addWidget(self.csn_warning_label)
@@ -327,6 +348,7 @@ class StudyPlanner(QWidget):
 
         # Byt kalender mot simulate-panel
         self.simulate_panel = SimulatePanel(self)
+        self.simulate_panel.weeks_spin.setValue(self.csn_weeks_used)
         self._set_right_panel(self.simulate_panel)
 
         self.refresh_ui()
@@ -383,6 +405,11 @@ class StudyPlanner(QWidget):
         self.anim.finished.connect(self.close)
         self.anim.start()
 
+    def _on_csn_weeks_changed(self, value):
+        self.csn_weeks_used = value
+        save_csn_weeks(value, simulate=self.simulate)
+        self.update_csn()
+
     def open_add_course(self):
         add_course_dialog(self)
 
@@ -410,7 +437,7 @@ class StudyPlanner(QWidget):
 
     def update_bar(self, bar, value, total, label):
         display_value = min(value, total)
-        bar.setValue(int(display_value))
+        bar.setValue(int(display_value * 10))
 
         if value >= total:
             bar.setFormat(f"{label}: ✔ COMPLETE")
@@ -420,24 +447,28 @@ class StudyPlanner(QWidget):
                 if not self.simulate:
                     ConfettiWidget(self)
         else:
-            bar.setFormat(f"{label}: {int(display_value)} / {total} HP")
+            bar.setFormat(f"{label}: {display_value} / {total} HP")
 
     def update_csn(self):
-        s = csn_stats(self.courses)
+        s = csn_stats(self.courses, self.csn_weeks_used)
 
         self.csn_terms_label.setText(f"{s['terms_left']} term")
 
         if not s["csn_ok"]:
-            missing = round(s["required_current"] - s["completed_hp"], 1)
-            self.csn_hp_label.setText(f"Saknar {missing} HP denna termin")
+            missing = round(s["required_now"] - s["completed_hp"], 1)
+            self.csn_hp_label.setText(f"Saknar {missing} HP (krav: {s['required_now']} HP)")
             self.csn_warning_label.setText("⚠ CSN-kravet ej uppfyllt!")
             self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; color:#dc2626; padding:0;")
-        elif s["hp_needed_next_term"] > 0:
-            self.csn_hp_label.setText(f"Behöver {s['hp_needed_next_term']} HP nästa termin")
+        elif s["at_risk"]:
+            self.csn_hp_label.setText(f"Behöver {s['hp_needed']} HP denna termin")
+            self.csn_warning_label.setText("⚠ Svår takt denna termin")
+            self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; color:#f59e0b; padding:0;")
+        elif s["hp_needed"] > 0:
+            self.csn_hp_label.setText(f"Behöver {s['hp_needed']} HP denna termin")
             self.csn_warning_label.setText("")
             self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; padding:0;")
         else:
-            self.csn_hp_label.setText("Krav uppfyllt nästa termin ✔")
+            self.csn_hp_label.setText("Krav uppfyllt ✔")
             self.csn_warning_label.setText("")
             self.csn_terms_label.setStyleSheet("font-size:28px; font-weight:bold; padding:0;")
 

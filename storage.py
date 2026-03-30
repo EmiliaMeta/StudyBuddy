@@ -24,10 +24,27 @@ def load_courses():
 
 def save_courses(courses, simulate=False):
     if simulate:
-        return  # aldrig spara i simulate-läge
-
+        return
     try:
         with open(resource_path("data/courses.json"), "w", encoding="utf-8") as f:
             json.dump([asdict(c) for c in courses], f, indent=4)
     except Exception as e:
         print("Failed to save courses:", e)
+
+
+def load_csn_weeks():
+    try:
+        with open(resource_path("data/csn_weeks.json"), encoding="utf-8") as f:
+            return json.load(f).get("weeks_used", 0)
+    except Exception:
+        return 0
+
+
+def save_csn_weeks(weeks, simulate=False):
+    if simulate:
+        return
+    try:
+        with open(resource_path("data/csn_weeks.json"), "w", encoding="utf-8") as f:
+            json.dump({"weeks_used": weeks}, f)
+    except Exception as e:
+        print("Failed to save CSN weeks:", e)

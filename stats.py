@@ -34,60 +34,55 @@ IT_BLOCK_HP = 21
 
 # ---------- CSN CONSTANTS ----------
 
-CSN_MAX_WEEKS          = 240    # maximalt antal heltidsveckor totalt
-CSN_WEEKS_USED         = 90     # heltidsveckor förbrukade INNAN nuvarande period
-CSN_CURRENT_PERIOD     = 20     # veckor i nuvarande period (VT2026)
-CSN_NEXT_PERIOD        = 20     # veckor i nästa period (HT2026)
-CSN_HP_PER_WEEK        = 1.5    # 1,5 HP = 1 heltidsvecka
-CSN_PASS_RATE_EARLY    = 0.625  # första 40 heltidsveckor: 62,5%
-CSN_PASS_RATE_NORMAL   = 0.75   # efter 40 heltidsveckor: 75%
-CSN_EARLY_CUTOFF       = 40     # gräns för lägre krav
+CSN_MAX_WEEKS       = 240   # maximalt antal heltidsveckor totalt
+CSN_WEEKS_PER_TERM  = 20    # veckor per termin
+CSN_HP_PER_WEEK     = 1.5   # 1,5 HP = 1 heltidsvecka
+CSN_RATE_EARLY      = 0.625 # första 40 heltidsveckor: 62,5%
+CSN_RATE_NORMAL     = 0.75  # efter 40 heltidsveckor: 75%
+CSN_EARLY_CUTOFF    = 40    # gräns för lägre krav
 
 
-def csn_period_requirement(weeks_before_period, period_weeks):
+def csn_required_hp(weeks_total):
     """
-    Beräkna HP-kravet för en given period.
-    CSN kollar bara den senaste perioden (eller upp till 53v bakåt).
-    Krav = floor(period_weeks × 1,5 × procentsats)
-    Procentsats beror på om man passerat 40 heltidsveckor totalt.
+    Ackumulerat HP-krav efter ett givet antal heltidsveckor.
+    Första 40 veckorna: 62,5%, därefter 75%.
+    CSN avrundar kravet nedåt till närmaste heltal.
     """
-    rate = (CSN_PASS_RATE_EARLY
-            if weeks_before_period < CSN_EARLY_CUTOFF
-            else CSN_PASS_RATE_NORMAL)
-    return int(period_weeks * CSN_HP_PER_WEEK * rate)  # avrundat nedåt
+    if weeks_total <= 0:
+        return 0
+    first = min(weeks_total, CSN_EARLY_CUTOFF) * CSN_HP_PER_WEEK * CSN_RATE_EARLY
+    rest  = max(0, weeks_total - CSN_EARLY_CUTOFF) * CSN_HP_PER_WEEK * CSN_RATE_NORMAL
+    return int(first + rest)  # avrundat nedåt
 
 
-def csn_stats(courses):
-    """Beräkna CSN-relaterad statistik."""
-
+def csn_stats(courses, weeks_used):
+    """
+    Beräkna CSN-relaterad statistik.
+    weeks_used = antal heltidsveckor förbrukade INNAN nuvarande period.
+    """
     completed_hp = sum(c.hp_done for c in courses)
 
-    weeks_left = max(0, CSN_MAX_WEEKS - CSN_WEEKS_USED - CSN_CURRENT_PERIOD)
-    terms_left = weeks_left // CSN_NEXT_PERIOD
+    weeks_after_this = weeks_used + CSN_WEEKS_PER_TERM
+    weeks_left       = max(0, CSN_MAX_WEEKS - weeks_after_this)
+    terms_left       = weeks_left // CSN_WEEKS_PER_TERM
 
-    # Krav för nuvarande period (VT2026)
-    required_current = csn_period_requirement(CSN_WEEKS_USED, CSN_CURRENT_PERIOD)
+    required_now        = csn_required_hp(weeks_used)
+    required_after_this = csn_required_hp(weeks_after_this)
 
-    # Krav för nästa period (HT2026) — baseras på nuvarande periods veckor
-    weeks_before_next = CSN_WEEKS_USED + CSN_CURRENT_PERIOD
-    required_next     = csn_period_requirement(weeks_before_next, CSN_NEXT_PERIOD)
-
-    hp_needed_this_term = max(0.0, round(required_current - completed_hp, 1))
-    hp_needed_next_term = max(0.0, round(required_next - completed_hp, 1))
-
-    csn_ok   = completed_hp >= required_current
-    at_risk  = hp_needed_next_term > (CSN_NEXT_PERIOD * CSN_HP_PER_WEEK)
+    csn_ok           = completed_hp >= required_now
+    hp_needed        = max(0.0, round(required_after_this - completed_hp, 1))
+    at_risk          = hp_needed > (CSN_WEEKS_PER_TERM * CSN_HP_PER_WEEK)
 
     return {
-        "completed_hp":        completed_hp,
-        "weeks_left":          weeks_left,
-        "terms_left":          terms_left,
-        "required_current":    required_current,
-        "required_next":       required_next,
-        "hp_needed_this_term": hp_needed_this_term,
-        "hp_needed_next_term": hp_needed_next_term,
-        "csn_ok":              csn_ok,
-        "at_risk":             at_risk,
+        "completed_hp":     completed_hp,
+        "weeks_used":       weeks_used,
+        "weeks_left":       weeks_left,
+        "terms_left":       terms_left,
+        "required_now":     required_now,
+        "required_next":    required_after_this,
+        "hp_needed":        hp_needed,
+        "csn_ok":           csn_ok,
+        "at_risk":          at_risk,
     }
 
 

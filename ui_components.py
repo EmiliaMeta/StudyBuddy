@@ -1,6 +1,6 @@
 import random
 
-from PyQt6.QtWidgets import QProgressBar, QGridLayout, QWidget, QLabel, QHBoxLayout, QVBoxLayout, QPushButton, QFrame
+from PyQt6.QtWidgets import QProgressBar, QGridLayout, QWidget, QLabel, QHBoxLayout, QFrame, QVBoxLayout, QPushButton, QSpinBox
 from PyQt6.QtCore import QPropertyAnimation, QEasingCurve, QTimer, Qt
 from PyQt6.QtGui import QPainter, QColor
 
@@ -76,10 +76,10 @@ def create_progress_bars():
         "it_block":   QProgressBar()
     }
 
-    bars["it_program"].setMaximum(180)
-    bars["completed"].setMaximum(180)
-    bars["matnat"].setMaximum(15)
-    bars["it_block"].setMaximum(21)
+    bars["it_program"].setMaximum(1800)
+    bars["completed"].setMaximum(1800)
+    bars["matnat"].setMaximum(150)
+    bars["it_block"].setMaximum(210)
 
     style_bar(bars["it_program"], "#3b82f6", "#1d4ed8")
     style_bar(bars["completed"],  "#4ade80", "#16a34a")
@@ -153,6 +153,21 @@ class SimulatePanel(QFrame):
         title.setStyleSheet("font-size:17px; font-weight:bold; background:transparent;")
         layout.addWidget(title)
 
+        # Veckor förbrukade
+        weeks_row = QHBoxLayout()
+        weeks_label = QLabel("Förbrukade veckor:")
+        weeks_label.setStyleSheet("background:transparent; font-size:13px;")
+
+        self.weeks_spin = QSpinBox()
+        self.weeks_spin.setRange(0, 220)
+        self.weeks_spin.setValue(planner.csn_weeks_used)
+        self.weeks_spin.setSuffix(" v")
+        self.weeks_spin.valueChanged.connect(self._on_weeks_changed)
+
+        weeks_row.addWidget(weeks_label)
+        weeks_row.addWidget(self.weeks_spin)
+        layout.addLayout(weeks_row)
+
         layout.addWidget(self._divider())
         layout.addWidget(QLabel("Ej avklarade kurser:"))
 
@@ -170,6 +185,22 @@ class SimulatePanel(QFrame):
         layout.addWidget(btn_both)
 
         layout.addWidget(self._divider())
+
+        btn_reset_hp = QPushButton("⬜  Nollställ alla HP + betyg")
+        btn_reset_hp.setStyleSheet("""
+        QPushButton {
+            background: #7c3aed;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        QPushButton:hover { background: #6d28d9; }
+        """)
+        btn_reset_hp.clicked.connect(self._reset_all_hp_and_grades)
+        layout.addWidget(btn_reset_hp)
 
         btn_reset = QPushButton("↺  Återställ simulering")
         btn_reset.setStyleSheet("""
@@ -194,6 +225,18 @@ class SimulatePanel(QFrame):
         line.setFrameShape(QFrame.Shape.HLine)
         line.setStyleSheet("background: #d97706; max-height: 1px;")
         return line
+
+    def _on_weeks_changed(self, value):
+        self.planner.csn_weeks_used = value
+        self.planner.update_hp_labels()
+
+    def _reset_all_hp_and_grades(self):
+        for c in self.planner.courses:
+            c.hp_done = 0
+            c.grade = None
+            if c.status not in ("planned", "failed"):
+                c.status = "planned"
+        self.planner.refresh_ui()
 
     def _not_completed(self):
         return [
