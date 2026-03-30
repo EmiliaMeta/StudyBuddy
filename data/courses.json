@@ -163,11 +163,11 @@
         "name": "H\u00e5rdvarus\u00e4kerhet",
         "code": "IL1333",
         "hp_total": 7.5,
-        "hp_done": 6.5,
+        "hp_done": 7.5,
         "year": 1,
         "period": 2,
         "source": "IT",
-        "status": "in progress",
+        "status": "completed",
         "grade": "D",
         "prerequisites": [
             [

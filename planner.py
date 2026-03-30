@@ -9,8 +9,8 @@ from PyQt6.QtGui import QShortcut, QKeySequence
 
 from course import CourseLabel
 from course_details import CourseDetailsDialog
-from dialogs import add_course_dialog
-from ui_components import create_progress_bars, animate_bar_success, ConfettiWidget, SimulateBanner, SimulatePanel
+from dialogs import add_course_dialog, load_kth_db
+from ui_components import create_progress_bars, animate_bar_success, ConfettiWidget, SimulateBanner, SimulatePanel, EditPanel
 from storage import load_courses, save_courses, load_csn_weeks, save_csn_weeks
 from stats import (
     calculate_grade_average,
@@ -132,9 +132,13 @@ class StudyPlanner(QWidget):
         self.cells = {}
         self.completed_bars = set()
         self.csn_weeks_used = load_csn_weeks()
+        self.kth_db = load_kth_db()
 
         self._build_ui()
         self.setStyleSheet(APP_STYLE)
+
+        # Edit panel (overlay, skapas efter UI är byggt)
+        self.edit_panel = EditPanel(self, self.kth_db)
 
     def _build_ui(self):
         self.main_layout = QVBoxLayout(self)
@@ -299,15 +303,11 @@ class StudyPlanner(QWidget):
                 title.setAlignment(Qt.AlignmentFlag.AlignCenter)
                 title.setStyleSheet("font-weight:bold")
 
-                hp = QLabel("Total: 0 HP")
-                hp.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
                 v.addWidget(title)
-                v.addWidget(hp)
                 box.setLayout(v)
 
                 grid.addWidget(box, r, c)
-                self.cells[(r, c)] = {"layout": v, "hp": hp}
+                self.cells[(r, c)] = {"layout": v, "hp": None}
 
         # EVENTS PANEL
         self.events_panel = EventsPanel()
@@ -414,8 +414,8 @@ class StudyPlanner(QWidget):
         add_course_dialog(self)
 
     def open_course_details(self, course):
-        dialog = CourseDetailsDialog(self, course)
-        dialog.exec()
+        self.edit_panel.load_course(course)
+        self.edit_panel.slide_in()
 
     # ---------- COURSE DISPLAY ----------
 
@@ -478,7 +478,7 @@ class StudyPlanner(QWidget):
                 x.hp_done for x in self.courses
                 if x.year == r and x.period == c
             )
-            cell["hp"].setText(f"Total: {total} HP")
+            # hp-label är borttagen från gridceller
 
         completed = total_completed_hp(self.courses)
         it        = total_it_hp(self.courses)
@@ -508,8 +508,8 @@ class StudyPlanner(QWidget):
     def refresh_ui(self):
         for cell in self.cells.values():
             layout = cell["layout"]
-            while layout.count() > 2:
-                w = layout.takeAt(2).widget()
+            while layout.count() > 1:
+                w = layout.takeAt(1).widget()
                 if w:
                     w.deleteLater()
 

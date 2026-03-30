@@ -1,8 +1,13 @@
 import random
 
-from PyQt6.QtWidgets import QProgressBar, QGridLayout, QWidget, QLabel, QHBoxLayout, QFrame, QVBoxLayout, QPushButton, QSpinBox
-from PyQt6.QtCore import QPropertyAnimation, QEasingCurve, QTimer, Qt
-from PyQt6.QtGui import QPainter, QColor
+from PyQt6.QtWidgets import (
+    QProgressBar, QGridLayout, QWidget, QLabel, QHBoxLayout,
+    QPushButton, QSpinBox, QFrame, QVBoxLayout, QSlider,
+    QLineEdit, QCheckBox, QComboBox, QTabWidget, QTextEdit,
+    QSizePolicy
+)
+from PyQt6.QtCore import QPropertyAnimation, QEasingCurve, QTimer, Qt, QRect
+from PyQt6.QtGui import QPainter, QColor, QFont
 
 
 # ---------- SIMULATE BANNER ----------
@@ -349,3 +354,376 @@ class ConfettiWidget(QWidget):
                 painter.drawLine(-w//2, 0, w//2, 0)
 
             painter.restore()
+
+
+# ---------- EDIT PANEL ----------
+
+class EditPanel(QWidget):
+    """Sidopanel som glider in från höger för att redigera en kurs."""
+
+    PANEL_WIDTH = 340
+
+    def __init__(self, planner, kth_db=None):
+        super().__init__(planner)
+        self.planner    = planner
+        self.kth_db     = kth_db or {}
+        self.course     = None
+        self._anim      = None
+
+        self.setFixedWidth(self.PANEL_WIDTH)
+        self.setAttribute(Qt.WidgetAttribute.WA_StyledBackground, True)
+        self.setStyleSheet("""
+            EditPanel {
+                background: #F3B9C7;
+                border-left: 2px solid #A45FA0;
+            }
+            QLabel { background: transparent; }
+            QLineEdit, QTextEdit {
+                background: white;
+                border: 1px solid #D4A0C8;
+                border-radius: 6px;
+                padding: 4px;
+            }
+            QPushButton {
+                background: #A45FA0;
+                color: white;
+                border: none;
+                padding: 8px;
+                border-radius: 6px;
+                font-weight: bold;
+            }
+            QPushButton:hover { background: #7D4B7D; }
+            QSlider::groove:horizontal {
+                height: 6px;
+                background: #D4A0C8;
+                border-radius: 3px;
+            }
+            QSlider::sub-page:horizontal {
+                background: #A45FA0;
+                border-radius: 3px;
+            }
+            QSlider::handle:horizontal {
+                width: 18px; height: 18px;
+                margin: -6px 0;
+                background: white;
+                border: 2px solid #A45FA0;
+                border-radius: 9px;
+            }
+        """)
+
+        self._build_ui()
+        self.hide()
+
+    def _build_ui(self):
+        outer = QVBoxLayout(self)
+        outer.setContentsMargins(16, 16, 16, 16)
+        outer.setSpacing(10)
+
+        # Header
+        header = QHBoxLayout()
+        self.title_label = QLabel("Redigera kurs")
+        self.title_label.setStyleSheet("font-size:16px; font-weight:bold;")
+        close_btn = QPushButton("✕")
+        close_btn.setFixedSize(28, 28)
+        close_btn.setStyleSheet("""
+            QPushButton { background: transparent; color: #A45FA0;
+                font-size:16px; border:none; padding:0; }
+            QPushButton:hover { background: #EFCDD6; border-radius:14px; }
+        """)
+        close_btn.clicked.connect(self.slide_out)
+        header.addWidget(self.title_label)
+        header.addStretch()
+        header.addWidget(close_btn)
+        outer.addLayout(header)
+
+        # Tabs
+        tabs = QTabWidget()
+        tabs.setStyleSheet("""
+            QTabWidget::pane { border: none; background: transparent; }
+            QTabBar::tab {
+                background: #EFCDD6; padding: 6px 14px;
+                border-radius: 6px; margin-right: 4px;
+            }
+            QTabBar::tab:selected { background: #A45FA0; color: white; }
+        """)
+
+        # --- TAB 1: Grundinfo ---
+        basic = QWidget()
+        basic.setStyleSheet("background: transparent;")
+        bl = QVBoxLayout(basic)
+        bl.setSpacing(8)
+
+        # Kod
+        bl.addWidget(self._lbl("Kurskod"))
+        self.code_edit = QLineEdit()
+        self.code_edit.setPlaceholderText("t.ex. DD1351")
+        bl.addWidget(self.code_edit)
+
+        # Namn
+        bl.addWidget(self._lbl("Kursnamn"))
+        self.name_edit = QLineEdit()
+        bl.addWidget(self.name_edit)
+
+        # HP (readonly om i DB)
+        self.hp_label = QLabel("HP: 7.5")
+        self.hp_label.setStyleSheet(
+            "font-size:13px; color:#7D4B7D; background:transparent;")
+        bl.addWidget(self.hp_label)
+
+        # HP-slider
+        bl.addWidget(self._lbl("Avklarade HP"))
+        self.hp_row = QHBoxLayout()
+        self.hp_slider = QSlider(Qt.Orientation.Horizontal)
+        self.hp_slider.setMinimum(0)
+        self.hp_slider.setMaximum(100)  # skalas mot hp_total
+        self.hp_slider.valueChanged.connect(self._on_slider)
+        self.hp_value_label = QLabel("0")
+        self.hp_value_label.setFixedWidth(36)
+        self.hp_value_label.setStyleSheet(
+            "font-weight:bold; background:transparent;")
+        self.hp_row.addWidget(self.hp_slider)
+        self.hp_row.addWidget(self.hp_value_label)
+        bl.addLayout(self.hp_row)
+
+        # Betyg
+        bl.addWidget(self._lbl("Betyg"))
+        grade_row = QHBoxLayout()
+        self.grade_btns = {}
+        for g in ["", "A", "B", "C", "D", "E", "F"]:
+            btn = QPushButton(g if g else "—")
+            btn.setFixedSize(36, 36)
+            btn.setCheckable(True)
+            btn.setStyleSheet("""
+                QPushButton { background:#EFCDD6; color:#4B1528;
+                    border:none; border-radius:18px; font-weight:bold; font-size:12px; }
+                QPushButton:checked { background:#A45FA0; color:white; }
+                QPushButton:hover { background:#D4A0C8; }
+            """)
+            btn.clicked.connect(lambda _, gv=g: self._set_grade(gv))
+            self.grade_btns[g] = btn
+            grade_row.addWidget(btn)
+        grade_row.addStretch()
+        bl.addLayout(grade_row)
+
+        # Pass/Fail + Source
+        pf_src_row = QHBoxLayout()
+
+        self.pf_check = QCheckBox("Pass/Fail")
+        self.pf_check.toggled.connect(self._on_pf_toggled)
+        pf_src_row.addWidget(self.pf_check)
+
+        pf_src_row.addStretch()
+
+        self.src_it_btn = QPushButton("IT")
+        self.src_ext_btn = QPushButton("Extern")
+        for btn in [self.src_it_btn, self.src_ext_btn]:
+            btn.setCheckable(True)
+            btn.setFixedHeight(30)
+            btn.setStyleSheet("""
+                QPushButton { background:#EFCDD6; color:#4B1528;
+                    border:none; border-radius:6px; padding:0 10px; font-size:12px; }
+                QPushButton:checked { background:#A45FA0; color:white; }
+            """)
+        self.src_it_btn.clicked.connect(lambda: self._set_source("IT"))
+        self.src_ext_btn.clicked.connect(lambda: self._set_source("external"))
+        pf_src_row.addWidget(self.src_it_btn)
+        pf_src_row.addWidget(self.src_ext_btn)
+        bl.addLayout(pf_src_row)
+
+        bl.addStretch()
+        tabs.addTab(basic, "Grundinfo")
+
+        # --- TAB 2: Detaljer ---
+        details = QWidget()
+        details.setStyleSheet("background: transparent;")
+        dl = QVBoxLayout(details)
+        dl.setSpacing(8)
+
+        dl.addWidget(self._lbl("Prerequisites"))
+        self.prereq_edit = QLineEdit()
+        self.prereq_edit.setPlaceholderText(
+            ", för OR och ; för AND  (ex: ID1018 ; IS1200)")
+        dl.addWidget(self.prereq_edit)
+
+        dl.addWidget(self._lbl("Anteckningar"))
+        self.notes_edit = QTextEdit()
+        self.notes_edit.setFixedHeight(80)
+        dl.addWidget(self.notes_edit)
+
+        dl.addWidget(self._lbl("Viktiga datum"))
+        self.dates_edit = QLineEdit()
+        self.dates_edit.setPlaceholderText(
+            "Titel - YYYY-MM-DD, Titel - YYYY-MM-DD")
+        dl.addWidget(self.dates_edit)
+
+        dl.addStretch()
+        tabs.addTab(details, "Detaljer")
+
+        outer.addWidget(tabs)
+
+        # Knappar
+        self.save_btn = QPushButton("Spara")
+        self.save_btn.clicked.connect(self._save)
+        outer.addWidget(self.save_btn)
+
+        self.delete_btn = QPushButton("Ta bort kurs")
+        self.delete_btn.setStyleSheet("""
+            QPushButton { background:#dc2626; color:white; border:none;
+                padding:8px; border-radius:6px; font-weight:bold; }
+            QPushButton:hover { background:#b91c1c; }
+        """)
+        self.delete_btn.clicked.connect(self._delete)
+        outer.addWidget(self.delete_btn)
+
+    def _lbl(self, text):
+        l = QLabel(text)
+        l.setStyleSheet(
+            "font-size:12px; color:#7D4B7D; font-weight:bold; background:transparent;")
+        return l
+
+    def _on_slider(self, value):
+        if not self.course:
+            return
+        hp = value * 0.5
+        self.hp_value_label.setText(str(hp))
+
+    def _set_grade(self, grade):
+        for g, btn in self.grade_btns.items():
+            btn.setChecked(g == grade)
+
+    def _set_source(self, source):
+        self.src_it_btn.setChecked(source == "IT")
+        self.src_ext_btn.setChecked(source == "external")
+
+    def _on_pf_toggled(self, checked):
+        for btn in self.grade_btns.values():
+            btn.setEnabled(not checked)
+        if checked:
+            self._set_grade("")
+
+    def load_course(self, course):
+        self.course = course
+        self.title_label.setText(course.code)
+
+        # Grundinfo
+        self.code_edit.setText(course.code)
+        self.name_edit.setText(course.name)
+        self.hp_label.setText(f"HP: {course.hp_total}")
+
+        # Slider — varje steg = 0.5 HP
+        self.hp_slider.setMaximum(int(course.hp_total * 2))
+        self.hp_slider.setValue(int(course.hp_done * 2))
+        self.hp_value_label.setText(str(course.hp_done))
+
+        # Betyg
+        self._set_grade(course.grade or "")
+        self._on_pf_toggled(course.pass_fail)
+        self.pf_check.setChecked(course.pass_fail)
+
+        # Source
+        self._set_source(course.source)
+
+        # HP readonly om i DB
+        in_db = course.code.upper() in self.kth_db
+        self.hp_label.setVisible(True)
+
+        # Detaljer
+        from dialogs import prerequisites_to_text, text_to_prerequisites
+        self.prereq_edit.setText(prerequisites_to_text(course.prerequisites))
+
+        dates_text = ""
+        if course.important_dates:
+            dates_text = ", ".join(
+                f"{d['title']} - {d['date']}"
+                for d in course.important_dates
+            )
+        self.dates_edit.setText(dates_text)
+        self.notes_edit.setPlainText(course.notes or "")
+
+    def _save(self):
+        from dialogs import text_to_prerequisites
+        from storage import save_courses
+
+        c = self.course
+        c.code  = self.code_edit.text().upper()
+        c.name  = self.name_edit.text()
+
+        # HP från slider (varje steg = 0.5 HP)
+        c.hp_done = self.hp_slider.value() * 0.5
+
+        # Automatisk status
+        if c.hp_done >= c.hp_total and c.hp_total > 0:
+            c.status = "completed"
+        elif c.hp_done > 0:
+            c.status = "in progress"
+
+        # Betyg
+        grade = next(
+            (g for g, btn in self.grade_btns.items() if btn.isChecked()), "")
+        c.grade    = grade or None
+        c.pass_fail = self.pf_check.isChecked()
+        c.source   = "IT" if self.src_it_btn.isChecked() else "external"
+
+        # Detaljer
+        c.prerequisites = text_to_prerequisites(self.prereq_edit.text())
+        c.notes = self.notes_edit.toPlainText().strip() or None
+
+        dates_list = []
+        text = self.dates_edit.text().strip()
+        if text:
+            for item in text.split(","):
+                item = item.strip()
+                if "-" in item:
+                    title, date = item.split("-", 1)
+                    dates_list.append(
+                        {"title": title.strip(), "date": date.strip()})
+        c.important_dates = dates_list
+
+        save_courses(self.planner.courses, simulate=self.planner.simulate)
+        self.planner.refresh_ui()
+        self.slide_out()
+
+    def _delete(self):
+        from storage import save_courses
+        self.planner.courses.remove(self.course)
+        save_courses(self.planner.courses, simulate=self.planner.simulate)
+        self.planner.refresh_ui()
+        self.slide_out()
+
+    # ---------- ANIMATION ----------
+
+    def slide_in(self):
+        parent = self.parent()
+        h = parent.height()
+        self.setGeometry(parent.width(), 0, self.PANEL_WIDTH, h)
+        self.show()
+        self.raise_()
+
+        self._anim = QPropertyAnimation(self, b"geometry")
+        self._anim.setDuration(250)
+        self._anim.setStartValue(QRect(parent.width(), 0, self.PANEL_WIDTH, h))
+        self._anim.setEndValue(
+            QRect(parent.width() - self.PANEL_WIDTH, 0, self.PANEL_WIDTH, h))
+        self._anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+        self._anim.start()
+
+    def slide_out(self):
+        parent = self.parent()
+        h = parent.height()
+
+        self._anim = QPropertyAnimation(self, b"geometry")
+        self._anim.setDuration(200)
+        self._anim.setStartValue(
+            QRect(parent.width() - self.PANEL_WIDTH, 0, self.PANEL_WIDTH, h))
+        self._anim.setEndValue(
+            QRect(parent.width(), 0, self.PANEL_WIDTH, h))
+        self._anim.setEasingCurve(QEasingCurve.Type.InCubic)
+        self._anim.finished.connect(self.hide)
+        self._anim.start()
+
+    def resizeEvent(self, event):
+        if self.isVisible():
+            parent = self.parent()
+            self.setGeometry(
+                parent.width() - self.PANEL_WIDTH, 0,
+                self.PANEL_WIDTH, parent.height())
