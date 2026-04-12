@@ -1,0 +1,199 @@
+{
+  "code": "TMMTM",
+  "name": "Masterprogram, media management",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "AK2014",
+      "name": "Beslutsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2077",
+      "name": "Mediejuridik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2500",
+      "name": "Närvaroproduktion på distans",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2556",
+      "name": "Interkulturell kommunikation",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2562",
+      "name": "Leda och hantera digital förändring",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DM2563",
+      "name": "Leda och hantera digital förändring - projektmodul",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2572",
+      "name": "Teori och metod för Medieteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2573",
+      "name": "Hållbarhet och medieteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DM2575",
+      "name": "Programintegrerande kurs i media management",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2579",
+      "name": "Medieproduktion",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2582",
+      "name": "Media Lab",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME1039",
+      "name": "Industriell Ekonomi och Entreprenörskap inom Media och IKT",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2062",
+      "name": "Technology-based Entrepreneurship",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2072",
+      "name": "Entreprenörskap för ingenjörer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2073",
+      "name": "Affärsutvecklingslabb",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2075",
+      "name": "Ledarskap och makt i industriella organisationer: genusperspektiv och aspekter på mångfald",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2092",
+      "name": "Ledarskap för teknologisk innovation och kreativitet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2093",
+      "name": "Teknisk och industriell omvandling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2163",
+      "name": "Ledarskap och organisering i olika miljöer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2816",
+      "name": "Genomförande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2826",
+      "name": "Socialt entreprenörskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DA234X",
+      "name": "Examensarbete i datalogi och datateknik med inriktning mot media management, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DM2584",
+      "name": "Avancerad projektkurs i Media Management",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

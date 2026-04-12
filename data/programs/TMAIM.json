@@ -1,0 +1,359 @@
+{
+  "code": "TMAIM",
+  "name": "Masterprogram, maskininlärning",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DA2205",
+      "name": "Vetenskapsteori och forskningsmetodik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1388",
+      "name": "Programsystemkonstruktion med C++",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2257",
+      "name": "Visualisering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2301",
+      "name": "Programsammanhållande kurs i maskininlärning",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2352",
+      "name": "Algoritmer och komplexitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2380",
+      "name": "Artificiell intelligens",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2395",
+      "name": "Datasäkerhet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2401",
+      "name": "Neurovetenskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2402",
+      "name": "Avancerad individuell kurs i beräkningsbiologi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2410",
+      "name": "Introduktion till robotik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2411",
+      "name": "Forskningsprojekt i robotik, perception och inlärning",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2412",
+      "name": "Djupinlärning, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2417",
+      "name": "Språkteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2419",
+      "name": "Projektkurs i robotik och autonoma system",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2420",
+      "name": "Probabilistiska grafiska modeller",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2423",
+      "name": "Bildbehandling och datorseende",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2424",
+      "name": "Djupinlärning i Data Science",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2434",
+      "name": "Maskininlärning, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2435",
+      "name": "Neuronnäts- och biomodellering",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2437",
+      "name": "Artificiella neuronnät och djupa arkitekturer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2438",
+      "name": "Artificiell intelligens och multiagentsystem",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2447",
+      "name": "Statistiska metoder i datalogin",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2448",
+      "name": "Kryptografins grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2477",
+      "name": "Sökmotorer och informationssökningssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DH2642",
+      "name": "Interaktionsprogrammering och dynamiska webben",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DT2112",
+      "name": "Talteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DT2119",
+      "name": "Igenkänning av tal och talare",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DT2470",
+      "name": "Musikinformatik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EL2320",
+      "name": "Tillämpad estimering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2805",
+      "name": "Förstärkande inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2810",
+      "name": "Maskininlärningsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2341",
+      "name": "Mönsterigenkänning och maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EQ2425",
+      "name": "Analys och sökning av visuella data",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ID2221",
+      "name": "Data-intensiv databehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ID2222",
+      "name": "Datautvinning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ID2223",
+      "name": "Skalbar maskininlärning och djupinlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1811",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF2568",
+      "name": "Parallella beräkningar för storskaliga problem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2930",
+      "name": "Regressionsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2940",
+      "name": "Sannolikhetsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2943",
+      "name": "Tidsserieanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DA233X",
+      "name": "Examensarbete i datalogi och datateknik med inriktning mot maskininlärning, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD2430",
+      "name": "Projektkurs i dataanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "code": "TIMAS",
+  "name": "Högskoleingenjörsutbildning i maskinteknik, Södertälje",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ML0001",
+      "name": "Introduktionskurs i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ML1000",
+      "name": "Matematik för ingenjörer",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML1101",
+      "name": "Mekanik, allmän kurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ML1110",
+      "name": "Maskinteknik, introduktionskurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML1111",
+      "name": "Verksamhetsstyrning med tillämpad statistik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ML1200",
+      "name": "Material och produktion, allmän kurs",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML1209",
+      "name": "Datorbaserade produktutvecklingsverktyg, grundkurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ML1309",
+      "name": "Programmering och numeriska verktyg",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "ML1031",
+      "name": "Samhällsekonomisk utblick - ur ett industriellt perspektiv",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "ML1201",
+      "name": "Hållfasthetslära, allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ML1203",
+      "name": "Energiteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "ML1206",
+      "name": "Maskinkomponenter",
+      "hp": 10.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

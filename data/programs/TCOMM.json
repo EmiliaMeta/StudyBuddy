@@ -1,0 +1,39 @@
+{
+  "code": "TCOMM",
+  "name": "Masterprogram, kommunikationssystem",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "II2202",
+      "name": "Forskningsmetodik och vetenskapligt skrivande",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "IK2206",
+      "name": "Säkerhet och datasekretess på internet",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IK2215",
+      "name": "Avancerad internetteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "IK2560",
+      "name": "Mobila nätverk och tjänster",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "code": "TNEEM",
+  "name": "Masterprogram, kärnenergiteknik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "SH2302",
+      "name": "Kärnfysik",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2600",
+      "name": "Reaktorfysik, större kurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SH2603",
+      "name": "Strålskydd, dosimetri och detektorer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SH2605",
+      "name": "Strålskadefysik i materia",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SH2610",
+      "name": "Ledarskap för säkerhet i kärnteknisk verksamhet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SH2611",
+      "name": "Små reaktorer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2612",
+      "name": "Kärnkraftsäkerhet",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2613",
+      "name": "Fjärde generationens reaktorer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2614",
+      "name": "Kärnbränslecykeln",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SH2701",
+      "name": "Termohydraulik i kärnkraftsanläggningar",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SH2702",
+      "name": "Reaktorteknologi",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2704",
+      "name": "Monte Carlo metoder och simuleringar i kärnteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2705",
+      "name": "Kompakt reaktorsimulator- övningar i reaktorkinetik och reaktordynamik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SH2706",
+      "name": "Uthållig energiomvandlingsteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SH2772",
+      "name": "Chemistry and Physics of Nuclear Fuels",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SH2774",
+      "name": "Numeriska metoder inom kärnkraftsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SH2007",
+      "name": "Research Methodology in Physics",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SH204X",
+      "name": "Examensarbete inom fysik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SH2615",
+      "name": "Neutrontransportteori",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

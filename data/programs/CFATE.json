@@ -1,0 +1,279 @@
+{
+  "code": "CFATE",
+  "name": "Civilingenjörsutbildning i farkostteknik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "DD1301",
+      "name": "Datorintroduktion",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1331",
+      "name": "Grundläggande programmering",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD1002",
+      "name": "Farkostteknik",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1668",
+      "name": "Matematisk och numerisk analys I",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1694",
+      "name": "Tillämpad linjär algebra",
+      "hp": 10.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG1132",
+      "name": "Mekanik I med projekt",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SK1112",
+      "name": "Fysik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF1024",
+      "name": "Produktutveckling",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SD1120",
+      "name": "Ljud och vibrationer",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SE1010",
+      "name": "Hållfasthetslära, grundkurs med projekt",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1682",
+      "name": "Analytiska och numeriska metoder för differentialekvationer",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SG1140",
+      "name": "Mekanik II",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SG1216",
+      "name": "Termodynamik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SG1217",
+      "name": "Strömningsmekanik, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD1320",
+      "name": "Tillämpad datalogi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "EF112X",
+      "name": "Examensarbete inom elektroteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EL1010",
+      "name": "Reglerteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "ME2163",
+      "name": "Ledarskap och organisering i olika miljöer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MF1017",
+      "name": "Elektroteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "MF130X",
+      "name": "Examensarbete inom maskinkonstruktion, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MF131X",
+      "name": "Examensarbete inom integrerad produktutveckling, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MF133X",
+      "name": "Examensarbete inom mekatronik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MJ1401",
+      "name": "Värmeöverföring",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "MJ146X",
+      "name": "Examensarbete inom hållbar energiteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SA115X",
+      "name": "Examensarbete inom farkostteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SD2125",
+      "name": "Signaler och mekaniska system",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SE1025",
+      "name": "FEM för ingenjörstillämpningar",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1861",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF1914",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SH1014",
+      "name": "Modern fysik",
+      "hp": 4.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SI1146",
+      "name": "Vektoranalys",
+      "hp": 4.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SI1155",
+      "name": "Teoretisk fysik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "code": "TFAFK",
+  "name": "Kandidatprogram, Fastighetsutveckling med fastighetsförmedling",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AI1127",
+      "name": "Fastighetsutvecklingens och fastighetsförmedlingens grunder",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AI1128",
+      "name": "Samhällsbyggnadsekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI1175",
+      "name": "Grundläggande statistik för ekonomer",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AI1178",
+      "name": "Tillämpad matematik och statistik för ekonomer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI1516",
+      "name": "Allmän fastighetsrätt för fastighetsutvecklare och fastighetsförmedlare",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI1550",
+      "name": "Juridisk översiktskurs",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF0003",
+      "name": "Introduktion i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1627",
+      "name": "Matematik för ekonomer",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF1007",
+      "name": "Husbyggnadsteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AG1421",
+      "name": "Fastighetsinformationsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI1108",
+      "name": "Investeringsanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI1142",
+      "name": "Finansiell rapportering och analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI1144",
+      "name": "Fastighetsfinansiering och investering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI1147",
+      "name": "Fastighetsvärdering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI1519",
+      "name": "Speciell fastighetsrätt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI1520",
+      "name": "Plan-, bygg- och miljörätt vid fastighetsutveckling",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AL1300",
+      "name": "Geovetenskap och markanvändning i praktiken",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AI106X",
+      "name": "Examensarbete inom fastighetsförmedling, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "AI1170",
+      "name": "Relationsmarknadsföring och marknadsanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "AI1171",
+      "name": "Management och etik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "AI1172",
+      "name": "Fastighetsförmedling i juridiken",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI1173",
+      "name": "Fastighetsförmedling i praktiken",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI1174",
+      "name": "Individ- och bostadsbeskattning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "AI1521",
+      "name": "Hyres-, bostads- och arrenderätt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "AI1522",
+      "name": "Fastighets- och stadsutveckling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "AI1523",
+      "name": "Markåtkomst och ersättning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI1524",
+      "name": "Markexploatering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI161X",
+      "name": "Examensarbete inom fastighetsutveckling, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

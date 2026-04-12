@@ -1,0 +1,207 @@
+{
+  "code": "TMHIM",
+  "name": "Masterprogram, miljöteknik och hållbar infrastruktur",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AE2104",
+      "name": "Miljömätning och monitoring",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AE2201",
+      "name": "Miljödynamik/fysikaliska processer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AE2304",
+      "name": "Vatten- och avloppsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AE2501",
+      "name": "Miljökonsekvensbeskrivning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AE2503",
+      "name": "Miljödata",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AE2507",
+      "name": "Strategisk miljöbedömning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AE2610",
+      "name": "Tillämpad hydrologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AE2612",
+      "name": "Vattenbyggnad",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AE2801",
+      "name": "Miljökemi och riskbedömning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2141",
+      "name": "Urban Infrastructure",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AG2142",
+      "name": "Political Economy for Environmental Planners",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2143",
+      "name": "Sustainable Rural and Urban Development",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2148",
+      "name": "Förvaltning av mark- och vattenresurser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AL2300",
+      "name": "Verktyg för naturresursförvaltning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AE2107",
+      "name": "Modellering av vattensystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AE2302",
+      "name": "Vattenreningsprocesser och teknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AE2401",
+      "name": "Teknisk geologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF283X",
+      "name": "Examensarbete inom vattenbyggnad, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AG212X",
+      "name": "Examensarbete inom urban och regional planering, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AL2301",
+      "name": "Tillämpad hydrogeologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AL230X",
+      "name": "Examensarbete inom miljöteknik och hållbar infrastruktur, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AL250X",
+      "name": "Examensarbete inom strategier för hållbar utveckling, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AL2511",
+      "name": "Resilienstänkande i hållbar samhällsplanering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AL2608",
+      "name": "Livscykelanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

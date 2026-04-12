@@ -1,0 +1,135 @@
+{
+  "code": "TNTEM",
+  "name": "Masterprogram, nanoteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "IH2652",
+      "name": "Analysmetoder och analysinstrument",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IH2659",
+      "name": "Tillverkningstekniker för nanokomponenter",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SK2770",
+      "name": "Introduktion till nanoteknik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SK2771",
+      "name": "Fasta tillståndets fysik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SK2772",
+      "name": "Kemi för nanoteknik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SK2901",
+      "name": "Kvantiserade material och komponenter",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EK2360",
+      "name": "Projektkurs i mikrosystemteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EK2370",
+      "name": "Bygg ditt eget radarsystem, projektkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IA249X",
+      "name": "Examensarbete inom teknisk fysik med inriktning mot nanoteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IH2662",
+      "name": "Krafthalvledarkomponenter",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IL2231",
+      "name": "Forskningsmetodik och vetenskapligt språk för nanoteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IL2241",
+      "name": "Introduktion till integrerade kretsar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IL2242",
+      "name": "Analoga integrerade kretsar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SK202X",
+      "name": "Examensarbete inom tillämpad fysik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SK2303",
+      "name": "Optisk fysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SK2402",
+      "name": "Fotonikens grundprinciper",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

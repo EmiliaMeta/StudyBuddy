@@ -1,0 +1,159 @@
+{
+  "code": "TIBYH",
+  "name": "Högskoleingenjörsutbildning i byggteknik och design",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AF1734",
+      "name": "Byggnadsmekanik 1",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF1735",
+      "name": "Byggnadsmekanik 2 och lastanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF1737",
+      "name": "Byggteknik 1",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF1744",
+      "name": "Byggteknik, värme och fuktlära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF1745",
+      "name": "Byggteknik, småhusprojektering",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF1759",
+      "name": "Fältmätningsteknik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF1760",
+      "name": "Introduktionskurs i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF1763",
+      "name": "Matematik 1, Linjär algebra",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF1764",
+      "name": "Matematik 2, Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF1765",
+      "name": "Matematik 3, Statistik för byggnadsingenjörer",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF1721",
+      "name": "Miljö- och arbetsvetenskap",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF1740",
+      "name": "Ekonomi, kalkylering och organisation",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AF1746",
+      "name": "Konstruktionsteknik 1",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF1747",
+      "name": "Konstruktionsteknik 2",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF1748",
+      "name": "Building Information Modeling",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF1749",
+      "name": "Samhälls- och bostadsplanering",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF1757",
+      "name": "Byggprocessen entreprenadjuridik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF1758",
+      "name": "Geoteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HS1007",
+      "name": "Strömningslära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "code": "TPRMM",
+  "name": "Masterprogram, industriell produktion",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "DD1320",
+      "name": "Tillämpad datalogi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2325",
+      "name": "Tillämpad programmering och datalogi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2053",
+      "name": "Logistik & Supply Chain Management",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MG1007",
+      "name": "Modern underhållsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG1010",
+      "name": "Svetsteknologi, allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG1011",
+      "name": "Svetsteknologi, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG1012",
+      "name": "Oförstörande provning",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2010",
+      "name": "Modern industriell mätteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG2020",
+      "name": "Modulindelning av produkter",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2022",
+      "name": "Avancerad CAD- och FFF-modellering, projektkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2028",
+      "name": "Inte bara CAD - IT-verktyg i industriell produktframtagning",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG2029",
+      "name": "Industriell produktion - planering och styrning",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG2032",
+      "name": "Automatiseringsteknik, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MG2033",
+      "name": "Kvalitet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG2036",
+      "name": "Datorstödd tillverkning - CAM",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG2037",
+      "name": "Industriell limningsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MG2040",
+      "name": "Monteringsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG2043",
+      "name": "Cirkulära tillverkningssystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG2044",
+      "name": "Additiv tillverkning",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2045",
+      "name": "Beslutsstöd för avancerad tillverkning",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MG2100",
+      "name": "Vetenskaplig forskningsmetodik inom industriell produktion",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2103",
+      "name": "Industriell Produktionsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2104",
+      "name": "Tillverkningsteknik- och planering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG2128",
+      "name": "Inte bara CAD - IT-verktyg i industriell produktframtagning, större kurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG2130",
+      "name": "Modellering och simulering av industriella processer",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2135",
+      "name": "PLM, Product Lifecycle Management - Informationshantering i produktframtagning",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2202",
+      "name": "Kvalitet, större kurs",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG2009",
+      "name": "Avancerad tillverkningsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG2013",
+      "name": "Svetsteknologi, högre kurs, modul 1",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG2014",
+      "name": "Svetsteknologi, högre kurs, modul 2",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG2015",
+      "name": "Svetsteknologi, högre kurs, modul 3",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "MG2016",
+      "name": "Svetsteknologi, påbyggnadskurs för EWE/IWE",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "MG2038",
+      "name": "Digitala fabriker",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG2109",
+      "name": "Avancerad tillverkningsteknik, större kurs",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG2110",
+      "name": "Avancerad mätteknik",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG2127",
+      "name": "Industriell produktion, projektkurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MG212X",
+      "name": "Examensarbete inom industriell produktion, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "MG213X",
+      "name": "Examensarbete inom industriell produktion, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "code": "TELPM",
+  "name": "Masterprogram, elkraftteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EG2100",
+      "name": "Analys av elkraftsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EG2110",
+      "name": "Stabilitet och styrning av elkraftsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EG2210",
+      "name": "Elmarknadsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EG2230",
+      "name": "Elpriser och utsläpp",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EG2240",
+      "name": "Systemplanering",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH2220",
+      "name": "Den hållbara ingenjören i elkraftteknik",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH2741",
+      "name": "Kommunikation och styrning i elkraftsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH2745",
+      "name": "Datortillämpningar i elkraftsystemet",
+      "hp": 4.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EI2430",
+      "name": "Högspänningsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EI2433",
+      "name": "Elektroteknisk modellering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EI2436",
+      "name": "Elnätsteknologi och ställverkskonstruktion",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EI2440",
+      "name": "Elektroteknisk konstruktion",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EI2452",
+      "name": "Tillförlitlighetsanalys för elkraftsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EI2455",
+      "name": "Smarta elektriska kraftnät och system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EI2460",
+      "name": "Batterier för energilagring i elsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EJ2201",
+      "name": "Elektriska maskiner och drivsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EJ2230",
+      "name": "Reglering för elektrisk energiomvandling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EJ2301",
+      "name": "Effektelektronik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EJ2311",
+      "name": "Effektelektronisk modulation",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EJ2420",
+      "name": "Seminarieserie i elektriska maskiner och effektelektronik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EJ2440",
+      "name": "Elektriska transportsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EL2450",
+      "name": "Hybrida och inbyggda reglersystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EL2520",
+      "name": "Reglerteknik, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EL2700",
+      "name": "Modell-prediktiv reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EL2820",
+      "name": "Modellering av dynamiska system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EA270X",
+      "name": "Examensarbete inom elektroteknik med inriktning mot elkraftteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EG2121",
+      "name": "FACTS och HVDC i elkraftsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EG2340",
+      "name": "Vindkraftsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EI2402",
+      "name": "Elektromagnetisk förenlighet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EI2405",
+      "name": "Elektromagnetisk fältteori, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EI2439",
+      "name": "Skyddssystem i elkraftsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EI2490",
+      "name": "Seminariekurs i elektroteknisk konstruktion och högspänningsteknik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EI2525",
+      "name": "Elkrafttekniskt projekt",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EJ2222",
+      "name": "Konstruktion av elektriska maskiner",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EL2620",
+      "name": "Olinjär reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

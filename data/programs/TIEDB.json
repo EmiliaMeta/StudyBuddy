@@ -1,0 +1,279 @@
+{
+  "code": "TIEDB",
+  "name": "Högskoleingenjörsutbildning i elektronik och datorteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "ID1018",
+      "name": "Programmering I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IE1204",
+      "name": "Digital design",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IF1330",
+      "name": "Ellära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "II1300",
+      "name": "Ingenjörsmetodik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "IS1200",
+      "name": "Datorteknik, grundkurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "IX1303",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "IX1304",
+      "name": "Matematik, analys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "IX1307",
+      "name": "Problemlösning i matematik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ID1021",
+      "name": "Algoritmer och datastrukturer",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "IE1202",
+      "name": "Analog elektronik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "IE1332",
+      "name": "Utveckling av elektronikprodukter",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "II1302",
+      "name": "Projekt och projektmetoder",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "II1303",
+      "name": "Signalbehandling",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "IK1203",
+      "name": "Nätverk och kommunikation",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "IS1300",
+      "name": "Inbyggda system",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "IX1500",
+      "name": "Diskret matematik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AL1523",
+      "name": "Digitalisering och innovation för hållbar utveckling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD2380",
+      "name": "Artificiell intelligens",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "DH2642",
+      "name": "Interaktionsprogrammering och dynamiska webben",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "EN2720",
+      "name": "Etisk hackning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "HE1038",
+      "name": "Styr- och reglerteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI1033",
+      "name": "Mobila applikationer och trådlösa nät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "ID1206",
+      "name": "Operativsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "ID1217",
+      "name": "Programmering av parallella system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "IK1330",
+      "name": "Trådlösa system",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "IK1332",
+      "name": "Sakernas internet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "IL1332",
+      "name": "Digital systemdesign med hårdvarubeskrivande språk",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "IL1333",
+      "name": "Hårdvarusäkerhet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "IL142X",
+      "name": "Examensarbete inom elektronik och datorteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "IV1351",
+      "name": "Datalagring",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "IX1501",
+      "name": "Matematisk statistik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SK1118",
+      "name": "Elektromagnetism och vågrörelselära",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    }
+  ]
+}

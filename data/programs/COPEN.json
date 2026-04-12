@@ -1,0 +1,79 @@
+{
+  "code": "COPEN",
+  "name": "Civilingenjörsutbildning öppen ingång",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KD1000",
+      "name": "Kemiska principer för hållbar utveckling",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SA1007",
+      "name": "Ingenjörsrollen och ingenjörskunskap",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1546",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG1133",
+      "name": "Mekanik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SK1115",
+      "name": "Elektromagnetism och vågrörelselära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    }
+  ]
+}

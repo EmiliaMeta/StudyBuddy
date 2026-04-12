@@ -1,0 +1,311 @@
+{
+  "code": "TIELA",
+  "name": "Högskoleingenjörsutbildning i elektroteknik, Flemingsberg",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "CM0001",
+      "name": "Introduktionskurs i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CM0002",
+      "name": "Introduktionskurs i datateknik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HE1026",
+      "name": "Digitalteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HE1027",
+      "name": "Ellära",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HE1028",
+      "name": "Mikrodatorteknik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HE1043",
+      "name": "Projektkurs inom elektroteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HF1005",
+      "name": "Informationsteknik och ingenjörsmetodik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF1006",
+      "name": "Linjär algebra och analys",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF1201",
+      "name": "Hållbar utveckling och ergonomi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HI1024",
+      "name": "Programmering, grundkurs",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CM1002",
+      "name": "Projektkurs inom elektroteknik, del 2",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EI1230",
+      "name": "Elkraftteknik I",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HE1030",
+      "name": "Analog elektronik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HE1031",
+      "name": "Ekonomi och organisationsteori",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HE1033",
+      "name": "Kommunikationsnät",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HE1034",
+      "name": "Telekommunikation",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HF1011",
+      "name": "Signaler, system och transformer",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HF1012",
+      "name": "Matematisk statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AH2029",
+      "name": "Järnväg signalteknik - signalsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "AH2031",
+      "name": "Järnväg signalteknik - projektering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EG2130",
+      "name": "Kommunikation och styrning i elkraftssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "EG2340",
+      "name": "Vindkraftsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EH2720",
+      "name": "Projektstyrning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EI1360",
+      "name": "Elkraftteknik II",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EI2435",
+      "name": "Elnätsteknologi och ställverksutrustning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "HE1038",
+      "name": "Styr- och reglerteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HE111X",
+      "name": "Examensarbete inom elektroteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "HI1023",
+      "name": "Nätverkssäkerhet, grundkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI1027",
+      "name": "Objektorienterad programmering",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "HI1032",
+      "name": "Kommunikationssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "HI1033",
+      "name": "Mobila applikationer och trådlösa nät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "HI1035",
+      "name": "Mobil kommunikation och trådlösa nät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI1037",
+      "name": "Internets domännamnsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI2002",
+      "name": "Routing i IP-nät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "IL1332",
+      "name": "Digital systemdesign med hårdvarubeskrivande språk",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "IL2219",
+      "name": "Radioelektronik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "IL2225",
+      "name": "Hårdvarukonstruktion i ASIC och FPGA för inbyggda system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "IS1300",
+      "name": "Inbyggda system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    }
+  ]
+}

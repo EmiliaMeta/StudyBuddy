@@ -1,0 +1,215 @@
+{
+  "code": "CTKEM",
+  "name": "Civilingenjörsutbildning i teknisk kemi",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "BB1050",
+      "name": "Bioteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KA1030",
+      "name": "Perspektivkurs forskning och innovation",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KD1230",
+      "name": "Organisk kemi, grundläggande koncept och praktik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KD1280",
+      "name": "Kemisk analys",
+      "hp": 10.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KE0110",
+      "name": "Introduktionskurs i kemi",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KE1140",
+      "name": "Teknisk kemi",
+      "hp": 14.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF0003",
+      "name": "Introduktion i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KD1070",
+      "name": "Molekylär struktur",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "KD1080",
+      "name": "Kemisk dynamik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "KD1270",
+      "name": "Organisk kemi, grundläggande koncept och praktik 2",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "KE1160",
+      "name": "Termodynamik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "KE1170",
+      "name": "Transportprocesser",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1520",
+      "name": "Numeriska metoder och grundläggande programmering, del 1",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1633",
+      "name": "Differentialekvationer I",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SK1151",
+      "name": "Grundläggande fysik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "BB1190",
+      "name": "Genteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "KA1015",
+      "name": "Kemi för hållbar utveckling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "KA103X",
+      "name": "Examensarbete inom Teknisk kemi, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "KE1175",
+      "name": "Kemisk Processteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "KE1185",
+      "name": "Kemitekniska system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "KF1165",
+      "name": "Materialens kemi och egenskaper",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SF1521",
+      "name": "Numeriska metoder och grundläggande programmering, del 2",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    }
+  ]
+}

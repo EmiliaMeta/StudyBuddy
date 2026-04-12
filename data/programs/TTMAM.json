@@ -1,0 +1,335 @@
+{
+  "code": "TTMAM",
+  "name": "Masterprogram, tillämpad matematik och beräkningsmatematik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2257",
+      "name": "Visualisering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2356",
+      "name": "Metoder inom högprestandaberäkningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2365",
+      "name": "Avancerade beräkningsmetoder i flödesmekanik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2434",
+      "name": "Maskininlärning, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2435",
+      "name": "Neuronnäts- och biomodellering",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SA2001",
+      "name": "Hållbar utveckling och forskningsmetodik inom matematik",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1811",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF2520",
+      "name": "Tillämpade numeriska metoder",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2521",
+      "name": "Numerisk behandling av differentialekvationer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2524",
+      "name": "Matrisberäkningar för storskaliga system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF2525",
+      "name": "Beräkningsmetoder för stokastiska differentialekvationer och maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2526",
+      "name": "Numeriska algoritmer för vetenskapliga problem med stora datamängder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2561",
+      "name": "Finita elementmetoden",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2565",
+      "name": "Programkonstruktion i C++ för tekniskt - vetenskapliga beräkningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2567",
+      "name": "Projektkurs i beräkningsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2568",
+      "name": "Parallella beräkningar för storskaliga problem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2701",
+      "name": "Finansiell matematik, grundkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2812",
+      "name": "Tillämpad linjär optimering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2822",
+      "name": "Tillämpad ickelinjär optimering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2832",
+      "name": "Matematisk systemteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF2842",
+      "name": "Geometrisk styrteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2852",
+      "name": "Optimal styrteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2863",
+      "name": "Systemteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF2866",
+      "name": "Tillämpad systemteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2930",
+      "name": "Regressionsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2935",
+      "name": "Moderna metoder för statistisk inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2940",
+      "name": "Sannolikhetsteori",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2942",
+      "name": "Portföljteori och riskvärdering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2943",
+      "name": "Tidsserieanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2955",
+      "name": "Datorintensiva metoder inom matematisk statistik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2956",
+      "name": "Topologisk dataanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2971",
+      "name": "Martingaler och stokastiska integraler",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2975",
+      "name": "Finansiella derivat",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2980",
+      "name": "Riskvärdering och riskhantering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SG2212",
+      "name": "Strömningsmekaniska beräkningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG2224",
+      "name": "Tillämpade strömningsmekaniska beräkningar",
+      "hp": 5.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2440",
+      "name": "Avancerade algoritmer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD2445",
+      "name": "Komplexitetsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2957",
+      "name": "Statistisk maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

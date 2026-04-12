@@ -1,0 +1,431 @@
+{
+  "code": "TIMTM",
+  "name": "Masterprogram, interaktiv medieteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "AK2203",
+      "name": "Media mellan teknik och kultur",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2257",
+      "name": "Visualisering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2258",
+      "name": "Introduktion till visualisering, datorgrafik och bild- och videobehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2380",
+      "name": "Artificiell intelligens",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2410",
+      "name": "Introduktion till robotik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2423",
+      "name": "Bildbehandling och datorseende",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2470",
+      "name": "Avancerade ämnen i visualisering och datorgrafik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DH2321",
+      "name": "Informationsvisualisering",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DH2323",
+      "name": "Datorgrafik med interaktion",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DH2400",
+      "name": "Fysisk interaktionsdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DH2408",
+      "name": "Utvärderingsmetoder inom människa-datorinteraktion",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DH2413",
+      "name": "Avancerad grafik och interaktion",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DH2642",
+      "name": "Interaktionsprogrammering och dynamiska webben",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DH2650",
+      "name": "Datorspelsdesign",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DH2655",
+      "name": "Kooperativ IT-design",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DH2670",
+      "name": "Haptisk och taktil interaktionsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2350",
+      "name": "Mänsklig perception för informationsteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2500",
+      "name": "Närvaroproduktion på distans",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2573",
+      "name": "Hållbarhet och medieteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DM2582",
+      "name": "Media Lab",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2583",
+      "name": "Big data i medieteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2585",
+      "name": "Artificiell intelligens i samhället",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2601",
+      "name": "Medieteknik och interaktionsdesign",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2624",
+      "name": "Människocentrerad teknik för funktionshinder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2630",
+      "name": "Design och utvärdering av användarupplevelse",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2679",
+      "name": "Programintegrerande kurs i interaktiv medieteknik",
+      "hp": 2.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2713",
+      "name": "Forskningsmetodik för interaktiv medieteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DM2720",
+      "name": "Hållbar Informations- och kommunikationsteknik (IKT) i praktiken",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2904",
+      "name": "Individuell kurs i medieteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2905",
+      "name": "Individuell kurs i medieteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DT2112",
+      "name": "Talteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DT2119",
+      "name": "Igenkänning av tal och talare",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DT2140",
+      "name": "Multimodala interaktioner och gränssnitt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DT2151",
+      "name": "Projekt i konverserande system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DT2212",
+      "name": "Musikakustik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DT2213",
+      "name": "Musikalisk kommunikation och musikteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DT2215",
+      "name": "Avancerad individuell kurs i musikalisk kommunikation",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DT2216",
+      "name": "Avancerad individuell kurs i musikalisk kommunikation",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DT2300",
+      "name": "Ljud i interaktion",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DT2410",
+      "name": "Audioteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EQ2330",
+      "name": "Bild- och videobehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ID2214",
+      "name": "Programmering för data science",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IL2206",
+      "name": "Inbyggda System",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "LS1419",
+      "name": "Engelska för arbetslivet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "LS1464",
+      "name": "Retorik - konsten att övertyga",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2072",
+      "name": "Entreprenörskap för ingenjörer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2039",
+      "name": "Avancerad tjänstedesign",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2104",
+      "name": "Mekatronik i produktdesign",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DA232X",
+      "name": "Examensarbete i datalogi och datateknik med inriktning mot interaktiv medieteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DH2632",
+      "name": "Människa-datorinteraktion, högre seminarier",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DH2643",
+      "name": "Avancerad interaktionsprogrammering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DM2730",
+      "name": "Teknikförstärkt lärande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DM2800",
+      "name": "Ledning av komplexa förändringsprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

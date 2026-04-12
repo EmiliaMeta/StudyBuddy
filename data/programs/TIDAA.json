@@ -1,0 +1,239 @@
+{
+  "code": "TIDAA",
+  "name": "Högskoleingenjörsutbildning i datateknik, Flemingsberg",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CM0001",
+      "name": "Introduktionskurs i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CM0002",
+      "name": "Introduktionskurs i datateknik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HE1026",
+      "name": "Digitalteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HE1028",
+      "name": "Mikrodatorteknik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HF1005",
+      "name": "Informationsteknik och ingenjörsmetodik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF1006",
+      "name": "Linjär algebra och analys",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF1201",
+      "name": "Hållbar utveckling och ergonomi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HI1024",
+      "name": "Programmering, grundkurs",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HI1025",
+      "name": "Operativsystem",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HI1038",
+      "name": "Projektkurs inom data- och nätverksteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CM1000",
+      "name": "Diskret matematik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HE1031",
+      "name": "Ekonomi och organisationsteori",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HE1033",
+      "name": "Kommunikationsnät",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HF1012",
+      "name": "Matematisk statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HI1027",
+      "name": "Objektorienterad programmering",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HI1029",
+      "name": "Algoritmer och datastrukturer",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HI1030",
+      "name": "Databasteknik",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HI1039",
+      "name": "Projektkurs inom programvaruutveckling",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "CM1001",
+      "name": "Tillämpad maskininlärning och datautvinning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "CM1007",
+      "name": "FullStack-utveckling och DevOps",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "HI1023",
+      "name": "Nätverkssäkerhet, grundkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI1031",
+      "name": "Distribuerade informationssystem",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "HI1032",
+      "name": "Kommunikationssystem",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "HI1033",
+      "name": "Mobila applikationer och trådlösa nät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "HI1036",
+      "name": "Mjukvarukonstruktion, projektkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI1037",
+      "name": "Internets domännamnsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HI111X",
+      "name": "Examensarbete inom datateknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "HI2002",
+      "name": "Routing i IP-nät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "IS1300",
+      "name": "Inbyggda system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    }
+  ]
+}

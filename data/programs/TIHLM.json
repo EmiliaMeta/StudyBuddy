@@ -1,0 +1,159 @@
+{
+  "code": "TIHLM",
+  "name": "Masterprogram, innovativ teknik för en hälsosam livsmiljö",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2002",
+      "name": "Artificiell Intelligens inom Medicinteknik och hälsosystem",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CM2010",
+      "name": "Sociokulturella perspektiv på innovativa teknologier",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CM2011",
+      "name": "Tillämpad maskininlärning och artificiell intelligens",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2012",
+      "name": "Medicinsk teknik i Digital transformation inom hälso- och sjukvården",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CM2013",
+      "name": "Signalbehandling och dataanalys för medicintekniska tillämpningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2019",
+      "name": "Ultraljud",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HL1007",
+      "name": "Medicinsk teknik, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HL2017",
+      "name": "Avancerad fysiologi, mindre kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HL2027",
+      "name": "Medicinsk bildanalys och rekonstruktion i 3D",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HL2028",
+      "name": "Medicinsk signalbehandling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HL2040",
+      "name": "Fysiologi i extrema omgivningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AK2011",
+      "name": "Teknik och etik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "CM2008",
+      "name": "Entreprenörskap i Teknik och hälsa",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EK2380",
+      "name": "Medicinska sensorer",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HL2029",
+      "name": "Medicinsk teknik, fördjupningskurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HL2032",
+      "name": "Medicinsk teknik, projektkurs",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HL2034",
+      "name": "Klinisk innovation och design",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HL205X",
+      "name": "Examensarbete inom medicinsk teknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

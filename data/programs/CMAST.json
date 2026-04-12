@@ -1,0 +1,231 @@
+{
+  "code": "CMAST",
+  "name": "Civilingenjörsutbildning i maskinteknik",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF1001",
+      "name": "Maskinteknik, introduktionskurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ1104",
+      "name": "Praktisk introduktion till energiteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG1130",
+      "name": "Mekanik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SK1110",
+      "name": "Elektromagnetism och vågrörelselära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MF1016",
+      "name": "Elektroteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "MF1044",
+      "name": "Maskinkomponenter",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "MG1026",
+      "name": "Tillverkningsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MG1028",
+      "name": "Grundläggande 3D-CAD",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ1112",
+      "name": "Tillämpad termodynamik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SE1010",
+      "name": "Hållfasthetslära, grundkurs med projekt",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1514",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1633",
+      "name": "Differentialekvationer I",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SG1140",
+      "name": "Mekanik II",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AL126X",
+      "name": "Examensarbete inom teknik och hållbar utveckling, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "MF1045",
+      "name": "Produktframtagning - Konstruktion",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "MF130X",
+      "name": "Examensarbete inom maskinkonstruktion, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MF131X",
+      "name": "Examensarbete inom integrerad produktutveckling, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MF133X",
+      "name": "Examensarbete inom mekatronik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MG110X",
+      "name": "Examensarbete inom industriell produktion, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MH1004",
+      "name": "Materiallära",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "MJ146X",
+      "name": "Examensarbete inom hållbar energiteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SA118X",
+      "name": "Examensarbete inom maskinteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1915",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    }
+  ]
+}

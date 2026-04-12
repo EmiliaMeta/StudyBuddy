@@ -1,0 +1,127 @@
+{
+  "code": "TARKM",
+  "name": "Masterprogram, arkitektur",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "A42A13",
+      "name": "Studioprojekt, avancerad nivå",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "A42B13",
+      "name": "Studioprojekt, avancerad nivå",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "A42C14",
+      "name": "Studioprojekt, avancerad nivå",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "A42D14",
+      "name": "Studioprojekt, avancerad nivå",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "A42O1A",
+      "name": "Orientering; Arkitekturens teknik, teori och historia 4:1",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "A42O2A",
+      "name": "Orientering; Arkitekturens teknik, teori och historia 4:2",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "A42SEH",
+      "name": "Seminariekurs, avancerad nivå 4HT",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "A42SEV",
+      "name": "Seminariekurs, avancerad nivå 4VT",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "A52A13",
+      "name": "Studioprojekt, avancerad nivå",
+      "hp": 12.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "A52B13",
+      "name": "Studioprojekt, avancerad nivå",
+      "hp": 12.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "A52EXA",
+      "name": "Examensarbete inom arkitektur, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "A52O1A",
+      "name": "Orientering; Arkitekturens teknik, teori och historia 5",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "A52O2A",
+      "name": "Orientering; Arkitekturens teknik, teori och historia 5:2",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "A52SEH",
+      "name": "Seminariekurs, avancerad nivå 5HT",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "A52SEV",
+      "name": "Seminariekurs, avancerad nivå 5VT",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "code": "TCSCM",
+  "name": "Masterprogram, datalogi",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DA2210",
+      "name": "Vetenskapsteori och vetenskaplig metodik för dataloger",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2300",
+      "name": "Programsammanhållande kurs i datalogi",
+      "hp": 2.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2380",
+      "name": "Artificiell intelligens",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2395",
+      "name": "Datasäkerhet",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2440",
+      "name": "Avancerade algoritmer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "IK2218",
+      "name": "Internets protokoll och principer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DA231X",
+      "name": "Examensarbete i datalogi och datateknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

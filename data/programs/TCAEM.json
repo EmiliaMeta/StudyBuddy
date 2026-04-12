@@ -1,0 +1,335 @@
+{
+  "code": "TCAEM",
+  "name": "Masterprogram, husbyggnads- och anläggningsteknik",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AE2610",
+      "name": "Tillämpad hydrologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AE2612",
+      "name": "Vattenbyggnad",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF2003",
+      "name": "Bärverksanalys, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF2024",
+      "name": "Finita elementmetoder i analys och design",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF2101",
+      "name": "Betongbyggnad",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF2102",
+      "name": "Betongbyggnad, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF2201",
+      "name": "Brokonstruktion",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF2213",
+      "name": "Stål- och träbyggnad",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF2301",
+      "name": "Byggnadsmaterial, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF2302",
+      "name": "Design av träbaserade hybridkonstruktioner",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF2401",
+      "name": "Byggnadsteknik, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF2507",
+      "name": "Hållbara byggnader - design, bygg och drift",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF2508",
+      "name": "Installationsteknik och -system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF2511",
+      "name": "Installationstekniska system, tillämpad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF2513",
+      "name": "Smarta byggnader",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF2602",
+      "name": "Bergmekanik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF2609",
+      "name": "Grundläggningsteknik och geokonstruktioner",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF2901",
+      "name": "Väg- och banteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF2903",
+      "name": "Vägdimensionering, byggande och underhåll",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI2805",
+      "name": "Byggandets information och logistik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AE2501",
+      "name": "Miljökonsekvensbeskrivning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF2011",
+      "name": "Strukturdynamik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF2023",
+      "name": "Vetenskapsteori och vetenskaplig metodik och risk och säkerhet för byggnadsverk",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AF2025",
+      "name": "Projekt för huskonstruktörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AF213X",
+      "name": "Examensarbete inom betongbyggnad, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF2203",
+      "name": "Brokonstruktion fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AF223X",
+      "name": "Examensarbete inom bro- och stålbyggnad, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF233X",
+      "name": "Examensarbete inom byggnadsmateriallära, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF2403",
+      "name": "Byggskador",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF2404",
+      "name": "Byggnadsakustik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF243X",
+      "name": "Examensarbete inom byggnadsteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF253X",
+      "name": "Examensarbete inom installations- och energisystem, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF259X",
+      "name": "Examensarbete inom strömnings-och klimatteknik , avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF2610",
+      "name": "Bergteknik och tunnlar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AF2611",
+      "name": "Jordmekanik, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF263X",
+      "name": "Examensarbete inom jord- och bergmekanik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF283X",
+      "name": "Examensarbete inom vattenbyggnad, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF2905",
+      "name": "Väg- och Banteknik, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AF293X",
+      "name": "Examensarbete inom vägteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AG2806",
+      "name": "Bebyggelsens miljöpåverkan",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AL2608",
+      "name": "Livscykelanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

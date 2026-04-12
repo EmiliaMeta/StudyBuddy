@@ -1,0 +1,135 @@
+{
+  "code": "TTAHM",
+  "name": "Masterprogram, teknik, arbete och hälsa",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CH2001",
+      "name": "Ledarskap och hållbart arbete",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CH2004",
+      "name": "Bedömningar och åtgärder av den fysiska arbetsmiljön",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CH2010",
+      "name": "Kognitiv interaktionsdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CH2012",
+      "name": "Bedömningar och åtgärder av vibrationer och den akustiska arbetsmiljön",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CH2013",
+      "name": "Introduktion till teknik, arbete och hälsa",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CH2014",
+      "name": "Hantering av kemiska och mikrobiologiska arbetsmiljörisker",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HN2015",
+      "name": "Förändringsledning och arbetsmiljö",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HN2018",
+      "name": "Belastningsergonomi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HN2020",
+      "name": "Arbetsmiljöekonomi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HN2021",
+      "name": "Vetenskaplig teori och metod med tillämpningar (ergonomi)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HN2022",
+      "name": "Systemsäkerhet och riskhantering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HN205X",
+      "name": "Examensarbete inom teknik, arbete och hälsa",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CH2006",
+      "name": "Avancerade mätningar av luftföroreningar, buller och vibrationer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "CH2011",
+      "name": "Planering av ett vetenskapligt projekt inom teknik, arbete och hälsa",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HN2024",
+      "name": "Planering och utformning av fysiska arbetsmiljöer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HN206X",
+      "name": "Examensarbete inom teknik, arbete och hälsa",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

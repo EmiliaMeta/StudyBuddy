@@ -1,0 +1,279 @@
+{
+  "code": "TCYSM",
+  "name": "Masterprogram, cybersäkerhet",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DD1420",
+      "name": "Maskininlärningens grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2302",
+      "name": "Cybersäkerhetsingenjörens roll i samhället",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2391",
+      "name": "Cybersäkerhet översiktskurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2412",
+      "name": "Djupinlärning, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2424",
+      "name": "Djupinlärning i Data Science",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2434",
+      "name": "Maskininlärning, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2437",
+      "name": "Artificiella neuronnät och djupa arkitekturer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2440",
+      "name": "Avancerade algoritmer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2443",
+      "name": "Parallella och distribuerade beräkningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2447",
+      "name": "Statistiska metoder i datalogin",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2448",
+      "name": "Kryptografins grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2460",
+      "name": "Programvarusäkerhet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2482",
+      "name": "Automatiserad programtestning och DevOps",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2496",
+      "name": "Integritetsskyddande tekniker",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2497",
+      "name": "Projektkurs i systemsäkerhet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2510",
+      "name": "Cybersäkerhet i sociotekniskt sammanhang",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2520",
+      "name": "Tillämpad kryptografi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2525",
+      "name": "Språkbaserad datasäkerhet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DH2628",
+      "name": "Metoder för interaktionsdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH2741",
+      "name": "Kommunikation och styrning i elkraftsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EL2805",
+      "name": "Förstärkande inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EN2720",
+      "name": "Etisk hackning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EP2500",
+      "name": "Säkra nätverkssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EP2510",
+      "name": "Säkra nätverkssystem, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EP2520",
+      "name": "Bygga säkra nätverkssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EP2780",
+      "name": "Digital forensik och incidenthantering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EP2790",
+      "name": "Säkerhetsanalys av storskaliga datorsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ID2218",
+      "name": "Design av feltoleranta system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "IL1333",
+      "name": "Hårdvarusäkerhet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DA237X",
+      "name": "Examensarbete i datalogi och datateknik med inriktning mot cybersäkerhet",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD2528",
+      "name": "Pålitliga autonoma system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EL2850",
+      "name": "Cyberfysisk säkerhet i tidskritiska system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

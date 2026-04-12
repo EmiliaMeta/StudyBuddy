@@ -1,0 +1,143 @@
+{
+  "code": "CSAMH",
+  "name": "Civilingenjörsutbildning i samhällsbyggnad",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AG1314",
+      "name": "GIS och mätningsteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI1128",
+      "name": "Samhällsbyggnadsekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI1527",
+      "name": "Samhällsbyggnadsprocessen",
+      "hp": 13.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF0003",
+      "name": "Introduktion i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1516",
+      "name": "Numeriska metoder och grundläggande programmering",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF1002",
+      "name": "Hus och anläggningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AH1030",
+      "name": "Stadsutveckling och transportsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AI1525",
+      "name": "Samhällsbyggandets regelsystem",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI1802",
+      "name": "Projektledning och BIM inom samhällsbyggandet",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AL1301",
+      "name": "Naturresursteori",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AL1302",
+      "name": "Geovetenskap och geoteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1676",
+      "name": "Differentialekvationer med tillämpningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1910",
+      "name": "Tillämpad statistik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SG1117",
+      "name": "Teknisk mekanik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

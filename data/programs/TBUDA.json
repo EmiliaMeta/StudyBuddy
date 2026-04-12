@@ -1,0 +1,47 @@
+{
+  "code": "TBUDA",
+  "name": "Tekniskt basår, distans med campusträffar",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "TB0021",
+      "name": "Matematik för basår, distans med campusträffar I",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "TB0022",
+      "name": "Fysik för basår, distans med campusträffar I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "TB0023",
+      "name": "Kemi för basår, distans med campusträffar I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "TB0024",
+      "name": "Matematik för basår, distans med campusträffar II",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "TB0025",
+      "name": "Fysik för basår, distans med campusträffar II",
+      "hp": 18.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

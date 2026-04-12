@@ -1,0 +1,175 @@
+{
+  "code": "TFORM",
+  "name": "Masterprogram, fordonsteknik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "AF2901",
+      "name": "Väg- och banteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AH2170",
+      "name": "Transport Data collection and Analysis",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AH2171",
+      "name": "Traffic Engineering and Management",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AH2174",
+      "name": "Trafiksimulering, modellering och applikationer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AH2307",
+      "name": "Urban modellering och beslutsstöd",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2520",
+      "name": "Reglerteknik, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EL2700",
+      "name": "Modell-prediktiv reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2007",
+      "name": "Dynamik och rörelsestyrning",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2030",
+      "name": "Mekatronik allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2043",
+      "name": "Robust mekatronik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2111",
+      "name": "Teknisk akustik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2150",
+      "name": "Experimentell strukturdynamik, projektkurs",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SD2155",
+      "name": "Strömningsakustik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SD2190",
+      "name": "Fordonsakustik och vibrationer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SD2231",
+      "name": "Tillämpad fordonsdynamikreglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SD2250",
+      "name": "Hållbar fordonsdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SD2411",
+      "name": "Lättkonstruktioner och FEM",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2416",
+      "name": "Strukturoptimering och sandwichdesign",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SG2211",
+      "name": "Fordonsaerodynamik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SG2214",
+      "name": "Strömningsmekanik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2230",
+      "name": "Projektkurs i fordonsdynamik del 2",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

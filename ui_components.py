@@ -101,6 +101,10 @@ def create_progress_bars():
 
     for bar in bars.values():
         bar.setFixedHeight(26)
+        bar.setSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Fixed
+        )
 
     return {"bars": bars, "layout": layout}
 
@@ -717,6 +721,485 @@ class EditPanel(QWidget):
             QRect(parent.width() - self.PANEL_WIDTH, 0, self.PANEL_WIDTH, h))
         self._anim.setEndValue(
             QRect(parent.width(), 0, self.PANEL_WIDTH, h))
+        self._anim.setEasingCurve(QEasingCurve.Type.InCubic)
+        self._anim.finished.connect(self.hide)
+        self._anim.start()
+
+    def resizeEvent(self, event):
+        if self.isVisible():
+            parent = self.parent()
+            self.setGeometry(
+                parent.width() - self.PANEL_WIDTH, 0,
+                self.PANEL_WIDTH, parent.height())
+
+
+# ---------- PROFILE PANEL ----------
+
+class ProfilePanel(QWidget):
+    """Sidopanel för användarprofil och programval."""
+
+    PANEL_WIDTH = 380
+
+    def __init__(self, planner):
+        super().__init__(planner)
+        self.planner = planner
+        self._anim   = None
+
+        self.setFixedWidth(self.PANEL_WIDTH)
+        self.setAttribute(Qt.WidgetAttribute.WA_StyledBackground, True)
+        self.setStyleSheet("""
+            ProfilePanel {
+                background: #F3B9C7;
+                border-left: 2px solid #A45FA0;
+            }
+            QLabel { background: transparent; }
+            QLineEdit, QComboBox {
+                background: white;
+                border: 1px solid #D4A0C8;
+                border-radius: 6px;
+                padding: 4px;
+            }
+            QPushButton {
+                background: #A45FA0;
+                color: white;
+                border: none;
+                padding: 8px;
+                border-radius: 6px;
+                font-weight: bold;
+            }
+            QPushButton:hover { background: #7D4B7D; }
+        """)
+
+        self._build_ui()
+        self.hide()
+
+    def _lbl(self, text):
+        l = QLabel(text)
+        l.setStyleSheet(
+            "font-size:12px; color:#7D4B7D; font-weight:bold; background:transparent;")
+        return l
+
+    def _build_ui(self):
+        outer = QVBoxLayout(self)
+        outer.setContentsMargins(16, 16, 16, 16)
+        outer.setSpacing(12)
+
+        # Header
+        header = QHBoxLayout()
+        title = QLabel("Profil")
+        title.setStyleSheet("font-size:16px; font-weight:bold;")
+        close_btn = QPushButton("✕")
+        close_btn.setFixedSize(28, 28)
+        close_btn.setStyleSheet("""
+            QPushButton { background:transparent; color:#A45FA0;
+                font-size:16px; border:none; padding:0; }
+            QPushButton:hover { background:#EFCDD6; border-radius:14px; }
+        """)
+        close_btn.clicked.connect(self.slide_out)
+        header.addWidget(title)
+        header.addStretch()
+        header.addWidget(close_btn)
+        outer.addLayout(header)
+
+        # Namn
+        outer.addWidget(self._lbl("Namn"))
+        self.name_edit = QLineEdit()
+        self.name_edit.setPlaceholderText("Ditt namn")
+        outer.addWidget(self.name_edit)
+
+        # Program
+        outer.addWidget(self._lbl("Program"))
+        self.program_combo = QComboBox()
+        self.program_combo.setEditable(True)
+        self.program_combo.lineEdit().setPlaceholderText(
+            "Sök programkod eller namn...")
+        outer.addWidget(self.program_combo)
+
+        # Nivå
+        outer.addWidget(self._lbl("Nivå"))
+        level_row = QHBoxLayout()
+        self.kandidat_btn = QPushButton("Kandidat")
+        self.master_btn   = QPushButton("Master/Civilingenjör")
+        for btn in [self.kandidat_btn, self.master_btn]:
+            btn.setCheckable(True)
+            btn.setStyleSheet("""
+                QPushButton { background:#EFCDD6; color:#4B1528;
+                    border:none; border-radius:6px; padding:6px 12px; }
+                QPushButton:checked { background:#A45FA0; color:white; }
+            """)
+        self.kandidat_btn.clicked.connect(lambda: self._set_level("kandidat"))
+        self.master_btn.clicked.connect(lambda: self._set_level("master"))
+        self.kandidat_btn.clicked.connect(self._update_csn_status)
+        self.master_btn.clicked.connect(self._update_csn_status)
+        level_row.addWidget(self.kandidat_btn)
+        level_row.addWidget(self.master_btn)
+        outer.addLayout(level_row)
+
+        outer.addStretch()
+
+        # Grade Average
+        outer.addWidget(self._lbl("Grade Average"))
+        self.grade_frame = QFrame()
+        self.grade_frame.setStyleSheet("""
+            QFrame { background:#EFCDD6; border-radius:8px; }
+            QLabel { background:transparent; }
+        """)
+        grade_inner = QVBoxLayout(self.grade_frame)
+        grade_inner.setContentsMargins(10, 8, 10, 8)
+        grade_inner.setSpacing(2)
+        self.grade_display = QLabel("-")
+        self.grade_display.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.grade_display.setStyleSheet("font-size:28px; font-weight:bold; color:#4B1528;")
+        self.grade_sub = QLabel("")
+        self.grade_sub.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.grade_sub.setStyleSheet("font-size:13px; color:#7D4B7D;")
+        grade_inner.addWidget(self.grade_display)
+        grade_inner.addWidget(self.grade_sub)
+        outer.addWidget(self.grade_frame)
+
+        # CSN-info
+        outer.addWidget(self._lbl("CSN-status"))
+        csn_frame = QFrame()
+        csn_frame.setStyleSheet("""
+            QFrame { background:#EFCDD6; border-radius:8px; }
+            QLabel { background:transparent; }
+        """)
+        csn_inner = QVBoxLayout(csn_frame)
+        csn_inner.setSpacing(4)
+        csn_inner.setContentsMargins(10, 8, 10, 8)
+
+        weeks_row = QHBoxLayout()
+        weeks_lbl = QLabel("Förbrukade veckor:")
+        weeks_lbl.setStyleSheet("font-size:12px; color:#7D4B7D;")
+        self.csn_spin = QLineEdit()
+        self.csn_spin.setPlaceholderText("0")
+        self.csn_spin.setFixedWidth(60)
+        self.csn_spin.setStyleSheet(
+            "background:white; border:1px solid #D4A0C8; border-radius:6px; padding:4px;")
+        weeks_row.addWidget(weeks_lbl)
+        weeks_row.addWidget(self.csn_spin)
+        csn_inner.addLayout(weeks_row)
+
+        self.csn_status_label = QLabel("")
+        self.csn_status_label.setWordWrap(True)
+        self.csn_status_label.setStyleSheet("font-size:13px; color:#4B1528;")
+        csn_inner.addWidget(self.csn_status_label)
+
+        outer.addWidget(csn_frame)
+
+        # Masterprogram (valfritt)
+        outer.addWidget(self._lbl("Masterprogram (valfritt)"))
+        self.master_combo = QComboBox()
+        self.master_combo.setEditable(True)
+        self.master_combo.lineEdit().setPlaceholderText("Sök masterprogram...")
+        outer.addWidget(self.master_combo)
+
+        import_master_btn = QPushButton("Importera masterkurser")
+        import_master_btn.setStyleSheet("""
+            QPushButton { background:#0e7490; color:white; border:none;
+                padding:8px; border-radius:6px; font-weight:bold; }
+            QPushButton:hover { background:#0c6680; }
+        """)
+        import_master_btn.clicked.connect(self._import_master_courses)
+        outer.addWidget(import_master_btn)
+
+        self.import_btn = QPushButton("Importera obligatoriska kurser")
+        self.import_btn.setStyleSheet("""
+            QPushButton { background:#6366f1; color:white; border:none;
+                padding:10px; border-radius:6px; font-weight:bold; }
+            QPushButton:hover { background:#4f46e5; }
+        """)
+        self.import_btn.clicked.connect(self._import_courses)
+        outer.addWidget(self.import_btn)
+
+        save_btn = QPushButton("Spara profil")
+        save_btn.clicked.connect(self._save)
+        outer.addWidget(save_btn)
+
+        self.csn_spin.textChanged.connect(self._update_csn_status)
+
+    def _update_grade(self):
+        from stats import calculate_grade_average, numeric_to_grade
+        avg = calculate_grade_average(self.planner.courses)
+        if avg is None:
+            self.grade_display.setText("-")
+            self.grade_sub.setText("")
+        else:
+            self.grade_display.setText(numeric_to_grade(avg))
+            self.grade_sub.setText(str(avg))
+
+    def _update_csn_status(self):
+        from stats import csn_stats
+        try:
+            weeks = int(self.csn_spin.text())
+        except ValueError:
+            return
+        level = "kandidat" if self.kandidat_btn.isChecked() else "master"
+        s = csn_stats(self.planner.courses, weeks, level=level)
+        s = csn_stats(self.planner.courses, weeks)
+        if not s["csn_ok"]:
+            missing = round(s["required_now"] - s["completed_hp"], 1)
+            self.csn_status_label.setText(
+                f"⚠ Saknar {missing} HP (krav: {s['required_now']} HP)\n"
+                f"{s['terms_left']} terminer kvar")
+            self.csn_status_label.setStyleSheet("font-size:13px; color:#dc2626;")
+        elif s["hp_needed"] > 0:
+            self.csn_status_label.setText(
+                f"Behöver {s['hp_needed']} HP denna termin\n"
+                f"{s['terms_left']} terminer kvar")
+            self.csn_status_label.setStyleSheet("font-size:13px; color:#4B1528;")
+        else:
+            self.csn_status_label.setText(
+                f"✔ Krav uppfyllt\n{s['terms_left']} terminer kvar")
+            self.csn_status_label.setStyleSheet("font-size:13px; color:#166534;")
+
+    def _set_level(self, level):
+        self.kandidat_btn.setChecked(level == "kandidat")
+        self.master_btn.setChecked(level == "master")
+
+    def load_profile(self, profile, program_index):
+        self.name_edit.setText(profile.get("name", ""))
+        self._set_level(profile.get("level", "kandidat"))
+
+        # Fyll combo med program
+        self.program_combo.clear()
+        self._program_index = program_index
+        for p in program_index:
+            self.program_combo.addItem(
+                f"{p['code']} — {p['name']}", p['code'])
+
+        # Sätt nuvarande program
+        code = profile.get("program_code", "")
+        idx = self.program_combo.findData(code)
+        if idx >= 0:
+            self.program_combo.setCurrentIndex(idx)
+
+        # Fyll master_combo med masterprogram
+        self.master_combo.clear()
+        self.master_combo.addItem("", "")
+        for p in program_index:
+            name = p.get("name", "")
+            if any(kw in name.lower() for kw in ["master", "magister"]) or \
+               p.get("code", "").startswith("T"):
+                self.master_combo.addItem(f"{p['code']} — {name}", p['code'])
+
+        master_code = self.planner.profile.get("master_code", "")
+        midx = self.master_combo.findData(master_code)
+        if midx >= 0:
+            self.master_combo.setCurrentIndex(midx)
+        self._update_csn_status()
+        self._update_grade()
+
+    def _get_selected_code(self):
+        idx = self.program_combo.currentIndex()
+        if idx >= 0:
+            return self.program_combo.itemData(idx) or ""
+        return self.program_combo.currentText().split("—")[0].strip().upper()
+
+    def _save(self):
+        from storage import save_profile, save_csn_weeks
+
+        code = self._get_selected_code()
+        idx  = self.program_combo.currentIndex()
+        name_prog = ""
+        if idx >= 0:
+            name_prog = self.program_combo.itemText(idx).split("—")[-1].strip()
+
+        profile = {
+            "name":         self.name_edit.text().strip(),
+            "program_code": code,
+            "program_name": name_prog,
+            "level":        "kandidat" if self.kandidat_btn.isChecked() else "master",
+            "csn_weeks":    int(self.csn_spin.text() or "0"),
+            "master_code":  self.master_combo.currentData() or "",
+        }
+
+        save_profile(profile, simulate=self.planner.simulate)
+        old_level = self.planner.profile.get("level", "master")
+        self.planner.profile = profile
+
+        # Synka CSN-veckor
+        self.planner.csn_weeks_used = int(self.csn_spin.text() or "0")
+        save_csn_weeks(self.planner.csn_weeks_used, simulate=self.planner.simulate)
+
+        # Bygg om griden om nivån ändrades
+        if profile["level"] != old_level:
+            self.planner.rebuild_grid(profile["level"])
+        else:
+            self.planner.update_hp_labels()
+
+        self.slide_out()
+
+    def _import_courses(self):
+        from storage import load_program
+        from course import Course
+        from PyQt6.QtWidgets import QMessageBox
+
+        code = self._get_selected_code()
+        if not code:
+            return
+
+        prog = load_program(code)
+        if not prog:
+            QMessageBox.warning(self, "Saknas",
+                f"Ingen programdatabas hittades för {code}.\n"
+                "Kör build_program_db.py först.")
+            return
+
+        mandatory = [c for c in prog.get("courses", []) if c.get("mandatory")]
+        if not mandatory:
+            QMessageBox.information(self, "Inga kurser",
+                "Inga obligatoriska kurser hittades för detta program.")
+            return
+
+        existing_codes = {c.code for c in self.planner.courses}
+        new_courses    = [c for c in mandatory if c["code"] not in existing_codes]
+        overlap        = [c for c in mandatory if c["code"] in existing_codes]
+
+        msg = f"Hittade {len(mandatory)} obligatoriska kurser.\n"
+        if new_courses:
+            msg += f"• {len(new_courses)} nya kurser läggs till\n"
+        if overlap:
+            msg += f"• {len(overlap)} kurser finns redan — vad ska hända?"
+
+        box = QMessageBox(self)
+        box.setWindowTitle("Importera kurser")
+        box.setText(msg)
+        keep_btn      = box.addButton("Behåll befintliga", QMessageBox.ButtonRole.NoRole)
+        overwrite_btn = box.addButton("Skriv över", QMessageBox.ButtonRole.YesRole)
+        box.addButton("Avbryt", QMessageBox.ButtonRole.RejectRole)
+        box.exec()
+
+        clicked = box.clickedButton()
+        if clicked == keep_btn or clicked == overwrite_btn:
+            overwrite = clicked == overwrite_btn
+
+            # Ta bort befintliga om overwrite
+            if overwrite:
+                self.planner.courses = [
+                    c for c in self.planner.courses
+                    if c.code not in {m["code"] for m in mandatory}
+                ]
+
+            kth_db = self.planner.kth_db
+
+            for c in mandatory:
+                if c["code"] in existing_codes and not overwrite:
+                    continue
+                # Hämta namn och HP från kth_db om tillgängligt
+                db_entry = kth_db.get(c["code"], {})
+                self.planner.courses.append(Course(
+                    code      = c["code"],
+                    name      = db_entry.get("name", c.get("name", "")),
+                    hp_total  = db_entry.get("hp", c.get("hp", 7.5)),
+                    hp_done   = 0,
+                    year      = min(c.get("year", 0), 2),
+                    period    = min(c.get("period", 0), 3),
+                    source    = "IT",
+                    status    = "planned",
+                ))
+
+            from storage import save_courses
+            save_courses(self.planner.courses, simulate=self.planner.simulate)
+            self.planner.refresh_ui()
+            self.slide_out()
+
+    def _import_master_courses(self):
+        from storage import load_program
+        from course import Course
+        from PyQt6.QtWidgets import QMessageBox
+
+        code = self.master_combo.currentData() or ""
+        if not code:
+            QMessageBox.warning(self, "Inget program", "Välj ett masterprogram först.")
+            return
+
+        prog = load_program(code)
+        if not prog:
+            QMessageBox.warning(self, "Saknas",
+                f"Ingen programdatabas för {code}.\nKör build_program_db.py först.")
+            return
+
+        mandatory = [c for c in prog.get("courses", []) if c.get("mandatory")]
+        if not mandatory:
+            QMessageBox.information(self, "Inga kurser",
+                "Inga obligatoriska kurser hittades.")
+            return
+
+        existing_codes = {c.code for c in self.planner.courses}
+        new_c  = [c for c in mandatory if c["code"] not in existing_codes]
+        overlap = [c for c in mandatory if c["code"] in existing_codes]
+
+        msg = f"Hittade {len(mandatory)} obligatoriska masterkurser.\n"
+        if new_c:
+            msg += f"• {len(new_c)} nya kurser läggs till (år 4-5)\n"
+        if overlap:
+            msg += f"• {len(overlap)} kurser finns redan"
+
+        box = QMessageBox(self)
+        box.setWindowTitle("Importera masterkurser")
+        box.setText(msg)
+        keep_btn      = box.addButton("Behåll befintliga", QMessageBox.ButtonRole.NoRole)
+        overwrite_btn = box.addButton("Skriv över", QMessageBox.ButtonRole.YesRole)
+        box.addButton("Avbryt", QMessageBox.ButtonRole.RejectRole)
+        box.exec()
+
+        clicked = box.clickedButton()
+        if clicked in (keep_btn, overwrite_btn):
+            overwrite = clicked == overwrite_btn
+            if overwrite:
+                self.planner.courses = [
+                    c for c in self.planner.courses
+                    if c.code not in {m["code"] for m in mandatory}
+                ]
+            kth_db = self.planner.kth_db
+            for c in mandatory:
+                if c["code"] in existing_codes and not overwrite:
+                    continue
+                db_entry = kth_db.get(c["code"], {})
+                # Masterkurser placeras i år 4-5 (index 3-4)
+                yr = min(max(c.get("year", 3), 3), 4)
+                self.planner.courses.append(Course(
+                    code     = c["code"],
+                    name     = db_entry.get("name", c.get("name", "")),
+                    hp_total = db_entry.get("hp", c.get("hp", 7.5)),
+                    hp_done  = 0,
+                    year     = yr,
+                    period   = min(c.get("period", 0), 3),
+                    source   = "IT",
+                    status   = "planned",
+                ))
+            from storage import save_courses
+            save_courses(self.planner.courses, simulate=self.planner.simulate)
+            self.planner.refresh_ui()
+            self.slide_out()
+
+    # ---------- ANIMATION ----------
+
+    def slide_in(self):
+        parent = self.parent()
+        h = parent.height()
+        self.setGeometry(parent.width(), 0, self.PANEL_WIDTH, h)
+        self.show()
+        self.raise_()
+
+        self._anim = QPropertyAnimation(self, b"geometry")
+        self._anim.setDuration(250)
+        self._anim.setStartValue(QRect(parent.width(), 0, self.PANEL_WIDTH, h))
+        self._anim.setEndValue(
+            QRect(parent.width() - self.PANEL_WIDTH, 0, self.PANEL_WIDTH, h))
+        self._anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+        self._anim.start()
+
+    def slide_out(self):
+        parent = self.parent()
+        h = parent.height()
+
+        self._anim = QPropertyAnimation(self, b"geometry")
+        self._anim.setDuration(200)
+        self._anim.setStartValue(
+            QRect(parent.width() - self.PANEL_WIDTH, 0, self.PANEL_WIDTH, h))
+        self._anim.setEndValue(QRect(parent.width(), 0, self.PANEL_WIDTH, h))
         self._anim.setEasingCurve(QEasingCurve.Type.InCubic)
         self._anim.finished.connect(self.hide)
         self._anim.start()

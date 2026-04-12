@@ -1,0 +1,47 @@
+{
+  "code": "TBASE",
+  "name": "Tekniskt basår, KTH Södertälje",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ML0021",
+      "name": "Matematik för basår I",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML0022",
+      "name": "Fysik för basår I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML0023",
+      "name": "Kemi för basår I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML0024",
+      "name": "Matematik för basår II",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ML0025",
+      "name": "Fysik för basår II",
+      "hp": 18.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

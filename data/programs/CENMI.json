@@ -1,0 +1,207 @@
+{
+  "code": "CENMI",
+  "name": "Civilingenjörsutbildning i energi och miljö",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "AL1351",
+      "name": "Energi, Miljö och hållbar utveckling",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CK1020",
+      "name": "Grundläggande kemi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ1508",
+      "name": "Ekologi och Miljöeffekter",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG1102",
+      "name": "Mekanik, mindre kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SK1110",
+      "name": "Elektromagnetism och vågrörelselära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AE1502",
+      "name": "Miljösystemanalys för energi och miljö",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AL1145",
+      "name": "Strategier för hållbar utveckling",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EI1120",
+      "name": "Elkretsanalys för energi och miljö",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "KE1060",
+      "name": "Material- och energibalanser",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ1112",
+      "name": "Tillämpad termodynamik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ1145",
+      "name": "Energisystem",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1512",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1633",
+      "name": "Differentialekvationer I",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1917",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AK2207",
+      "name": "Energisystem i samhället",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "AL127X",
+      "name": "Examensarbete i Energi och Miljö, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "AL1357",
+      "name": "Miljöekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "EF112X",
+      "name": "Examensarbete inom elektroteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "KA103X",
+      "name": "Examensarbete inom Teknisk kemi, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MJ146X",
+      "name": "Examensarbete inom hållbar energiteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "ML150X",
+      "name": "Examensarbete inom industriell teknik och hållbarhet, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

@@ -28,13 +28,16 @@ GRADE_VALUES = {
     "F": 0
 }
 
-IT_PROGRAM_HP = 180
-MATNAT_BLOCK_HP = 15
-IT_BLOCK_HP = 21
+IT_PROGRAM_HP    = 180   # kandidat default
+MASTER_PROGRAM_HP = 300
+MATNAT_BLOCK_HP  = 15
+IT_BLOCK_HP      = 21
+
+CSN_MAX_WEEKS_KANDIDAT = 160
+CSN_MAX_WEEKS_MASTER   = 240
 
 # ---------- CSN CONSTANTS ----------
 
-CSN_MAX_WEEKS       = 240   # maximalt antal heltidsveckor totalt
 CSN_WEEKS_PER_TERM  = 20    # veckor per termin
 CSN_HP_PER_WEEK     = 1.5   # 1,5 HP = 1 heltidsvecka
 CSN_RATE_EARLY      = 0.625 # första 40 heltidsveckor: 62,5%
@@ -55,34 +58,36 @@ def csn_required_hp(weeks_total):
     return int(first + rest)  # avrundat nedåt
 
 
-def csn_stats(courses, weeks_used):
+def csn_stats(courses, weeks_used, level="master"):
     """
     Beräkna CSN-relaterad statistik.
     weeks_used = antal heltidsveckor förbrukade INNAN nuvarande period.
+    level = 'kandidat' eller 'master'
     """
+    max_weeks    = CSN_MAX_WEEKS_KANDIDAT if level == "kandidat" else CSN_MAX_WEEKS_MASTER
     completed_hp = sum(c.hp_done for c in courses)
 
     weeks_after_this = weeks_used + CSN_WEEKS_PER_TERM
-    weeks_left       = max(0, CSN_MAX_WEEKS - weeks_after_this)
+    weeks_left       = max(0, max_weeks - weeks_after_this)
     terms_left       = weeks_left // CSN_WEEKS_PER_TERM
 
     required_now        = csn_required_hp(weeks_used)
     required_after_this = csn_required_hp(weeks_after_this)
 
-    csn_ok           = completed_hp >= required_now
-    hp_needed        = max(0.0, round(required_after_this - completed_hp, 1))
-    at_risk          = hp_needed > (CSN_WEEKS_PER_TERM * CSN_HP_PER_WEEK)
+    csn_ok    = completed_hp >= required_now
+    hp_needed = max(0.0, round(required_after_this - completed_hp, 1))
+    at_risk   = hp_needed > (CSN_WEEKS_PER_TERM * CSN_HP_PER_WEEK)
 
     return {
-        "completed_hp":     completed_hp,
-        "weeks_used":       weeks_used,
-        "weeks_left":       weeks_left,
-        "terms_left":       terms_left,
-        "required_now":     required_now,
-        "required_next":    required_after_this,
-        "hp_needed":        hp_needed,
-        "csn_ok":           csn_ok,
-        "at_risk":          at_risk,
+        "completed_hp":  completed_hp,
+        "weeks_used":    weeks_used,
+        "weeks_left":    weeks_left,
+        "terms_left":    terms_left,
+        "required_now":  required_now,
+        "required_next": required_after_this,
+        "hp_needed":     hp_needed,
+        "csn_ok":        csn_ok,
+        "at_risk":       at_risk,
     }
 
 

@@ -1,0 +1,1827 @@
+[
+  {
+    "code": "A",
+    "name": "Arkitektutbildning",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "ARKIT",
+    "name": "Arkitektutbildning",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "B",
+    "name": "Civilingenjörsutbildning i materialteknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "BD",
+    "name": "Civilingenjörsutbildning i materialdesign",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "BIND",
+    "name": "Individuellt utbildningsprogram",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "BIO",
+    "name": "Civilingenjörsutbildning i bioteknik",
+    "level": "Bioteknologi"
+  },
+  {
+    "code": "BM",
+    "name": "Civilingenjörsutbildning i bergsvetenskap",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CBIOT",
+    "name": "Civilingenjörsutbildning i bioteknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "CDATE",
+    "name": "Civilingenjörsutbildning i datateknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "CDEPR",
+    "name": "Civilingenjörsutbildning i design och produktframtagning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CELTE",
+    "name": "Civilingenjörsutbildning i elektroteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "CENMI",
+    "name": "Civilingenjörsutbildning i energi och miljö",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CFATE",
+    "name": "Civilingenjörsutbildning i farkostteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "CINEK",
+    "name": "Civilingenjörsutbildning i industriell ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CINTE",
+    "name": "Civilingenjörsutbildning i informationsteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "CITEH",
+    "name": "Civilingenjörsutbildning i industriell teknik och hållbarhet",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CKEMV",
+    "name": "Civilingenjörsutbildning i kemivetenskap",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "CL",
+    "name": "Civilingenjör och lärare",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CLGYM",
+    "name": "Civilingenjör och lärare",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CLMDA",
+    "name": "Civilingenjör och lärare, inr. matematik och IT-datateknik",
+    "level": "Teknikvetenskaplig kommunikation och lärande"
+  },
+  {
+    "code": "CLMFY",
+    "name": "Civilingenjör och lärare, inr. matematik och fysik",
+    "level": "Teknikvetenskaplig kommunikation och lärande"
+  },
+  {
+    "code": "CLMKE",
+    "name": "Civilingenjör och lärare, inr. matematik och kemi",
+    "level": "Teknikvetenskaplig kommunikation och lärande"
+  },
+  {
+    "code": "CMAST",
+    "name": "Civilingenjörsutbildning i maskinteknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CMATD",
+    "name": "Civilingenjörsutbildning i materialdesign",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "CMEDT",
+    "name": "Civilingenjörsutbildning i medicinsk teknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "CMETE",
+    "name": "Civilingenjörsutbildning i medieteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "CMIEL",
+    "name": "Civilingenjörsutbildning i mikroelektronik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "COPEN",
+    "name": "Civilingenjörsutbildning öppen ingång",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "CSAMH",
+    "name": "Civilingenjörsutbildning i samhällsbyggnad",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "CTFYS",
+    "name": "Civilingenjörsutbildning i teknisk fysik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "CTKEM",
+    "name": "Civilingenjörsutbildning i teknisk kemi",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "CTKMK",
+    "name": "Civilingenjörsutbildning i teknisk kemi, Mittuniversitet – KTH",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "CTMAT",
+    "name": "Civilingenjörsutbildning i teknisk matematik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "D",
+    "name": "Civilingenjörsutbildning i datateknik",
+    "level": "Datavetenskap och kommunikation"
+  },
+  {
+    "code": "DI",
+    "name": "Driftingenjörsutbildning",
+    "level": ""
+  },
+  {
+    "code": "DT",
+    "name": "Driftteknikerutbildning",
+    "level": ""
+  },
+  {
+    "code": "E",
+    "name": "Civilingenjörsutbildning i elektroteknik",
+    "level": "Elektro- och systemteknik"
+  },
+  {
+    "code": "ED40",
+    "name": "Ingenjörsutbildning i elektronik- och datateknik 40 p",
+    "level": ""
+  },
+  {
+    "code": "ELDA",
+    "name": "Högskoleutbildning i elektronik- och datateknik 80 p",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "EMDH",
+    "name": "Civilingenjörsutbildning i elektroteknik, MDH",
+    "level": "Elektro- och systemteknik"
+  },
+  {
+    "code": "F",
+    "name": "Civilingenjörsutbildning i teknisk fysik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "FDI",
+    "name": "Flygdriftingenjörsutbildning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "FIND",
+    "name": "Individuellt utbildningsprogram",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "GRUV",
+    "name": "Bergsvetenskap, gruv- och mineralteknik",
+    "level": ""
+  },
+  {
+    "code": "I",
+    "name": "Civilingenjörsutbildning i industriell ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "IT",
+    "name": "Civilingenjörsutbildning i informationsteknik",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "K",
+    "name": "Civilingenjörsutbildning i kemi och kemiteknik",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "KMH",
+    "name": "Civilingenjörsutbildning i kemiteknik, MH",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "KPUFU",
+    "name": "Kompletterande pedagogisk utbildning för ämneslärarexamen i matematik, naturvetenskap och teknik för forskarutbildade",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "KPUHU",
+    "name": "Kompletterande pedagogisk utbildning mot ämneslärare årskurs 7-9",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "KPULU",
+    "name": "Kompletterande pedagogisk utbildning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "KUAUT",
+    "name": "Kompletterande utbildning för arkitekter med avslutad utländsk utbildning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "KUIUT",
+    "name": "Kompletterande utbildning för ingenjörer med avslutad utländsk utbildning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "L",
+    "name": "Civilingenjörsutbildning i lantmäteri",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "LHGS",
+    "name": "Civilingenjörsutbildning i lantmäteri, HiG",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "LÄRGR",
+    "name": "Ämneslärarutbildning med inriktning mot teknik, årskurs 7-9",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "M",
+    "name": "Civilingenjörsutbildning i maskinteknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "ME",
+    "name": "Civilingenjörsutbildning i mikroelektronik",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "ME40",
+    "name": "Ingenjörsutbildning i maskinteknik och elektronik",
+    "level": ""
+  },
+  {
+    "code": "MEDIA",
+    "name": "Civilingenjörsutbildning i medieteknik",
+    "level": "Datavetenskap och kommunikation"
+  },
+  {
+    "code": "MIND",
+    "name": "Individuellt utbildningsprogram",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "MMDH",
+    "name": "Civilingenjörsutbildning i maskinteknik, MDH",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "MMH",
+    "name": "Civilingenjörsutbildning i maskinteknik, MH",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "NBASS",
+    "name": "Naturvetenskapligt basår, Södertörn",
+    "level": ""
+  },
+  {
+    "code": "OPEN",
+    "name": "Civilingenjörsutb. öppen ingång",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "P",
+    "name": "Civilingenjörsutbildning i design och produktframtagning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "PANLA",
+    "name": "Påbyggnadsutbildning för byggingenjörer, inriktning anläggning",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "PDTEA",
+    "name": "Påbyggnadsutbildning för elektroingenjörer., inriktning digitala nät och telesystem",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "PELKB",
+    "name": "Påbyggnadsutbildning för elektroingenjörer., inriktning elektronikkonstruktion",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "PFDID",
+    "name": "Påbyggnadsutbildning för maskiningenjörer, inriktning flygdriftingenjör",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "PFIKA",
+    "name": "Påbyggnadsutbildning för byggingenjörer, inriktning förvaltningstekniker installation och kvalitet",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "PGRAE",
+    "name": "Påbyggnadsutbildning för elektro- el maskiningenjörer, inriktning grafisk teknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "PIEPE",
+    "name": "Påbyggnadsutbildning för maskiningenjörer, inriktning industriell ekonomi och produktion",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "PIEPX",
+    "name": "Påbyggnadsutbildning för maskiningenjörer, inriktning industriell ekonomi och produktion",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "PKVAF",
+    "name": "Påbyggnadsutbildning för elektro- el maskiningenjörer, inriktning kvalitetsteknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "PKVTF",
+    "name": "Påbyggnadsutbildning för elektro- el maskiningenjörer, inriktning kvalitetsteknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "PTDTE",
+    "name": "Påbyggnadsutbildning för elektro- el maskiningenjörer, inriktning tillämpad datateknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "PTERB",
+    "name": "Påbyggnadsutbildning för elektroingejörer, inriktning tele- och radiosystem",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "PTEVA",
+    "name": "Påbyggnadsutbildning för elektroingenjörer, inriktning telenät och växlar",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "S",
+    "name": "Civilingenjörsutbildning i samhällsbyggnad",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "SP",
+    "name": "Påbyggnadsutbildning i samhällsplanering",
+    "level": ""
+  },
+  {
+    "code": "SPAV",
+    "name": "Specialistlinjen, arbetsvetenskap",
+    "level": ""
+  },
+  {
+    "code": "T",
+    "name": "Civilingenjörsutbildning i farkostteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TAEEM",
+    "name": "Masterprogram, flyg- och rymdteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TAETM",
+    "name": "Masterprogram, aeroelasticitet i turbomaskiner",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TAFFK",
+    "name": "Kandidatprogram, affärssystem",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TAOHM",
+    "name": "Magisterprogram, Teknik, hälsa och arbetsmiljöutveckling",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TAPHM",
+    "name": "Masterprogram, tillämpad fysik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TARKM",
+    "name": "Masterprogram, arkitektur",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TBAFM",
+    "name": "Magisterprogram, bank och finans",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TBASA",
+    "name": "Tekniskt basår, KTH Flemingsberg",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBASB",
+    "name": "Tekniskt basår, Kista",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TBASD",
+    "name": "Tekniskt basår",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBASE",
+    "name": "Tekniskt basår, KTH Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TBASF",
+    "name": "Tekniskt basår, Visby",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TBASN",
+    "name": "Tekniskt basår, Norrtälje",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TBAST",
+    "name": "Tekniskt basår, Tumba",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TBATH",
+    "name": "Teknisk bastermin, Haninge",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TBATL",
+    "name": "Teknisk bastermin",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBATS",
+    "name": "Teknisk bastermin, Södertälje",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TBDVM",
+    "name": "Masterprogram, biostatistik och datavetenskap",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TBIMM",
+    "name": "Masterprogram, biomedicinska material",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBIOM",
+    "name": "Masterprogram, bioteknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBKFM",
+    "name": "Masterprogram, beräkningskemi och beräkningsfysik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBKVE",
+    "name": "Tekniskt basår, Södertälje",
+    "level": ""
+  },
+  {
+    "code": "TBPHM",
+    "name": "Magisterprogram, biologisk fysik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TBSBM",
+    "name": "Masterprogram, beräknings- och systembiologi",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TBTBA",
+    "name": "Teknisk bastermin, byggteknik, Haninge",
+    "level": ""
+  },
+  {
+    "code": "TBTEA",
+    "name": "Teknisk bastermin, elteknik, Haninge",
+    "level": ""
+  },
+  {
+    "code": "TBTEB",
+    "name": "Teknisk bastermin, elteknik, Kista",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TBTEF",
+    "name": "Teknisk bastermin, elteknik, Visby",
+    "level": ""
+  },
+  {
+    "code": "TBTMB",
+    "name": "Tekniskt basår, termin 2, Kista",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TBTMD",
+    "name": "Tekniskt basår, termin 2, KTH Campus",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBTME",
+    "name": "Teknisk bastermin, maskinteknik, Södertälje",
+    "level": ""
+  },
+  {
+    "code": "TBTMH",
+    "name": "Tekniskt basår, termin 2, KTH Flemingsberg",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBTMS",
+    "name": "Tekniskt basår, termin 2, KTH Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TBUDA",
+    "name": "Tekniskt basår, distans med campusträffar",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TBUDB",
+    "name": "Tekniskt basår mot högskoleingenjör, distans med campusträffar",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TBYPH",
+    "name": "Högskoleutbildning i byggproduktion",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TCAEM",
+    "name": "Masterprogram, husbyggnads- och anläggningsteknik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TCOMK",
+    "name": "Kandidatprogram, informations- och kommunikationsteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TCOMM",
+    "name": "Masterprogram, kommunikationssystem",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TCSCM",
+    "name": "Masterprogram, datalogi",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TCSEM",
+    "name": "Masterprogram, kemi och kemiteknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TCYSM",
+    "name": "Masterprogram, cybersäkerhet",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TD40",
+    "name": "Ingenjörsutbildning i tele- och datateknik",
+    "level": ""
+  },
+  {
+    "code": "TDATM",
+    "name": "Magisterprogram, datalogi",
+    "level": "Datavetenskap och kommunikation"
+  },
+  {
+    "code": "TDDHM",
+    "name": "Masterprogram, datadriven hälsa",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TDEBM",
+    "name": "Magisterprogram, design och byggande i staden",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TDIGM",
+    "name": "Masterprogram, hållbar digitalisering",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TDIPM",
+    "name": "Masterprogram, konstruktion och realisering av IT-produkter och -system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TDISM",
+    "name": "Masterprogram, distribuerade system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TDNKM",
+    "name": "Magisterprogram, datornätverk",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TDNVM",
+    "name": "Magisterprogram, datornätverk",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TDOBM",
+    "name": "Magisterprogram, design och byggande",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TDSEM",
+    "name": "Masterprogram, decentraliserade smarta energisystem",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TDTNM",
+    "name": "Masterprogram, datorsimuleringar inom teknik och naturvetenskap",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TDV",
+    "name": "Påbyggnadsutbildning i teknisk datavetenskap",
+    "level": ""
+  },
+  {
+    "code": "TEBSM",
+    "name": "Masterprogram, inbyggda system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TEEEM",
+    "name": "Masterprogram, teknik och ledning för energi- och miljösystem",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TEEGM",
+    "name": "Masterprogram, miljöteknik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TEESM",
+    "name": "Masterprogram, hållbar miljöteknik och infrastruktur",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TEFRM",
+    "name": "Masterprogram, elektromagnetism, fusion och rymdteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TEGMM",
+    "name": "Magisterprogram, teknisk mekanik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TEIGM",
+    "name": "Magisterprogram, innovations- och tillväxtekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TEILM",
+    "name": "Magisterprogram, entreprenörskap och innovationsledning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TEINM",
+    "name": "Masterprogram, innovations- och tillväxtekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TELFM",
+    "name": "Masterprogram, elektrofysik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TELPM",
+    "name": "Masterprogram, elkraftteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TEMIM",
+    "name": "Magisterprogram, teknik och ledning för informationssystem",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TEMSM",
+    "name": "Masterprogram, teknik och ledning för informationssystem",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TEPEM",
+    "name": "Master's Program, Electric Power Engineering",
+    "level": "Elektro- och systemteknik"
+  },
+  {
+    "code": "TERGM",
+    "name": "Magisterprogram, Ergonomi och Människa-Teknik-Organisation",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TESIM",
+    "name": "Master's Program, Environmental Engineering and Sustainable Infrastructure",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFAFK",
+    "name": "Kandidatprogram, Fastighetsutveckling med fastighetsförmedling",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFAFM",
+    "name": "Masterprogram, fastighetsutveckling och finansiella tjänster",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFAHM",
+    "name": "Magisterprogram, fastigheter",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFASH",
+    "name": "Högskoleutbildning i byggteknik och fastighetsförmedling",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFASM",
+    "name": "Magisterprogram, fastighetsföretagande",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFEPM",
+    "name": "Masterprogram, fusionsenergi och teknisk fysik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TFILM",
+    "name": "Magisterprogram, teknik- och vetenskapsfilosofi",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFOBM",
+    "name": "Masterprogram, fastigheter och byggande",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFOFK",
+    "name": "Kandidatprogram, fastighet och finans",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TFORM",
+    "name": "Masterprogram, fordonsteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TFOTM",
+    "name": "Magisterprogram, fotonik",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TGEGM",
+    "name": "Masterprogram, geodesi och geoinformatik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TGGIM",
+    "name": "Magisterprogram, geodesi och geoinformatik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "THCIM",
+    "name": "Masterprogram, människa-datorinteraktion",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "THITM",
+    "name": "Magisterprogram, husbyggnads- och installationsteknik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "THSSM",
+    "name": "Masterprogram, hållbar samhällsplanering och stadsutformning",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "THSUM",
+    "name": "Masterprogram, hållbar stadsutveckling",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "THUSM",
+    "name": "Masterprogram, huskonstruktion",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TIASB",
+    "name": "Högskoleingenjörsutbildning i IT-affärssystem",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIBEA",
+    "name": "Högskoleingenjörsutbildning i byggteknik och ekonomi",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TIBHL",
+    "name": "Högskoleingenjörsutbildning i byggteknik och hälsa",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TIBTA",
+    "name": "Ingenjörsutbildning i byggteknik, Haninge",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TIBTC",
+    "name": "Ingenjörsutbildning i byggteknik, Skrubba",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TIBYA",
+    "name": "Högskoleingenjörsutbildning i byggteknik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TIBYH",
+    "name": "Högskoleingenjörsutbildning i byggteknik och design",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TICSM",
+    "name": "Masterprogram, informations- och kommunikationssäkerhet",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TICTM",
+    "name": "Masterprogram, IT-entreprenörskap",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIDAA",
+    "name": "Högskoleingenjörsutbildning i datateknik, Flemingsberg",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIDAB",
+    "name": "Högskoleingenjörsutbildning i datateknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIDAE",
+    "name": "Högskoleingenjörsutbildning i datateknik, Södertälje",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIDAF",
+    "name": "Högskoleingenjörsutbildning i datateknik, Visby",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIDEA",
+    "name": "Högskoleingenjörsutbildning i datateknik och ekonomi",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIDEH",
+    "name": "Högskoleingenjörsutbildning i datateknik och elektronik, Haninge",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIDEL",
+    "name": "Högskoleingenjörsutbildning i datateknik och elektronik, Flemingsberg",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIDES",
+    "name": "Högskoleingenjörsutbildning i datateknik och elektronik, Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIDHL",
+    "name": "Högskoleingenjörsutbildning i datateknik och hälsa",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIDTM",
+    "name": "Masterprogram, idrottsteknologi",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIECE",
+    "name": "Högskoleingenjörsutbildning i elektroteknik, praktikvarvad",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIEDB",
+    "name": "Högskoleingenjörsutbildning i elektronik och datorteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIEEA",
+    "name": "Högskoleingenjörsutbildning i elektroteknik och ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIEEM",
+    "name": "Masterprogram, innovativ uthållig energiteknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIEHL",
+    "name": "Högskoleingenjörsutbildning i elektroteknik och hälsa",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIEKM",
+    "name": "Magisterprogram, industriell ekologi",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TIELA",
+    "name": "Högskoleingenjörsutbildning i elektroteknik, Flemingsberg",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIELB",
+    "name": "Högskoleingenjörsutbildning i elektroteknik, Kista",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIELE",
+    "name": "Högskoleingenjörsutbildning i elektroteknik, Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIELF",
+    "name": "Högskoleingenjörsutbildning i elektroteknik, Visby",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIEMB",
+    "name": "Högskoleingenjörsutbildning i elektronik och kommunikation",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIEMM",
+    "name": "Masterprogram, industriell ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIEOM",
+    "name": "Magisterprogram, industriell ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIETA",
+    "name": "Ingenjörsutbildning i elektroteknik, Haninge",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIETB",
+    "name": "Ingenjörsutbildning i elektroteknik, Kista",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIETE",
+    "name": "Ingenjörsutbildning i elektroteknik, Södertälje",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIETF",
+    "name": "Ingenjörsutbildning i elektroteknik, Visby",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIETM",
+    "name": "Masterprogram, innovativ energiteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIETW",
+    "name": "Ingenjörsutbildning i elektroteknik, Huddinge",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIETX",
+    "name": "Ingenjörsutbildning i elektroteknik, Järfälla",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIETY",
+    "name": "Ingenjörsutbildning i elektroteknik, Täby",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIGIB",
+    "name": "Högskoleingenjörsutbildning IT-ingenjör",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIHLM",
+    "name": "Masterprogram, innovativ teknik för en hälsosam livsmiljö",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIIPS",
+    "name": "Högskoleingenjörsutbildning i industriell teknik och produktionsunderhåll",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIISB",
+    "name": "Högskoleingenjörsutbildning i informationssystem",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIITB",
+    "name": "Högskoleingenjörsutbildning ICT-ingenjör",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIKED",
+    "name": "Högskoleingenjörsutbildning i kemiteknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIKSM",
+    "name": "Magisterprogram, informations- och kommunikationssäkerhet",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TIKTD",
+    "name": "Ingenjörsutbildning i kemiteknik",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TIKTM",
+    "name": "Masterprogram, informations- och kommunikationsteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIMAB",
+    "name": "Högskoleingenjörsutbildning i maskinteknik, Kista",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMAE",
+    "name": "Högskoleingenjörsutbildning i maskinteknik, Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMAF",
+    "name": "Högskoleingenjörsutbildning i maskinteknik, Visby",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMAM",
+    "name": "Masterprogram, Erasmus Mundus, Industrial Management",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMAS",
+    "name": "Högskoleingenjörsutbildning i maskinteknik, Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMBM",
+    "name": "Masterprogram, Industriell och miljöinriktad bioteknologi",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIMCE",
+    "name": "Högskoleingenjörsutbildning i maskinteknik, praktikvarvad",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TIMEA",
+    "name": "Högskoleingenjörsutbildning i medieteknik",
+    "level": "Datavetenskap och kommunikation"
+  },
+  {
+    "code": "TIMEH",
+    "name": "Högskoleingenjörsutbildning i medieteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIMEL",
+    "name": "Högskoleingenjörsutbildning i medicinsk teknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TIMES",
+    "name": "Högskoleingenjörsutbildning i maskinteknik och ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMHL",
+    "name": "Högskoleingenjörsutbildning i maskinteknik och hälsa",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMIB",
+    "name": "Högskoleingenjörsutbildning i mekatronik och industriell IT",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMIE",
+    "name": "Högskoleingenjörsutbildning i maskinteknik, innovation och design",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMIM",
+    "name": "Masterprogram, industriell ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMTE",
+    "name": "Ingenjörsutbildning i maskinteknik, Södertälje",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMTF",
+    "name": "Ingenjörsutbildning i maskinteknik, Visby",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMTM",
+    "name": "Masterprogram, interaktiv medieteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIMTX",
+    "name": "Ingenjörsutbildning i maskinteknik, Järfälla",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIMTZ",
+    "name": "Ingenjörsutbildning i maskinteknik, Åsö",
+    "level": ""
+  },
+  {
+    "code": "TIND",
+    "name": "Individuellt utbildningsprogram",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TINEM",
+    "name": "Masterprogram, industriell ekonomi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TINNM",
+    "name": "Masterprogram, information och nätverksteknologi",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TINSM",
+    "name": "Magisterprogram, teknik för interaktiva system",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TINTE",
+    "name": "Högskoleingenjörsutbildning i industriell teknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TINTM",
+    "name": "Magisterprogram, internetteknik",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TINWM",
+    "name": "Masterprogram, internetteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TIPDM",
+    "name": "Masterprogram, integrerad produktdesign",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TIPUM",
+    "name": "Masterprogram, industriell produktutveckling",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TISEM",
+    "name": "Masterprogram, teknisk infrastruktur",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TISYM",
+    "name": "Masterprogram, teknik för interaktiva system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TITEH",
+    "name": "Högskoleingenjörsutbildning i teknik och ekonomi",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TITEM",
+    "name": "Magisterprogram, IT entreprenörskap",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TITHL",
+    "name": "Högskoleingenjörsutbildning i teknik och hälsa, öppen ingång",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TITHM",
+    "name": "Masterprogram, hållbar produktionsutveckling",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TITMM",
+    "name": "Masterprogram, ingenjörstillämpad matematik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TIVNM",
+    "name": "Masterprogram, ICT Innovation",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TJVTM",
+    "name": "Masterprogram, järnvägsteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TKEMM",
+    "name": "Masterprogram, kemiteknik för energi och miljö",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TKETM",
+    "name": "Magisterprogram, kemiteknik",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TKOMK",
+    "name": "Kandidatprogram, informations- och kommunikationsteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TLAMM",
+    "name": "Master's Program, Land Management",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TLDHM",
+    "name": "Masterprogram, ljus, design och hälsa",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TLJVM",
+    "name": "Magisterprogram, ljud och vibrationer",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TLMAM",
+    "name": "Masterprogram, fastighetsvetenskap",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TLODM",
+    "name": "Magisterprogram, ljusdesign",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TLÄKM",
+    "name": "Magisterprogram, läkemedelsteknik",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TMAIM",
+    "name": "Masterprogram, maskininlärning",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TMAKM",
+    "name": "Masterprogram, matematik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TMATM",
+    "name": "Magisterprogram, materialkemi",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TMBIM",
+    "name": "Masterprogram, medicinsk bioteknologi",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMDAM",
+    "name": "Magisterprogram, människa-datorinteraktion",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TMDIM",
+    "name": "Magisterprogram, människa-datorinteraktion",
+    "level": "Datavetenskap och kommunikation"
+  },
+  {
+    "code": "TMEDM",
+    "name": "Magisterprogram, medicinsk teknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "TMEEM",
+    "name": "Masterprogram, medicinsk bildbehandling",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMEGM",
+    "name": "Masterprogram, marinteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TMEKM",
+    "name": "Masterprogram, mekatronik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TMEMM",
+    "name": "Masterprogram, media management",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TMESM",
+    "name": "Masterprogram, miljövänliga energisystem",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TMETM",
+    "name": "Masterprogram, medieteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TMFJM",
+    "name": "Magisterprogram, mark och fastighetsjuridik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TMH",
+    "name": "Civilingenjörsutbildning i farkostteknik, MH",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TMHIM",
+    "name": "Masterprogram, miljöteknik och hållbar infrastruktur",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TMILK",
+    "name": "Kandidatprogram, medicinsk informatik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMLEM",
+    "name": "Masterprogram, medicinsk teknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMMMM",
+    "name": "Masterprogram, makromolekylära material",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMMTM",
+    "name": "Masterprogram, media management",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TMOLM",
+    "name": "Magisterprogram, molekylär design",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TMPEM",
+    "name": "Master's Program, Materials Processing",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TMPHM",
+    "name": "Masterprogram, modern fysik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TMRSM",
+    "name": "Masterprogram, marina system",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TMSEM",
+    "name": "Masterprogram, materialteknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TMSKM",
+    "name": "Masterprogram, maskinkonstruktion",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TMSSM",
+    "name": "Masterprogram, material och sensorsystem för miljötekniska tillämpningar",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMTEM",
+    "name": "Magisterprogram, medicinsk teknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMTHM",
+    "name": "Masterprogram, matematik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TMTLM",
+    "name": "Masterprogram, molekylära tekniker inom livsvetenskaperna",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TMVTM",
+    "name": "Masterprogram, molekylär vetenskap och teknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TNEEM",
+    "name": "Masterprogram, kärnenergiteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TNELM",
+    "name": "Magisterprogram, nanoelektronik",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TNNTM",
+    "name": "Magisterprogram, nanomaterial och nanoteknologi",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TNSSM",
+    "name": "Masterprogram, nätverkstjänster och system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TNTEM",
+    "name": "Masterprogram, nanoteknik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TPCTM",
+    "name": "Master's Program, Pulp and Paper Chemistry and Technology",
+    "level": "Kemivetenskap"
+  },
+  {
+    "code": "TPEMM",
+    "name": "Magisterprogram, industriell produktion",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TPHEM",
+    "name": "Masterprogram, läkemedelsteknik",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TPHOM",
+    "name": "Masterprogram, fotonik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TPHSM",
+    "name": "Masterprogram, fotonik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TPLVM",
+    "name": "Magisterprogram, projektledning och verksamhetsutveckling",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TPRMM",
+    "name": "Masterprogram, industriell produktion",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TPRPM",
+    "name": "Magisterprogram, produktframtagning",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TPVDM",
+    "name": "Magisterprogram, programvaruteknik för distribuerade system",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TPVUM",
+    "name": "Magisterprogram, programvaruutveckling",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TQPHM",
+    "name": "Master's Program, Quantum Physics",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TRECM",
+    "name": "Master's Program, Real Estate and Construction Management",
+    "level": ""
+  },
+  {
+    "code": "TREFM",
+    "name": "Masterprogram, fastighetsföretagande",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TREMM",
+    "name": "Master's Program, Real Estate Management",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TSCCM",
+    "name": "Masterprogram, tekniska beräkningar",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TSCOM",
+    "name": "Master's Program, Scientific Computing",
+    "level": "Datavetenskap och kommunikation"
+  },
+  {
+    "code": "TSCRM",
+    "name": "Masterprogram, systemteknik och robotik",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TSEDM",
+    "name": "Masterprogram, programvaruteknik för distribuerade system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TSEEM",
+    "name": "Master's Program, Sustainable Energy Engineering",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TSENM",
+    "name": "Masterprogram, smarta elektriska nätverk och system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TSKKM",
+    "name": "Masterprogram, systemkonstruktion på kisel",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TSMKM",
+    "name": "Masterprogram, säker och mobil kommunikation",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TSOCM",
+    "name": "Magisterprogram, systemkonstruktion på kisel",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TSOVM",
+    "name": "Masterprogram, ljud och vibrationer",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TSPLM",
+    "name": "Master's Program, Spatial Planning",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TSPPM",
+    "name": "Masterprogram, samhällsplanering",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TSUEM",
+    "name": "Masterprogram, hållbar energiteknik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TSUTM",
+    "name": "Masterprogram, teknik och hållbar utveckling",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TSVDK",
+    "name": "Kandidatprogram, simuleringsteknik och virtuell design",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TSYBM",
+    "name": "Masterprogram, systembiologi",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TTAHM",
+    "name": "Masterprogram, teknik, arbete och hälsa",
+    "level": "Kemi, bioteknologi och hälsa"
+  },
+  {
+    "code": "TTBEM",
+    "name": "Masterprogram, teknikbaserad entreprenörskap",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TTEMM",
+    "name": "Masterprogram, teknisk mekanik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TTFYM",
+    "name": "Masterprogram, teknisk fysik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TTGTM",
+    "name": "Masterprogram, transport och geoinformatik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TTHUM",
+    "name": "Magisterprogram, teknik och hållbar utveckling",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TTILM",
+    "name": "Magisterprogram, tillämpad logistik",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TTITM",
+    "name": "Magisterprogram, tillämpad informationsteknik",
+    "level": "Informations- och kommunikationsteknik"
+  },
+  {
+    "code": "TTLSM",
+    "name": "Masterprogram, trådlösa system",
+    "level": "Elektroteknik och datavetenskap"
+  },
+  {
+    "code": "TTMAM",
+    "name": "Masterprogram, tillämpad matematik och beräkningsmatematik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "TTMIM",
+    "name": "Masterprogram, transport, mobilitet och innovation",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TTMVM",
+    "name": "Masterprogram, teknisk materialvetenskap",
+    "level": "Industriell teknik och management"
+  },
+  {
+    "code": "TTSYM",
+    "name": "Masterprogram, transportsystem",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TTVFM",
+    "name": "Magisterprogram, teknik- och vetenskapsfilosofi",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TUPDM",
+    "name": "Masterprogram, urban planering och design",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TURSM",
+    "name": "Magisterprogram, urbana studier",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TWSSM",
+    "name": "Magisterprogram, trådlösa system",
+    "level": "Elektro- och systemteknik"
+  },
+  {
+    "code": "TWSTM",
+    "name": "Masterprogram, vattensystemteknik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "TÄ",
+    "name": "Civilingenjörsutbildning i flygteknik",
+    "level": "Teknikvetenskap"
+  },
+  {
+    "code": "UF",
+    "name": "Teknisk magisterutbildning, teknisk fysik",
+    "level": ""
+  },
+  {
+    "code": "UM",
+    "name": "Teknisk magisterutbildning, maskinteknik",
+    "level": ""
+  },
+  {
+    "code": "V",
+    "name": "Civilingenjörsutb i väg- och vattenbyggnadsteknik",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "VHFB",
+    "name": "Civilingenjörsutb i väg- och vattenbyggnadsteknik, HDA",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "YB",
+    "name": "YTH-utbildning/Byggnadsindustri",
+    "level": ""
+  },
+  {
+    "code": "YG",
+    "name": "YTH-utbildning/Grafisk industri",
+    "level": ""
+  },
+  {
+    "code": "YTHB",
+    "name": "YTH-utbildning i byggnadsteknik",
+    "level": ""
+  },
+  {
+    "code": "YTHBF",
+    "name": "YTH-utbildning i byggnadsteknik, inr fastighetsförmedling",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "YTHBH",
+    "name": "YTH-utbildning i byggnadsteknik, inr husbyggnadsprod.,",
+    "level": "Arkitektur och samhällsbyggnad"
+  },
+  {
+    "code": "YTHG",
+    "name": "YTH-utbildning i industriell teknik, grafisk teknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "YTHV",
+    "name": "YTH-utbildning i industriell teknik, verkstadsteknik",
+    "level": "Teknik och hälsa"
+  },
+  {
+    "code": "YV",
+    "name": "YTH-utbildning/Verkstadsindustri",
+    "level": ""
+  }
+]

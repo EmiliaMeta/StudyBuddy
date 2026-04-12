@@ -1,0 +1,79 @@
+{
+  "code": "TMRSM",
+  "name": "Masterprogram, marina system",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2047",
+      "name": "Förbränningsmotorteknik 1",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG1010",
+      "name": "Svetsteknologi, allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SD2411",
+      "name": "Lättkonstruktioner och FEM",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2420",
+      "name": "Avancerad dimensionering av svetsade konstruktioner",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SG2218",
+      "name": "Turbulens",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SD2705",
+      "name": "Höghastighetsfartyg",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SD2709",
+      "name": "Undervattensteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SG2804",
+      "name": "Människans rörelsemekanik",
+      "hp": 7.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

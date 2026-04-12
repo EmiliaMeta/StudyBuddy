@@ -1,0 +1,119 @@
+{
+  "code": "TDIGM",
+  "name": "Masterprogram, hållbar digitalisering",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "AL2115",
+      "name": "Tvärvetenskapliga metoder för innovativa systemåtgärder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AL2121",
+      "name": "Global utveckling och politisk ekologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AL2160",
+      "name": "Miljömanagement",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AL2190",
+      "name": "Ekologisk ekonomi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AL2521",
+      "name": "Livscykelanalys av IT-produkter, tjänster och system",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DM2573",
+      "name": "Hållbarhet och medieteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DM2713",
+      "name": "Forskningsmetodik för interaktiv medieteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2720",
+      "name": "Hållbar Informations- och kommunikationsteknik (IKT) i praktiken",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM2800",
+      "name": "Ledning av komplexa förändringsprocesser",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM2801",
+      "name": "Digitalisering och hållbar samhällstransformation",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DM2802",
+      "name": "Programintegrerande kurs i hållbar digitalisering",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2685",
+      "name": "\"Smart Cities\" och klimatåtgärder- projektbaserad",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DA238X",
+      "name": "Examensarbete inom datalogi och datateknik med inriktning mot  hållbar digitalisering, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DM2803",
+      "name": "Transformativ förändring i komplexa system, projektkurs",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

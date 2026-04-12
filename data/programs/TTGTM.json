@@ -1,0 +1,255 @@
+{
+  "code": "TTGTM",
+  "name": "Masterprogram, transport och geoinformatik",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AG2411",
+      "name": "GIS Architecture and Algorithms",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2412",
+      "name": "Geovisualisation",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AG2413",
+      "name": "Digital bildbehandling och tillämpningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2414",
+      "name": "Rumslig analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AG2422",
+      "name": "Spatial Planning with GIS",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AG2425",
+      "name": "Rumsliga databaser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AG2926",
+      "name": "Kartprojektioner och referenssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AH2026",
+      "name": "Tågtrafik - marknad  och planering, grundkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AH2170",
+      "name": "Transport Data collection and Analysis",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AH2171",
+      "name": "Traffic Engineering and Management",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AH2173",
+      "name": "Planering och analys av kollektivtrafiksystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AH2301",
+      "name": "Transportpolicy och utvärdering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AH2303",
+      "name": "Transporter och hållbar utveckling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AH2307",
+      "name": "Urban modellering och beslutsstöd",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AH2923",
+      "name": "Globala satellitnavigeringssystem (GNSS)",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AG2417",
+      "name": "Webb- och mobil-GIS",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AG2421",
+      "name": "Ett GIS-projekt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AG243X",
+      "name": "Examensarbete inom geoinformatik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AG2927",
+      "name": "Geodatakvalitet och felteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AG293X",
+      "name": "Examensarbete inom geodesi, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AH2029",
+      "name": "Järnväg signalteknik - signalsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AH203X",
+      "name": "Examensarbete inom Transportvetenskap, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AH204X",
+      "name": "Examensarbete inom järnväg och tågtrafik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AH2102",
+      "name": "Logistik och transport",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AH2174",
+      "name": "Trafiksimulering, modellering och applikationer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AH2178",
+      "name": "Forskningsmetodik och kommunikation",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AH2179",
+      "name": "Tillämpad artificiell intelligens inom transportsektorn",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AH222X",
+      "name": "Examensarbete inom systemanalys och ekonomi, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AH2314",
+      "name": "Modellering av individers val samt marknadsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AH2915",
+      "name": "Laserskanning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AK2038",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (samhällsvetenskap)",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

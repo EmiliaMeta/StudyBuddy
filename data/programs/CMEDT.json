@@ -1,0 +1,199 @@
+{
+  "code": "CMEDT",
+  "name": "Civilingenjörsutbildning i medicinsk teknik",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CB1040",
+      "name": "Inledande bioteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM1004",
+      "name": "Programsammanhållande kurs i medicinsk teknik",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HE1200",
+      "name": "Ellära och mätteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HI1024",
+      "name": "Programmering, grundkurs",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HL1001",
+      "name": "Medicinsk grundkurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HL1204",
+      "name": "Termodynamik, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF0003",
+      "name": "Introduktion i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HE1201",
+      "name": "Företagsekonomi och entreprenörskap",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HF1201",
+      "name": "Hållbar utveckling och ergonomi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HI1027",
+      "name": "Objektorienterad programmering",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HL1202",
+      "name": "Medicinska bildgivande system",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HL1203",
+      "name": "Medicinsk mätteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1682",
+      "name": "Analytiska och numeriska metoder för differentialekvationer",
+      "hp": 11.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1683",
+      "name": "Differentialekvationer och transformmetoder",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1923",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SG1130",
+      "name": "Mekanik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SK1114",
+      "name": "Elektromagnetism och vågrörelselära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EL1010",
+      "name": "Reglerteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "HL103X",
+      "name": "Examensarbete inom medicinsk teknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HL2015",
+      "name": "Kvalitet och regelverk för medicintekniska produkter",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SH1011",
+      "name": "Modern fysik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    }
+  ]
+}

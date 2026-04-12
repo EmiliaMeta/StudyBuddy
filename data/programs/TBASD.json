@@ -1,0 +1,47 @@
+{
+  "code": "TBASD",
+  "name": "Tekniskt basår",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "KH0021",
+      "name": "Matematik för basår I",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KH0022",
+      "name": "Fysik för basår I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KH0023",
+      "name": "Kemi för basår I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KH0024",
+      "name": "Matematik för basår II",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KH0025",
+      "name": "Fysik för basår II",
+      "hp": 18.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

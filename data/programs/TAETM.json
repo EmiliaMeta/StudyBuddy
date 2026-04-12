@@ -1,0 +1,79 @@
+{
+  "code": "TAETM",
+  "name": "Masterprogram, aeroelasticitet i turbomaskiner",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "MJ2406",
+      "name": "Termiska kraftsystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2429",
+      "name": "Strömningsmaskiner",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2430",
+      "name": "Termiska strömningsmaskiner",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2480",
+      "name": "Introduktionskurs strömningsberäkning och matematik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2482",
+      "name": "Mätteknik i aeromekanik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2483",
+      "name": "Fortsättningskurs vibrationer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2484",
+      "name": "Fortsättningskurs mekanik och FEM",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2485",
+      "name": "Introduktionskurs instationär aerodynamik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2487",
+      "name": "Projektkurs i aeromekanik",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

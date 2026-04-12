@@ -1,0 +1,95 @@
+{
+  "code": "TINEM",
+  "name": "Masterprogram, industriell ekonomi",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2064",
+      "name": "Finansiell styrning i industriföretag",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2065",
+      "name": "Produktion och Supply Chains",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2066",
+      "name": "Strategi och industriell marknadsföring",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2067",
+      "name": "Industriell omvandling och teknisk förändring (ITTEC)",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2163",
+      "name": "Ledarskap och organisering i olika miljöer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2501",
+      "name": "Perspektiv på Industrial Management",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2003",
+      "name": "Forskningsmetod inom industriell ekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ME2069",
+      "name": "Ledning av forskning och innovation",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "ME210X",
+      "name": "Examensarbete inom industriell ekonomi, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "ME2502",
+      "name": "Förändringsprojekt inom Industrial Management",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "code": "TINTE",
+  "name": "Högskoleingenjörsutbildning i industriell teknik",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME1043",
+      "name": "Ekonomisk kalkylering i industriföretag",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MG1201",
+      "name": "Introduktion till industriell teknik och ingenjörsarbete",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MG1202",
+      "name": "Ingenjörsmatematik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MG1203",
+      "name": "Tillämpad mekanik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MG1204",
+      "name": "Tillämpning av statistik för kvalitetsutveckling",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG1205",
+      "name": "Ingenjörsverktyg och ingenjörsmetoder",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MG1206",
+      "name": "Tillämpat ingenjörsarbete",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    }
+  ]
+}

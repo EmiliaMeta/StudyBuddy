@@ -1,0 +1,463 @@
+{
+  "code": "TINNM",
+  "name": "Masterprogram, information och nätverksteknologi",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "AK1213",
+      "name": "Samhälle, kultur och industri i Sverige ur ett historiskt perspektiv",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2423",
+      "name": "Bildbehandling och datorseende",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DT2470",
+      "name": "Musikinformatik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EH2030",
+      "name": "Verksamhetsutveckling och kvalitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EH2720",
+      "name": "Projektstyrning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EI2400",
+      "name": "Tillämpad antennteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EK2370",
+      "name": "Bygg ditt eget radarsystem, projektkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EL2805",
+      "name": "Förstärkande inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EN2720",
+      "name": "Etisk hackning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EP2120",
+      "name": "Internetworking",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EP2200",
+      "name": "Köteori och teletrafiksystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EP2500",
+      "name": "Säkra nätverkssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EP2520",
+      "name": "Bygga säkra nätverkssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EP2700",
+      "name": "Principer för trådlösa sensornätverk",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EP2790",
+      "name": "Säkerhetsanalys av storskaliga datorsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EP2950",
+      "name": "Trådlösa nätverk",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EQ1220",
+      "name": "Signalteori",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EQ2222",
+      "name": "Den hållbara informations och nätverksingenjören",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2300",
+      "name": "Digital signalbehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EQ2310",
+      "name": "Digital kommunikation",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2321",
+      "name": "Tal- och ljudsignalbehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2330",
+      "name": "Bild- och videobehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EQ2341",
+      "name": "Mönsterigenkänning och maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EQ2401",
+      "name": "Adaptiv signalbehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2411",
+      "name": "Avancerad digital kommunikation",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2461",
+      "name": "Seminarier i information och nätverksteknologi",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2801",
+      "name": "Optimal filtrering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EQ2831",
+      "name": "Teori för digital kommunikation",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EQ2840",
+      "name": "Informationsteori och kanalkodning, forskarförberedande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EQ2845",
+      "name": "Informationsteori och källkodning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2871",
+      "name": "Nätverksteknologi för cyberfysiska system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ID1018",
+      "name": "Programmering I",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IK2217",
+      "name": "Avancerad Internetteknik II",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "IK2220",
+      "name": "Mjukvarubaserad nätverksteknik (SDN) och virtualisering av nätverksfunktioner (NFV)",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "LS1465",
+      "name": "Retorik - tala och skriv med genomslagskraft",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LS1502",
+      "name": "Svenska A1 för ingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LS2429",
+      "name": "Teknisk kommunikation på engelska",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "LS2439",
+      "name": "Engelska för skrivande och presenterande av examensarbete",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2072",
+      "name": "Entreprenörskap för ingenjörer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2822",
+      "name": "Tillämpad ickelinjär optimering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2434",
+      "name": "Maskininlärning, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EA260X",
+      "name": "Examensarbete inom elektroteknik med inriktning mot information och nätverksteknologi, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EP2420",
+      "name": "Nätverksanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EP2510",
+      "name": "Säkra nätverkssystem, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EQ2415",
+      "name": "Maskininlärning och dataanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EQ2425",
+      "name": "Analys och sökning av visuella data",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EQ2443",
+      "name": "Projekt i informationsbehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EQ2444",
+      "name": "Projekt i kommunikationsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EQ2445",
+      "name": "Projekt i multimediabehandling och -analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EQ2810",
+      "name": "Estimeringsteori, forskarförberedande",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EQ2820",
+      "name": "Matrisalgebra, forskarförberedande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EQ2860",
+      "name": "Teoretiska grunder för trådlös kommunikation",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IK2510",
+      "name": "Radionät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "LS1419",
+      "name": "Engelska för arbetslivet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SF2935",
+      "name": "Moderna metoder för statistisk inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

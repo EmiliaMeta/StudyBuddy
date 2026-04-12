@@ -1,0 +1,63 @@
+{
+  "code": "TEFRM",
+  "name": "Masterprogram, elektromagnetism, fusion och rymdteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EF2200",
+      "name": "Plasmafysik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EF2222",
+      "name": "Den hållbara ingenjören i elektrofysik",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EI2405",
+      "name": "Elektromagnetisk fältteori, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EI2433",
+      "name": "Elektroteknisk modellering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EA275X",
+      "name": "Examensarbete inom elektroteknik med inriktning mot elektromagnetism, fusion och rymdteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SK202X",
+      "name": "Examensarbete inom tillämpad fysik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

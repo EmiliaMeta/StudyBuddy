@@ -1,0 +1,455 @@
+{
+  "code": "CTMAT",
+  "name": "Civilingenjörsutbildning i teknisk matematik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "DD1301",
+      "name": "Datorintroduktion",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1320",
+      "name": "Tillämpad datalogi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1331",
+      "name": "Grundläggande programmering",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1396",
+      "name": "Parallellprogrammering i introduktion till datalogi",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SA1006",
+      "name": "Ingenjörsfärdigheter i teknisk matematik",
+      "hp": 8.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1550",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1672",
+      "name": "Linjär algebra",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1673",
+      "name": "Analys i en variabel",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1674",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1918",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SG1115",
+      "name": "Partikeldynamik med projekt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD1380",
+      "name": "Javaprogrammering för Pythonprogrammerare",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DD1385",
+      "name": "Programutvecklingsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1677",
+      "name": "Analysens grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1678",
+      "name": "Grupper och ringar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1679",
+      "name": "Diskret matematik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1681",
+      "name": "Linjär algebra, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SF1691",
+      "name": "Komplex analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1692",
+      "name": "Analytiska och numeriska metoder för ordinära differentialekvationer",
+      "hp": 5.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1693",
+      "name": "Analytiska och numeriska metoder för partiella differentialekvationer och transformer",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1930",
+      "name": "Statistisk inlärning och dataanalys",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SH1017",
+      "name": "Fysik för teknisk matematik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD1351",
+      "name": "Logik för dataloger",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "DD1367",
+      "name": "Programvarukonstruktion i projektform",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "DD1368",
+      "name": "Databasteknik för D",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "DD1420",
+      "name": "Maskininlärningens grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "DD2350",
+      "name": "Algoritmer, datastrukturer och komplexitet",
+      "hp": 9.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "DD2352",
+      "name": "Algoritmer och komplexitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD2395",
+      "name": "Datasäkerhet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DH1623",
+      "name": "Människa-datorinteraktion, grundläggande teori",
+      "hp": 4.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DH1624",
+      "name": "Människa-datorinteraktion, grundläggande projekt",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "EF112X",
+      "name": "Examensarbete inom elektroteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EI1320",
+      "name": "Teoretisk elektroteknik",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "EL1000",
+      "name": "Reglerteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EL2810",
+      "name": "Maskininlärningsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EP1100",
+      "name": "Datakommunikation och datornät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "ID1200",
+      "name": "Operativsystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "IS1500",
+      "name": "Datorteknik och komponenter",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SA120X",
+      "name": "Examensarbete inom Teknisk matematik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SE1010",
+      "name": "Hållfasthetslära, grundkurs med projekt",
+      "hp": 12.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SE1020",
+      "name": "Hållfasthetslära, grundkurs",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SE1055",
+      "name": "Hållfasthetslära, grundkurs med energimetoder",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1811",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SF2701",
+      "name": "Finansiell matematik, grundkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF2812",
+      "name": "Tillämpad linjär optimering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF2832",
+      "name": "Matematisk systemteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SF2863",
+      "name": "Systemteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SF2930",
+      "name": "Regressionsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF2940",
+      "name": "Sannolikhetsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SF2955",
+      "name": "Datorintensiva metoder inom matematisk statistik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SG1217",
+      "name": "Strömningsmekanik, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SG1218",
+      "name": "Strömningsmekanik",
+      "hp": 4.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SG1220",
+      "name": "Teknisk strömningsmekanik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SI1155",
+      "name": "Teoretisk fysik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SI1162",
+      "name": "Statistisk fysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    }
+  ]
+}

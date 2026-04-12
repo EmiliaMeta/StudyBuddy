@@ -1,0 +1,71 @@
+{
+  "code": "TIMBM",
+  "name": "Masterprogram, Industriell och miljöinriktad bioteknologi",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "BB1030",
+      "name": "Mikrobiologi",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "BB1300",
+      "name": "Odlingsteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "BB2165",
+      "name": "Biomolekylers struktur och funktion",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CB1000",
+      "name": "Hållbar utveckling och projektledning",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CB1030",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpning inom bioteknik",
+      "hp": 3.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME1040",
+      "name": "Industriell ekonomi för bioteknik",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "BB200X",
+      "name": "Examensarbete inom bioteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "BB2520",
+      "name": "Bioprocessdesign",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

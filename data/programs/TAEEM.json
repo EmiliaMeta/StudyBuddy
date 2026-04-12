@@ -1,0 +1,239 @@
+{
+  "code": "TAEEM",
+  "name": "Masterprogram, flyg- och rymdteknik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SD2411",
+      "name": "Lättkonstruktioner och FEM",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2601",
+      "name": "Flygteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2900",
+      "name": "Rymdteknikens grunder",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2863",
+      "name": "Systemteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG1321",
+      "name": "Fjärranalysteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EF2200",
+      "name": "Plasmafysik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EF2240",
+      "name": "Rymdfysik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EF2243",
+      "name": "Solsystemsfysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EF2245",
+      "name": "Rymdfysik II",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EF2260",
+      "name": "Rymdmiljö och rymdteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EL2620",
+      "name": "Olinjär reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EL2805",
+      "name": "Förstärkande inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EL2820",
+      "name": "Modellering av dynamiska system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HL2035",
+      "name": "Biomekanik och neuronik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2523",
+      "name": "Flygmotorteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2524",
+      "name": "Flygmotorteknik, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2415",
+      "name": "Processmodellering för komposittillverkning",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2416",
+      "name": "Strukturoptimering och sandwichdesign",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2432",
+      "name": "Lättviktsdesign",
+      "hp": 20.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2806",
+      "name": "Flygaerodynamik vid transonisk och supersonisk strömning",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2810",
+      "name": "Aeroelasticitet",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2830",
+      "name": "Flygprestanda och Flygtrafikledning",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SD2925",
+      "name": "Rymdteknisk systemintegration, del 2",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2832",
+      "name": "Matematisk systemteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2852",
+      "name": "Optimal styrteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2866",
+      "name": "Tillämpad systemteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2935",
+      "name": "Moderna metoder för statistisk inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SM2001",
+      "name": "Datadrivna metoder inom teknisk mekanik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}
