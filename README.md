@@ -1,6 +1,6 @@
 # StudyBuddy: Visual Study Planner
 
-A desktop application built in Python to help KTH students visually plan their degree, track progress, and monitor grades — all in one place.
+A desktop application built in Python to help KTH students visually plan their degree, track progress, and monitor grades all in one place.
 
 > Built as a personal tool to solve a real problem: KTH's official planning tools are clunky and don't give a good overview of your degree progress.
 
