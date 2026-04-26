@@ -1,193 +1,102 @@
-# Study Planner (PyQt6)
+# StudyBuddy: Visual Study Planner
 
-A visual study planning application built with **Python and PyQt6** that
-helps students organize courses, track progress, and monitor degree
-requirements.
+A desktop application built in Python to help KTH students visually plan their degree, track progress, and monitor grades all in one place.
 
-The application provides a drag-and-drop study grid, progress tracking,
-and grade statistics in an intuitive interface.
+> Built as a personal tool to solve a real problem: KTH's official planning tools are clunky and don't give a good overview of your degree progress.
 
-------------------------------------------------------------------------
+---
 
-# Features
+## Features
 
-## Course Planning
+- **Drag-and-drop course grid**: organize courses across years and study periods visually
+- **Automatic progress tracking**: total HP, IT block, MatNat block, and yearly goals (60 HP/year)
+- **Game-style progress bars**: instant visual feedback on degree completion
+- **Course status system**: Planned / In Progress / Completed / Failed, color-coded
+- **Weighted GPA calculator**: calculates grade average weighted by course HP, with letter grade (A–F)
+- **Course categories**: automatically tags courses as IT block, MatNat block, or external, shown via colored borders
+- **Smooth hover animations**: course labels with fade effects and drag-and-drop support
+- **Standalone executable**: packaged with PyInstaller, no Python installation required for end users
 
--   Organize courses by **year and period**
--   Visual grid layout for easy overview
--   Drag-and-drop courses between periods
+---
 
-## Progress Tracking
+## Screenshots
 
-Tracks several types of progress automatically:
+*Coming soon*
 
--   Total completed HP
--   IT program progress (out of 180 HP)
--   MatNat block progress
--   IT block progress
--   Yearly progress (60 HP per year)
+---
 
-All progress is visualized using **game-style progress bars**.
+## Architecture
 
-------------------------------------------------------------------------
+The project is structured around separation of concerns, with dedicated modules for data, UI, and logic:
 
-## Course Status System
+```
+StudyBuddy/
+├── main.py            # Entry point
+├── planner.py         # Main UI and layout
+├── course.py          # Course data model and UI label
+├── stats.py           # All calculations (HP, blocks, GPA)
+├── dialogs.py         # Add/edit course dialogs
+├── ui_components.py   # Reusable UI elements (progress bars etc.)
+└── data/
+    └── courses.json   # Persistent course data
+```
 
-Courses can have different statuses:
+**Key design decisions:**
+- `stats.py` is fully decoupled from UI. All calculations are pure functions, easy to test
+- `course.py` separates the data model from the visual label component
+- JSON-based persistence keeps the data portable and human-readable
 
--   Planned
--   In progress
--   Completed
--   Failed
+---
 
-Each status has its own color for quick visual recognition.
+## Getting Started
 
-------------------------------------------------------------------------
+**Requirements:** Python 3.10+
 
-## Grade Tracking
-
-Courses can optionally store a **grade**.
-
-The program calculates:
-
--   Weighted grade average
--   Grade equivalent (A--F)
-
-Example:
-
-Grade Average: 3.03 (C)
-
-Grades are weighted by course HP.
-
-------------------------------------------------------------------------
-
-## Course Categories
-
-Courses are automatically categorized into:
-
--   **MatNat block**
--   **IT block**
--   **External courses**
-
-These are visually indicated by colored borders:
-
-  Indicator            Meaning
-  -------------------- -----------------
-  Left orange border   External course
-  Right red border     MatNat block
-  Right blue border    IT block
-
-------------------------------------------------------------------------
-
-## Interactive Course Labels
-
-When hovering over a course you can see:
-
--   Course name
--   Grade (if available)
-
-The labels include:
-
--   Smooth hover animation
--   Fade effect
--   Drag-and-drop support
-
-------------------------------------------------------------------------
-
-## Keyboard Shortcuts
-
-  Key   Action
-  ----- ---------------------------------------
-  ESC   Close application with fade animation
-
-------------------------------------------------------------------------
-
-# Project Structure
-
-study-planner/
-
-├── main.py\
-├── planner.py\
-├── course.py\
-├── stats.py\
-├── dialogs.py\
-├── ui_components.py
-
-├── data/\
-│ └── courses.json
-
-└── README.md
-
-------------------------------------------------------------------------
-
-## File overview
-
-  File                Purpose
-  ------------------- ---------------------------------------
-  main.py             Application entry point
-  planner.py          Main UI and layout
-  course.py           Course data model and UI label
-  stats.py            All calculations (HP, blocks, grades)
-  dialogs.py          Add/edit course dialogs
-  ui_components.py    UI elements like progress bars
-  data/courses.json   Stored course data
-
-------------------------------------------------------------------------
-
-# Installation
-
-## Requirements
-
-Python 3.10+
-
-Install dependencies:
-
+```bash
+# Install dependencies
 pip install PyQt6
 
-------------------------------------------------------------------------
-
-# Running the Program
-
-Run the application:
-
+# Run the application
 python main.py
+```
 
-------------------------------------------------------------------------
+**Or download the standalone executable** (no Python needed):
+> See [Releases](../../releases)
 
-# Building a Standalone Executable
+### Build it yourself
 
-You can package the application into a single executable using
-**PyInstaller**.
-
-Install PyInstaller:
-
+```bash
 pip install pyinstaller
-
-Build the executable:
-
 pyinstaller --onefile --windowed main.py
+# Output: dist/main.exe
+```
 
-The executable will appear in:
+---
 
-dist/main.exe
+## 🔧 Tech Stack
 
-You can share this file with others.
+| Tool | Purpose |
+|------|---------|
+| Python 3.10+ | Core language |
+| PyQt6 | Desktop UI framework |
+| JSON | Data persistence |
+| PyInstaller | Packaging as standalone executable |
 
-------------------------------------------------------------------------
+---
 
-# Future Improvements
+## Roadmap
 
-Possible improvements for the application:
+- [ ] Export study plan to PDF
+- [ ] GPA prediction / what-if calculator
+- [ ] Dark mode
+- [ ] Course search and filter
+- [ ] Statistics graphs
+- [ ] Cloud sync
 
--   Export study plan to PDF
--   GPA prediction
--   Dark mode
--   Course search/filter
--   Statistics graphs
--   Cloud sync
+---
 
-------------------------------------------------------------------------
+## Author
 
-# Author
-
-Created as a personal study planning tool using **Python + PyQt6**.
+**Emilia Lindqvist**  
+Civil engineering student in Information Technology, KTH  
+emiliameta@gmail.com · [GitHub](https://github.com/EmiliaMeta)
