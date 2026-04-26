@@ -1,0 +1,103 @@
+{
+  "code": "TIDTM",
+  "name": "Masterprogram, idrottsteknologi",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CM2000",
+      "name": "Mätteknik för hälso- och idrottstillämpningar",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CM2001",
+      "name": "Mobila applikationer och dataanalys för idrott",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CM2005",
+      "name": "Idrotts- och arbetsfysiologi",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2007",
+      "name": "Tillämpad maskininlärning och datautvinning för prestationsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HL2041",
+      "name": "Idrottsteknologi",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2043",
+      "name": "Robust mekatronik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2103",
+      "name": "Inbyggda system för mekatronik",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG2804",
+      "name": "Människans rörelsemekanik",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "CH2010",
+      "name": "Kognitiv interaktionsdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "CM2008",
+      "name": "Entreprenörskap i Teknik och hälsa",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HL207X",
+      "name": "Examensarbete inom teknik och hälsa, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

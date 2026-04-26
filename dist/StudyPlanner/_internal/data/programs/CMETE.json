@@ -1,0 +1,319 @@
+{
+  "code": "CMETE",
+  "name": "Civilingenjörsutbildning i medieteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DD1318",
+      "name": "Programmeringsteknik och tekniska beräkningar",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DH1609",
+      "name": "Kommunikation och information",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM1578",
+      "name": "Programintegrerande kurs i medieteknik",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DM1579",
+      "name": "Medieproduktion",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DM1581",
+      "name": "Introduktion till medieteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SK1120",
+      "name": "Vågrörelselära",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1320",
+      "name": "Tillämpad datalogi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DH1622",
+      "name": "Människa-datorinteraktion, inledande kurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DM1135",
+      "name": "Multimediasystem och signaler",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "DM1580",
+      "name": "Videoteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DM1588",
+      "name": "Sensorprogrammering för medieteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DM1590",
+      "name": "Maskininlärning för medieteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DT1175",
+      "name": "Ljud",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1919",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SK1140",
+      "name": "Fotografi för medieteknik",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AK2203",
+      "name": "Media mellan teknik och kultur",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "DD1354",
+      "name": "Modeller och simulering",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD1380",
+      "name": "Javaprogrammering för Pythonprogrammerare",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD2352",
+      "name": "Algoritmer och komplexitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DH2323",
+      "name": "Datorgrafik med interaktion",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "DH2642",
+      "name": "Interaktionsprogrammering och dynamiska webben",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "DM128X",
+      "name": "Examensarbete inom medieteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DM1595",
+      "name": "Programutveckling för interaktiva medier",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "DM1998",
+      "name": "Ingenjörsinriktad yrkesträning",
+      "hp": 13.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DM2556",
+      "name": "Interkulturell kommunikation",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "DM2573",
+      "name": "Hållbarhet och medieteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "DM2624",
+      "name": "Människocentrerad teknik för funktionshinder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DM2720",
+      "name": "Hållbar Informations- och kommunikationsteknik (IKT) i praktiken",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DT2112",
+      "name": "Talteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DT2212",
+      "name": "Musikakustik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "LS1464",
+      "name": "Retorik - konsten att övertyga",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "ME1042",
+      "name": "Entreprenörskap inom Media och IKT",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "ME2163",
+      "name": "Ledarskap och organisering i olika miljöer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF1662",
+      "name": "Diskret matematik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    }
+  ]
+}

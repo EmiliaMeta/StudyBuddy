@@ -1,0 +1,71 @@
+{
+  "code": "KPUHU",
+  "name": "Kompletterande pedagogisk utbildning mot ämneslärare årskurs 7-9",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "LT1050",
+      "name": "Lärare i kontinuerlig utveckling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LT1051",
+      "name": "Perspektiv på lärande, skola och styrning",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "LT1052",
+      "name": "Ämnesdidaktik teknik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LT1053",
+      "name": "Ämnesdidaktik matematik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LT1054",
+      "name": "Undervisningsprocessen: Planera, genomföra, utvärdera",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LT1055",
+      "name": "Verksamhetsförlagd utbildning 1",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "LT1056",
+      "name": "Ledarskap för lärande och utveckling",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LT1057",
+      "name": "Verksamhetsförlagd utbildning 2",
+      "hp": 14.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

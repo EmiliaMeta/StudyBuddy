@@ -1,0 +1,103 @@
+{
+  "code": "TJVTM",
+  "name": "Masterprogram, järnvägsteknik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "AF2201",
+      "name": "Brokonstruktion",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AH2173",
+      "name": "Planering och analys av kollektivtrafiksystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AH2301",
+      "name": "Transportpolicy och utvärdering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EJ2400",
+      "name": "Elektrisk traktion",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SA2002",
+      "name": "Hållbar utveckling och forskningsmetodik inom teknisk mekanik",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2231",
+      "name": "Tillämpad fordonsdynamikreglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SD2307",
+      "name": "Spårfordonsteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SD2313",
+      "name": "Spårfordons dynamik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SD2320",
+      "name": "Utmaningsbaserad järnvägssystemdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SG2211",
+      "name": "Fordonsaerodynamik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SD231X",
+      "name": "Examensarbete inom spårfordonsteknik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

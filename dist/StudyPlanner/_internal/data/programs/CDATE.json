@@ -1,0 +1,199 @@
+{
+  "code": "CDATE",
+  "name": "Civilingenjörsutbildning i datateknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DA1600",
+      "name": "Ingenjörsmässigt skrivande",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1337",
+      "name": "Programmering",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1338",
+      "name": "Algoritmer och datastrukturer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1349",
+      "name": "Projektuppgift i introduktion till datalogi",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD1390",
+      "name": "Programsammanhållande kurs i datateknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1396",
+      "name": "Parallellprogrammering i introduktion till datalogi",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DH1623",
+      "name": "Människa-datorinteraktion, grundläggande teori",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1671",
+      "name": "Matematik, baskurs, med diskret matematik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1351",
+      "name": "Logik för dataloger",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DD1366",
+      "name": "Programmeringsparadigm",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD1367",
+      "name": "Programvarukonstruktion i projektform",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD1368",
+      "name": "Databasteknik för D",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "IS1500",
+      "name": "Datorteknik och komponenter",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ME1010",
+      "name": "Organisation och kunskapsintensivt arbete",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1547",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1935",
+      "name": "Sannolikhetsteori och statistik med tillämpning inom maskininlärning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AL1504",
+      "name": "Hållbar utveckling för datateknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "DA150X",
+      "name": "Examensarbete inom datateknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD2350",
+      "name": "Algoritmer, datastrukturer och komplexitet",
+      "hp": 9.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "ID1200",
+      "name": "Operativsystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SF1688",
+      "name": "Diskret matematik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    }
+  ]
+}

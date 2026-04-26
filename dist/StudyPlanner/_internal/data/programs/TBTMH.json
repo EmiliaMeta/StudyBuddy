@@ -1,0 +1,23 @@
+{
+  "code": "TBTMH",
+  "name": "Tekniskt basår, termin 2, KTH Flemingsberg",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "HF0024",
+      "name": "Matematik för basår II",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF0025",
+      "name": "Fysik för basår II",
+      "hp": 18.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    }
+  ]
+}

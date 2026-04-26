@@ -1,0 +1,519 @@
+{
+  "code": "TSCRM",
+  "name": "Masterprogram, systemteknik och robotik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DD2410",
+      "name": "Introduktion till robotik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2412",
+      "name": "Djupinlärning, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2419",
+      "name": "Projektkurs i robotik och autonoma system",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2420",
+      "name": "Probabilistiska grafiska modeller",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2424",
+      "name": "Djupinlärning i Data Science",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2430",
+      "name": "Projektkurs i dataanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2438",
+      "name": "Artificiell intelligens och multiagentsystem",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DT2140",
+      "name": "Multimodala interaktioner och gränssnitt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DT2151",
+      "name": "Projekt i konverserande system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EG2210",
+      "name": "Elmarknadsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH2030",
+      "name": "Verksamhetsutveckling och kvalitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EH2720",
+      "name": "Projektstyrning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EH2745",
+      "name": "Datortillämpningar i elkraftsystemet",
+      "hp": 4.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EK2370",
+      "name": "Bygg ditt eget radarsystem, projektkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EL1010",
+      "name": "Reglerteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2220",
+      "name": "Den hållbara ingenjören i systemteknik",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EL2425",
+      "name": "Reglerteknik, projektkurs, mindre kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2450",
+      "name": "Hybrida och inbyggda reglersystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EL2520",
+      "name": "Reglerteknik, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EL2620",
+      "name": "Olinjär reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2700",
+      "name": "Modell-prediktiv reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EL2805",
+      "name": "Förstärkande inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2820",
+      "name": "Modellering av dynamiska system",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EP2520",
+      "name": "Bygga säkra nätverkssystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ1220",
+      "name": "Signalteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EQ2310",
+      "name": "Digital kommunikation",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EQ2321",
+      "name": "Tal- och ljudsignalbehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "II2302",
+      "name": "Sensor-baserade system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "IL2206",
+      "name": "Inbyggda System",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "IL2212",
+      "name": "Programvara för inbyggda system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LS1419",
+      "name": "Engelska för arbetslivet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "LS1464",
+      "name": "Retorik - konsten att övertyga",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "LS2429",
+      "name": "Teknisk kommunikation på engelska",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "LS2439",
+      "name": "Engelska för skrivande och presenterande av examensarbete",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2007",
+      "name": "Dynamik och rörelsestyrning",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2030",
+      "name": "Mekatronik allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2043",
+      "name": "Robust mekatronik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SD2231",
+      "name": "Tillämpad fordonsdynamikreglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1691",
+      "name": "Komplex analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1811",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1861",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2568",
+      "name": "Parallella beräkningar för storskaliga problem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2812",
+      "name": "Tillämpad linjär optimering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2832",
+      "name": "Matematisk systemteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF2842",
+      "name": "Geometrisk styrteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2940",
+      "name": "Sannolikhetsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2943",
+      "name": "Tidsserieanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DA236X",
+      "name": "Examensarbete i datalogi och datateknik med inriktning mot systemteknik och robotik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD1385",
+      "name": "Programutvecklingsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DD1388",
+      "name": "Programsystemkonstruktion med C++",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD2352",
+      "name": "Algoritmer och komplexitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD2401",
+      "name": "Neurovetenskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD2435",
+      "name": "Neuronnäts- och biomodellering",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "DD2447",
+      "name": "Statistiska metoder i datalogin",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "DD2459",
+      "name": "Programvarutillförlitlighet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD2464",
+      "name": "Större avancerad individuell kurs i datalogi",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EA236X",
+      "name": "Examensarbete inom elektroteknik med inriktning mot systemteknik och robotik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EQ2401",
+      "name": "Adaptiv signalbehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "LS2426",
+      "name": "Tyska B2 för ingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "LS2436",
+      "name": "Franska B2 för ingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "LS2449",
+      "name": "Spanska B2 för ingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF2852",
+      "name": "Optimal styrteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

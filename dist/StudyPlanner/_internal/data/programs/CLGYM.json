@@ -1,0 +1,183 @@
+{
+  "code": "CLGYM",
+  "name": "Civilingenjör och lärare",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "AL1130",
+      "name": "Fysik, Kemi, Energi och miljö för CL",
+      "hp": 14.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1319",
+      "name": "Programmeringsteknik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DIK200",
+      "name": "Lärande som professionellt uppdrag",
+      "hp": 8.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ED1100",
+      "name": "Ingenjörsvetenskap",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "LT1041",
+      "name": "Programsammanhållande kurs för civilingenjör och lärare, årskurs 1",
+      "hp": 1.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1661",
+      "name": "Perspektiv på matematik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1662",
+      "name": "Diskret matematik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "UMK213",
+      "name": "Matematikdidaktik med verksamhetsförlagd utbildning för gymnasiet",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "LT1037",
+      "name": "Läraren, ledaren och skolan",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "LT1039",
+      "name": "Ungdomars utveckling och lärande i naturvetenskap och teknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "LT1035",
+      "name": "VFU2: experiment och informella lärandemiljöer",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "ME2084",
+      "name": "Verksamhetsanalys och yrkesroller",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "EH2070",
+      "name": "Projektstyrning och verksamhetsutveckling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "LT2032",
+      "name": "Undervisning och bedömning i matematik  och teknik eller naturvetenskap",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "LT2033",
+      "name": "Verksamhetsförlagd utbildning III med ämnesdidaktik",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MJ2612",
+      "name": "Lärande och hållbar utveckling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SF2717",
+      "name": "Matematik, fördjupning",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "AK2055",
+      "name": "Vetenskapsteori och forskningsmetodik för lärare",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "LT200X",
+      "name": "Examensarbete inom teknik och lärande, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "LT2034",
+      "name": "Läroplansteori och ämnesdidaktik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "LT2035",
+      "name": "Specialpedagogik - ungdomar och vuxna",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF2719",
+      "name": "Matematikens historia",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "code": "TMTLM",
+  "name": "Masterprogram, molekylära tekniker inom livsvetenskaperna",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CB2021",
+      "name": "Kliniska tillämpningar av bioteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "CB2030",
+      "name": "Systembiologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "CB2040",
+      "name": "Tillämpad genteknologi och storskalig dataanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "CB2050",
+      "name": "Projekt i molekylär livsvetenskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "CB2060",
+      "name": "Tillämpad programmering för livsvetenskaperna 3",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "CB2090",
+      "name": "Läkemedelsutveckling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    }
+  ]
+}

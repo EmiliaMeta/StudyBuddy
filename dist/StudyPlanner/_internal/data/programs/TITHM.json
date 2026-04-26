@@ -1,0 +1,95 @@
+{
+  "code": "TITHM",
+  "name": "Masterprogram, hållbar produktionsutveckling",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ML2300",
+      "name": "Hållbar produktion",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML2301",
+      "name": "Produktionsledning och produktionsutveckling",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ML2302",
+      "name": "Modellering, simulering och optimering av hållbar produktion",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ML2303",
+      "name": "Digitalisering för hållbar produktion",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ML2304",
+      "name": "Hållbar utveckling i industriell verksamhet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ML2305",
+      "name": "Produktionslogistik och försörjningssystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ML2306",
+      "name": "Industriell analys för avancerad tillverkning",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ML2307",
+      "name": "Vetenskapsteori och forskningsmetodik i Hållbar produktionsutveckling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ML2308",
+      "name": "CDIO-kurs i Hållbar produktionsutveckling",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ML230X",
+      "name": "Examensarbete inom hållbar produktionsutveckling, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "ML231X",
+      "name": "Examensarbete inom hållbar produktionsutveckling, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

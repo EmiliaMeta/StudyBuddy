@@ -1,0 +1,47 @@
+{
+  "code": "TBASA",
+  "name": "Tekniskt basår, KTH Flemingsberg",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "HF0021",
+      "name": "Matematik för basår I",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF0022",
+      "name": "Fysik för basår I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF0023",
+      "name": "Kemi för basår I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HF0024",
+      "name": "Matematik för basår II",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HF0025",
+      "name": "Fysik för basår II",
+      "hp": 18.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

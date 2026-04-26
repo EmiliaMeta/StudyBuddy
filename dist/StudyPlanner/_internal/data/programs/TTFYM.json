@@ -1,0 +1,55 @@
+{
+  "code": "TTFYM",
+  "name": "Masterprogram, teknisk fysik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "SA2003",
+      "name": "Hållbar utveckling inom teknisk fysik",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AK2030",
+      "name": "Vetenskapsteori och vetenskaplig metodik (naturvetenskap)",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SH2007",
+      "name": "Research Methodology in Physics",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SH204X",
+      "name": "Examensarbete inom fysik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SI201X",
+      "name": "Examensarbete inom teoretisk fysik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SK202X",
+      "name": "Examensarbete inom tillämpad fysik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

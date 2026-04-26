@@ -1,0 +1,239 @@
+{
+  "code": "TTMVM",
+  "name": "Masterprogram, teknisk materialvetenskap",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MH1033",
+      "name": "Jämställdhet, jämlikhet, mångfald och inkludering",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MH2054",
+      "name": "Materials processer I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MH2055",
+      "name": "Materials strukturer I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MH2056",
+      "name": "Materials egenskaper I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MH2057",
+      "name": "Termodynamisk modellering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MH2058",
+      "name": "Materials processer II",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MH2059",
+      "name": "Materials strukturer II",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MH2060",
+      "name": "Materials egenskaper II",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AL2181",
+      "name": "Miljösystemanalys och beslutsfattande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "KD2380",
+      "name": "Korrosion och ytskydd",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MF2046",
+      "name": "Produktinnovation",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2000",
+      "name": "Experimentella metoder",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH201X",
+      "name": "Examensarbete inom material och processdesign, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH202X",
+      "name": "Examensarbete inom material och processdesign, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2042",
+      "name": "Verktygslåda för simulering och modellering",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2045",
+      "name": "Energi- och materialhållbarhet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2046",
+      "name": "Kvantmetallurgi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2051",
+      "name": "Cirkulär ekonomi för materialprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2100",
+      "name": "Pulvermetallurgi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2101",
+      "name": "Metallpulver: Produktion, hantering och karakterisering",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2252",
+      "name": "Gjutningens processteknologi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2281",
+      "name": "Metallformning",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2300",
+      "name": "Funktionella material",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2450",
+      "name": "Internationellt seminarium inom materialprocesser",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2501",
+      "name": "Ekonomisk processanalys och strategi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2504",
+      "name": "Industriella metallurgiska processer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH2601",
+      "name": "Förbränning i industriella processer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

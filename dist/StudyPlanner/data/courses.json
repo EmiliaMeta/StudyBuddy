@@ -1,0 +1,485 @@
+[
+    {
+        "name": "Baskurs i Matematik",
+        "code": "SF1689",
+        "hp_total": 6.0,
+        "hp_done": 6.0,
+        "year": 0,
+        "period": 0,
+        "source": "IT",
+        "status": "completed",
+        "grade": "D",
+        "prerequisites": null,
+        "notes": "Random ahh kurs",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Digital Design",
+        "code": "IE1204",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 0,
+        "period": 0,
+        "source": "IT",
+        "status": "completed",
+        "grade": "B",
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Programmering 1",
+        "code": "ID1018",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 0,
+        "period": 1,
+        "source": "IT",
+        "status": "completed",
+        "grade": "A",
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Algebra och Geometri",
+        "code": "SF1624",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 1,
+        "period": 1,
+        "source": "IT",
+        "status": "failed",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Algoritmer och Datastrukturer",
+        "code": "ID1021",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 1,
+        "period": 2,
+        "source": "IT",
+        "status": "completed",
+        "grade": "A",
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Envariabelanalys",
+        "code": "SF1625",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 0,
+        "period": 2,
+        "source": "IT",
+        "status": "completed",
+        "grade": "D",
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Diskret Matematik",
+        "code": "SF1610",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 0,
+        "period": 3,
+        "source": "IT",
+        "status": "completed",
+        "grade": "E",
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Inbyggd Elektronik",
+        "code": "IE1206",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 0,
+        "period": 3,
+        "source": "IT",
+        "status": "completed",
+        "grade": "D",
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Datorteknik",
+        "code": "IS1200",
+        "hp_total": 7.5,
+        "hp_done": 4.5,
+        "year": 2,
+        "period": 0,
+        "source": "IT",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Introduktion till IT",
+        "code": "II1306",
+        "hp_total": 1.5,
+        "hp_done": 1.5,
+        "year": 0,
+        "period": 0,
+        "source": "IT",
+        "status": "completed",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": true
+    },
+    {
+        "name": "H\u00e5rdvarus\u00e4kerhet",
+        "code": "IL1333",
+        "hp_total": 7.5,
+        "hp_done": 7.5,
+        "year": 1,
+        "period": 2,
+        "source": "IT",
+        "status": "completed",
+        "grade": "D",
+        "prerequisites": [
+            [
+                "IE1204"
+            ]
+        ],
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Logik f\u00f6r Dataloger",
+        "code": "DD1351",
+        "hp_total": 7.5,
+        "hp_done": 3.5,
+        "year": 1,
+        "period": 1,
+        "source": "IT",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": [
+            [
+                "DD1310"
+            ],
+            [
+                "SF1610"
+            ]
+        ],
+        "notes": "LAB1 - 1,5HP\nLAB2 - 2HP\nHEM1 - 4HP",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Objektorienterad Design",
+        "code": "IV1350",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 1,
+        "period": 3,
+        "source": "IT",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018"
+            ]
+        ],
+        "notes": "INL1 - 7,5HP",
+        "important_dates": [
+            {
+                "title": "Sem3 Implementation",
+                "date": "2026-05-04"
+            },
+            {
+                "title": "Sem4 Excep. and Des. Patterns",
+                "date": "2026-05-17"
+            }
+        ],
+        "pass_fail": false
+    },
+    {
+        "name": "Mekanik 1",
+        "code": "SG1130",
+        "hp_total": 9.0,
+        "hp_done": 4.5,
+        "year": 0,
+        "period": 2,
+        "source": "external",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Elektromagnetism & v\u00e5gr\u00f6relsel\u00e4ra",
+        "code": "SK1110",
+        "hp_total": 7.5,
+        "hp_done": 3.0,
+        "year": 0,
+        "period": 3,
+        "source": "IT",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Praktisk introduktion till energiteknik",
+        "code": "MJ1104",
+        "hp_total": 6.0,
+        "hp_done": 6.0,
+        "year": 0,
+        "period": 2,
+        "source": "IT",
+        "status": "completed",
+        "grade": "B",
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Maskinteknik, introkurs",
+        "code": "MF1001",
+        "hp_total": 9.0,
+        "hp_done": 7.5,
+        "year": 1,
+        "period": 0,
+        "source": "external",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": null,
+        "notes": "",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Programmeringsteknik",
+        "code": "DD1310",
+        "hp_total": 6.0,
+        "hp_done": 6.0,
+        "year": 0,
+        "period": 1,
+        "source": "IT",
+        "status": "completed",
+        "grade": "B",
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Flervariabelanalys",
+        "code": "SF1626",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 1,
+        "period": 3,
+        "source": "IT",
+        "status": "failed",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Aktiv Karri\u00e4rstart",
+        "code": "II1307",
+        "hp_total": 1.5,
+        "hp_done": 0.0,
+        "year": 1,
+        "period": 3,
+        "source": "IT",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": null,
+        "notes": "UPP1 - 1,5HP",
+        "important_dates": [
+            {
+                "title": "E portfolio",
+                "date": "2026-04-29"
+            }
+        ],
+        "pass_fail": true
+    },
+    {
+        "name": "Sannolikhetsteori & statistik",
+        "code": "SF1912",
+        "hp_total": 6.0,
+        "hp_done": 0.0,
+        "year": 2,
+        "period": 0,
+        "source": "IT",
+        "status": "planned",
+        "grade": null,
+        "prerequisites": [
+            [
+                "SF1625",
+                "SF1685"
+            ]
+        ],
+        "notes": "TEN1 - 6HP",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Operativsystem",
+        "code": "ID1206",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 2,
+        "period": 1,
+        "source": "IT",
+        "status": "planned",
+        "grade": null,
+        "prerequisites": [
+            [
+                "DD1310",
+                "ID1018"
+            ],
+            [
+                "ID1021"
+            ],
+            [
+                "IS1200"
+            ]
+        ],
+        "notes": "SEM1 - 1,5HP\nLAB1 - 3HP\nTEN1 - 3HP",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Digitalisering & Innovation f\u00f6r HU",
+        "code": "AL1523",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 2,
+        "period": 2,
+        "source": "IT",
+        "status": "planned",
+        "grade": null,
+        "prerequisites": null,
+        "notes": "SEM1 - 1HP \nPRO1 - 5HP \nTEN1 - 1,5HP (Hemtentamen)",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Introduktion till datats\u00e4kerhet",
+        "code": "IV1013",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 2,
+        "period": 3,
+        "source": "IT",
+        "status": "planned",
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018",
+                "DD1310"
+            ],
+            [
+                "IS1200"
+            ],
+            [
+                "IK1203"
+            ],
+            [
+                "SF1610"
+            ]
+        ],
+        "notes": "PRO1 - 6HP \nTEN - 1,5HP (Digital examination)",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "Kandidat Examensarbete IT",
+        "code": "IA150X",
+        "hp_total": 15.0,
+        "hp_done": 0.0,
+        "year": 2,
+        "period": 3,
+        "source": "IT",
+        "status": "planned",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": true
+    },
+    {
+        "name": "Datalagring",
+        "code": "IV1351",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 2,
+        "period": 1,
+        "source": "IT",
+        "status": "failed",
+        "grade": null,
+        "prerequisites": [
+            [
+                "ID1018"
+            ]
+        ],
+        "notes": "LAB1 - 4,5HP TEN1 - 3HP",
+        "important_dates": [],
+        "pass_fail": false
+    },
+    {
+        "name": "N\u00e4tverk och kommunikation",
+        "code": "IK1203",
+        "hp_total": 7.5,
+        "hp_done": 0,
+        "year": 2,
+        "period": 2,
+        "source": "IT",
+        "status": "planned",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": null,
+        "pass_fail": false
+    },
+    {
+        "name": "Projekt inom informations- och kommunikationsteknik",
+        "code": "II1305",
+        "hp_total": 7.5,
+        "hp_done": 0.0,
+        "year": 1,
+        "period": 3,
+        "source": "IT",
+        "status": "in progress",
+        "grade": null,
+        "prerequisites": null,
+        "notes": null,
+        "important_dates": [],
+        "pass_fail": false
+    }
+]

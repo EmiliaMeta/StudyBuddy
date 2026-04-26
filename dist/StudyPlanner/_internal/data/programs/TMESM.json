@@ -1,0 +1,175 @@
+{
+  "code": "TMESM",
+  "name": "Masterprogram, miljövänliga energisystem",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "MJ2381",
+      "name": "Introduktion till Energisystemanalys och tillämpning - mindre kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2404",
+      "name": "Energiomvandlingssystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2411",
+      "name": "Förnybar energi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2414",
+      "name": "Energisystemanalys med exergi-, ekonomi- och miljöperspektiv",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2415",
+      "name": "Projekt i energisystemanalys",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2416",
+      "name": "Mikroekonomi och energimarknader",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2418",
+      "name": "Hållbar energi och hållbar miljö",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2419",
+      "name": "Energilagringssystem",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2497",
+      "name": "Energieffektivitet och rationell användning av energi",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2498",
+      "name": "Energiresurser",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2086",
+      "name": "Globala energimarknader och system i omvandling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2383",
+      "name": "Energisystemekonomi, modellering och indikatorer för hållbar energiutveckling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2405",
+      "name": "Hållbar kraftproduktion",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2460",
+      "name": "Uthålliga byggnader - design, bygg och drift",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2462",
+      "name": "Energieffektivisering i befintliga byggnader",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2502",
+      "name": "Industriell dynamik för innovation i kombinerade energisystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2503",
+      "name": "Polygenerering - småskaliga system",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2504",
+      "name": "Årets integrerade projekt i hållbar energi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "MJ2505",
+      "name": "Praktisk optimering av energinätverk",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2506",
+      "name": "Energiteknik för hållbara transporter",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2513",
+      "name": "Cirkulär ekonomi och energisystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "code": "TSUEM",
+  "name": "Masterprogram, hållbar energiteknik",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "MJ2381",
+      "name": "Introduktion till Energisystemanalys och tillämpning - mindre kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2405",
+      "name": "Hållbar kraftproduktion",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2411",
+      "name": "Förnybar energi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2426",
+      "name": "Tillämpad kraft- och värmeteknologi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2438",
+      "name": "Modellering av energisystem - kraft och värme produktion",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2508",
+      "name": "Energisystem för hållbar utveckling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2509",
+      "name": "Energi i den byggda miljön",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MJ2510",
+      "name": "Metoder för forskning om hållbar energi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2511",
+      "name": "Energy Management",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2512",
+      "name": "Transformation i energipolitik och klimatagenda",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2514",
+      "name": "Fjärrvärme och fjärrkyla",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MJ2515",
+      "name": "Numerisk värmeöverföring i energiteknik",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MJ2516",
+      "name": "Hållbarhetsperspektiv för att utvärdera och utforma forskning, projekt och policyer",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MJ2518",
+      "name": "Energitekniska behov och distributionssystem i den byggda miljön",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2519",
+      "name": "Energiförsörjningssystem för byggnader",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MJ2383",
+      "name": "Energisystemekonomi, modellering och indikatorer för hållbar energiutveckling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2386",
+      "name": "Energilagring",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2460",
+      "name": "Uthålliga byggnader - design, bygg och drift",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2503",
+      "name": "Polygenerering - småskaliga system",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2505",
+      "name": "Praktisk optimering av energinätverk",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2506",
+      "name": "Energiteknik för hållbara transporter",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MJ2507",
+      "name": "Tillämpad AI för hållbar energiteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2513",
+      "name": "Cirkulär ekonomi och energisystem",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2517",
+      "name": "Värmepumpsteknik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2520",
+      "name": "Energisystem för smarta städer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2521",
+      "name": "Integrerade energisystem för byggnader",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MJ2523",
+      "name": "Flygmotorteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

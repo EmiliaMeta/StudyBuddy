@@ -1,0 +1,231 @@
+{
+  "code": "TFOBM",
+  "name": "Masterprogram, fastigheter och byggande",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AI2102",
+      "name": "Marknadsanalys och fastighetsutveckling",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AI2135",
+      "name": "Finansiell Ekonomi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AI2144",
+      "name": "Företagsfinansiering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI2152",
+      "name": "Kvantitativa metoder tillämpade på fastigheter och byggnader",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AI2154",
+      "name": "Avancerad fastighetsvärdering och analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI2155",
+      "name": "Stadsbyggnadsekonomi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI2156",
+      "name": "Kontraktsteori med tillämpningar på fastighetsförvaltning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI2507",
+      "name": "Fastighetsbildningsrätt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AI2508",
+      "name": "Markåtkomst och ersättning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI2511",
+      "name": "Plangenomförande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI2517",
+      "name": "Markexploatering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI2805",
+      "name": "Byggandets information och logistik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI2808",
+      "name": "Projektutveckling och arkitektoniska koncept",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AI2809",
+      "name": "Ledning av byggprojekt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI2810",
+      "name": "Projektkommunikation",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AI206X",
+      "name": "Examensarbete inom Bygg- och Fastighetsekonomi, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI2106",
+      "name": "Konjunkturcykler på bygg- och fastighetsmarknaden",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI2117",
+      "name": "Facility Management",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI2127",
+      "name": "Management och ledarskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI2148",
+      "name": "Finansiering av entreprenörskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI2150",
+      "name": "Vetenskaplig grundkurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI2153",
+      "name": "Finansiell ekonomi med fastighetstillämpningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI2505",
+      "name": "Rättsekonomi för markanvändning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI2518",
+      "name": "Infrastruktur - ansvar och finansiering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI2519",
+      "name": "Hyres-, bostads- och arrenderätt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI252X",
+      "name": "Examensarbete inom Mark- och fastighetsjuridik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI2807",
+      "name": "Projekt för byggprojektledare",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI281X",
+      "name": "Examensarbete inom Byggprojektledning, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    }
+  ]
+}

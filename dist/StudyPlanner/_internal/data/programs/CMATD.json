@@ -1,0 +1,199 @@
+{
+  "code": "CMATD",
+  "name": "Civilingenjörsutbildning i materialdesign",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "CK1260",
+      "name": "Materialens kemi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MH1030",
+      "name": "Materialdesign I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SG1120",
+      "name": "Mekanik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SK1117",
+      "name": "Elektromagnetism och vågrörelselära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KF1050",
+      "name": "Polymera material",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "MH1024",
+      "name": "Materiallära metalliska material",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "MH1025",
+      "name": "Profilering inom Materialdesign",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "MH1027",
+      "name": "Materials Termodynamik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "MH1028",
+      "name": "Termodynamisk modellering för materialdesign",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "MH1031",
+      "name": "Keramiska material",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SE1020",
+      "name": "Hållfasthetslära, grundkurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1512",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SF1633",
+      "name": "Differentialekvationer I",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ME1003",
+      "name": "Industriell ekonomi, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "MH1018",
+      "name": "Transportfenomen",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "MH101X",
+      "name": "Examensarbete inom material och processdesign, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "MH1033",
+      "name": "Jämställdhet, jämlikhet, mångfald och inkludering",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MH2054",
+      "name": "Materials processer I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MH2055",
+      "name": "Materials strukturer I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MH2056",
+      "name": "Materials egenskaper I",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

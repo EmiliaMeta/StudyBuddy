@@ -1,0 +1,199 @@
+{
+  "code": "TKEMM",
+  "name": "Masterprogram, kemiteknik för energi och miljö",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AL2143",
+      "name": "Cleaner Production och industriell miljöskyddsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AL2160",
+      "name": "Miljömanagement",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AL2181",
+      "name": "Miljösystemanalys och beslutsfattande",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CE2010",
+      "name": "Kärnkemi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CK2010",
+      "name": "Koldioxidneutralt energi- och transportsystem",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KE2010",
+      "name": "Industriella energiprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KE2045",
+      "name": "Kemisk reaktionsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KE2051",
+      "name": "Miljökatalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KE2060",
+      "name": "Kemitekniskt beräkningsprojekt",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KE2070",
+      "name": "Transportprocesser, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KE2110",
+      "name": "Tillämpad elektrokemi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KE2130",
+      "name": "Förnybara bränslen - produktionsprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KE2185",
+      "name": "Separationsprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KE2300",
+      "name": "Elektrokemiska energiomvandlare",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KE2310",
+      "name": "Hållbara system för värme-, el- och materialproduktion",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KE2351",
+      "name": "Riskanalys och riskhantering för kemiingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KE2355",
+      "name": "Resursåtervinning från avfall",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2814",
+      "name": "Idégenerering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KD2380",
+      "name": "Korrosion och ytskydd",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KE2195",
+      "name": "Experimentell processdesign",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KE2325",
+      "name": "Processdesign för industri och samhälle",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "KE2331",
+      "name": "Läkemedelsteknologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KF2470",
+      "name": "Massa- och pappersprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

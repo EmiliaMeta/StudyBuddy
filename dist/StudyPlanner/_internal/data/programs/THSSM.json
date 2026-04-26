@@ -1,0 +1,183 @@
+{
+  "code": "THSSM",
+  "name": "Masterprogram, hållbar samhällsplanering och stadsutformning",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AD2862",
+      "name": "Hållbar stadsplanering och stadsbyggnad studio 1.2- Situationer",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AD2865",
+      "name": "Introduktionskurs i urbanekonomi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AD2867",
+      "name": "Hållbar stadsplanering och stadsbyggnad studio 1.1- Texturer",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AE2507",
+      "name": "Strategisk miljöbedömning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AG2116",
+      "name": "City Networks in Regional Contexts",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2126",
+      "name": "Vetenskapsteori och forskningsmetod för studier om planering och urban design",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AG2127",
+      "name": "Teorier om planering och Urban Governance",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AG2130",
+      "name": "Tillämpad urban och regional analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AG2150",
+      "name": "Planering och design för hållbar stadsutveckling",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AG2151",
+      "name": "Stadsutveckling och -planering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AG2171",
+      "name": "Futures Studies and Forecasts",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AG2804",
+      "name": "Transporter, kommunikationer och hållbar utveckling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AG2806",
+      "name": "Bebyggelsens miljöpåverkan",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AD2863",
+      "name": "Hållbar stadsplanering och stadsbyggnad studio 2.1- Urbana Ekologier",
+      "hp": 22.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AD2EXU",
+      "name": "Examensarbete inom stadsplanering och design, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AG2129",
+      "name": "Projekt hållbar stadsplanering - strategier för urban och regional utveckling",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AG212X",
+      "name": "Examensarbete inom urban och regional planering, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AG2134",
+      "name": "Nutida urban teori, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AG2144",
+      "name": "Hållbar urban mobilitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AG2809",
+      "name": "Projekt hållbar stadsplanering - miljöbedömning, planer och processer",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AL250X",
+      "name": "Examensarbete inom strategier för hållbar utveckling, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AL2511",
+      "name": "Resilienstänkande i hållbar samhällsplanering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

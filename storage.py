@@ -1,12 +1,45 @@
 import json
+import os
+import shutil
 from course import Course
-from utils import resource_path
+from utils import resource_path, writable_path
 from dataclasses import asdict
 
 
+# ------------------------------------------------------------------ #
+# Skrivbara filer: courses.json, csn_weeks.json, profile.json         #
+# Dessa kopieras från bundlad data första gången om de saknas.        #
+# ------------------------------------------------------------------ #
+
+WRITABLE_FILES = [
+    "data/courses.json",
+    "data/csn_weeks.json",
+    "data/profile.json",
+]
+
+
+def _ensure_writable(relative_path):
+    """
+    Säkerställer att en skrivbar fil existerar bredvid exe:n.
+    Om den saknas kopieras defaultversionen från det bundlade paketet.
+    """
+    dest = writable_path(relative_path)
+    if not os.path.exists(dest):
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        src = resource_path(relative_path)
+        if os.path.exists(src):
+            shutil.copy(src, dest)
+    return dest
+
+
+# ------------------------------------------------------------------ #
+# Courses                                                              #
+# ------------------------------------------------------------------ #
+
 def load_courses():
     try:
-        with open(resource_path("data/courses.json"), encoding="utf-8") as f:
+        path = _ensure_writable("data/courses.json")
+        with open(path, encoding="utf-8") as f:
             courses = json.load(f)
 
         for c in courses:
@@ -26,15 +59,22 @@ def save_courses(courses, simulate=False):
     if simulate:
         return
     try:
-        with open(resource_path("data/courses.json"), "w", encoding="utf-8") as f:
+        path = writable_path("data/courses.json")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
             json.dump([asdict(c) for c in courses], f, indent=4)
     except Exception as e:
         print("Failed to save courses:", e)
 
 
+# ------------------------------------------------------------------ #
+# CSN weeks                                                            #
+# ------------------------------------------------------------------ #
+
 def load_csn_weeks():
     try:
-        with open(resource_path("data/csn_weeks.json"), encoding="utf-8") as f:
+        path = _ensure_writable("data/csn_weeks.json")
+        with open(path, encoding="utf-8") as f:
             return json.load(f).get("weeks_used", 0)
     except Exception:
         return 0
@@ -44,15 +84,22 @@ def save_csn_weeks(weeks, simulate=False):
     if simulate:
         return
     try:
-        with open(resource_path("data/csn_weeks.json"), "w", encoding="utf-8") as f:
+        path = writable_path("data/csn_weeks.json")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
             json.dump({"weeks_used": weeks}, f)
     except Exception as e:
         print("Failed to save CSN weeks:", e)
 
 
+# ------------------------------------------------------------------ #
+# Profile                                                              #
+# ------------------------------------------------------------------ #
+
 def load_profile():
     try:
-        with open(resource_path("data/profile.json"), encoding="utf-8") as f:
+        path = _ensure_writable("data/profile.json")
+        with open(path, encoding="utf-8") as f:
             p = json.load(f)
             p.setdefault("name", "")
             p.setdefault("program_code", "")
@@ -74,11 +121,17 @@ def save_profile(profile, simulate=False):
     if simulate:
         return
     try:
-        with open(resource_path("data/profile.json"), "w", encoding="utf-8") as f:
+        path = writable_path("data/profile.json")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
             json.dump(profile, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print("Failed to save profile:", e)
 
+
+# ------------------------------------------------------------------ #
+# Program data (read-only, bundlat)                                    #
+# ------------------------------------------------------------------ #
 
 def load_program_index():
     try:

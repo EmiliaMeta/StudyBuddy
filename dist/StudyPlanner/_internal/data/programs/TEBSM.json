@@ -1,0 +1,15 @@
+{
+  "code": "TEBSM",
+  "name": "Masterprogram, inbyggda system",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "IL2206",
+      "name": "Inbyggda System",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    }
+  ]
+}

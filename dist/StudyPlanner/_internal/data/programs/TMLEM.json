@@ -1,0 +1,79 @@
+{
+  "code": "TMLEM",
+  "name": "Masterprogram, medicinsk teknik",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AK2050",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (medicinsk etik)",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CM2013",
+      "name": "Signalbehandling och dataanalys för medicintekniska tillämpningar",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2014",
+      "name": "Simuleringsmetoder i medicinsk teknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2015",
+      "name": "Projektkurs i medicinsk teknik, del 1",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "CM2016",
+      "name": "Projektkurs i medicinsk teknik, del 2",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM2017",
+      "name": "Projektkurs i medicinsk teknik, del 3",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CM2018",
+      "name": "Statistik för medicintekniska tillämpningar",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HL1007",
+      "name": "Medicinsk teknik, grundkurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "code": "CBIOT",
+  "name": "Civilingenjörsutbildning i bioteknik",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "BB1030",
+      "name": "Mikrobiologi",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "BB1150",
+      "name": "Biokemi 1",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "BB1160",
+      "name": "Eukaryot cellbiologi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "BB1190",
+      "name": "Genteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CB1170",
+      "name": "Bioteknik för ett hållbart samhälle",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KD1020",
+      "name": "Inledande kemi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KD1230",
+      "name": "Organisk kemi, grundläggande koncept och praktik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KE0110",
+      "name": "Introduktionskurs i kemi",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KE1180",
+      "name": "Inledande kemiteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF0003",
+      "name": "Introduktion i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "BB1000",
+      "name": "Programmering i Python",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "BB1200",
+      "name": "Analys av biomolekyler",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "BB1210",
+      "name": "Rening av biomolekyler",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "BB1230",
+      "name": "Biokemi 2",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "CB1015",
+      "name": "Hållbar utveckling av bioteknik",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "CB1180",
+      "name": "Färdigheter för framtidens ingenjörer 1",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "CB1190",
+      "name": "Färdigheter för framtidens ingenjörer 2",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "CK1285",
+      "name": "Kemisk jämvikt",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1525",
+      "name": "Grundkurs i numeriska metoder",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SK1150",
+      "name": "Grundläggande fysik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "BB103X",
+      "name": "Examensarbete inom bioteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "BB1070",
+      "name": "Genetik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "BB1300",
+      "name": "Odlingsteknologi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "CB1020",
+      "name": "Projekt i matematisk modellering",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "CB1200",
+      "name": "Färdigheter för framtidens ingenjörer 3",
+      "hp": 1.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "KD1070",
+      "name": "Molekylär struktur",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "KD1270",
+      "name": "Organisk kemi, grundläggande koncept och praktik 2",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "KD1500",
+      "name": "Fysikalisk biokemi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF1911",
+      "name": "Statistik för bioteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SI1410",
+      "name": "Grundläggande modellering inom bioteknologi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    }
+  ]
+}

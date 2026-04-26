@@ -1,0 +1,47 @@
+{
+  "code": "TLODM",
+  "name": "Magisterprogram, ljusdesign",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AF270X",
+      "name": "Examensarbete inom ljusdesign, avancerad nivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HS2007",
+      "name": "Ljus och människa",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HS2008",
+      "name": "Ljus och rum-utomhusbelysning",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HS2009",
+      "name": "Ljus och rum-inomhusbelysning",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HS2010",
+      "name": "Ljus och teori",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    }
+  ]
+}

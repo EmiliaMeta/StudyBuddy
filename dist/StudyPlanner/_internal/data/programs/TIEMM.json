@@ -1,0 +1,47 @@
+{
+  "code": "TIEMM",
+  "name": "Masterprogram, industriell ekonomi",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ME2321",
+      "name": "Ingenjörsarbete och globala utmaningar",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2322",
+      "name": "Industriell omvandling och teknisk innovation",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2323",
+      "name": "Forskningsfronter inom industriell ekonomi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2324",
+      "name": "Strategisk ledning vid teknikskiften",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2004",
+      "name": "Forskningsmetod inom industriell ekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

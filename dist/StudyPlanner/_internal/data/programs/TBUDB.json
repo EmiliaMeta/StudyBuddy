@@ -1,0 +1,63 @@
+{
+  "code": "TBUDB",
+  "name": "Tekniskt basår mot högskoleingenjör, distans med campusträffar",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CD1001",
+      "name": "Introduktion till ingenjörsvetenskap",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "CD1002",
+      "name": "Utbildningssammanhållande kurs för deldistansbasår HING",
+      "hp": 2.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1010",
+      "name": "Introduktion till programmering och datorkunskap",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "TB0011",
+      "name": "Matematik för basår mot högskoleingenjör, distans med campusträffar I",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "TB0012",
+      "name": "Fysik för basår mot högskoleingenjör, distans med campusträffar I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "TB0013",
+      "name": "Kemi för basår mot högskoleingenjör, distans med campusträffar I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "TB0015",
+      "name": "Fysik för basår mot högskoleingenjör, distans med campusträffar II",
+      "hp": 20.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    }
+  ]
+}

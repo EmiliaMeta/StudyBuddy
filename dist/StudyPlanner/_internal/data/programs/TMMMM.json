@@ -1,0 +1,223 @@
+{
+  "code": "TMMMM",
+  "name": "Masterprogram, makromolekylära material",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "AK2036",
+      "name": "Vetenskapsteori och vetenskaplig metodik med tillämpningar (naturvetenskap)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "BB2020",
+      "name": "Molekylär enzymologi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "BB2425",
+      "name": "Glykobioteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "BB2460",
+      "name": "Biokatalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KD1270",
+      "name": "Organisk kemi, grundläggande koncept och praktik 2",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KD2155",
+      "name": "Fasta tillståndets kemi: struktur och metoder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KD2310",
+      "name": "Organisk kemi, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KD2320",
+      "name": "Spektroskopiska verktyg inom kemi",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KD2350",
+      "name": "Ytor, kolloider och mjuka material",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KE2310",
+      "name": "Hållbara system för värme-, el- och materialproduktion",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KF2110",
+      "name": "Materials mekaniska egenskaper",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KF2130",
+      "name": "Polymerkemi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KF2140",
+      "name": "Polymerfysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KF2180",
+      "name": "Biopolymerer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KF2190",
+      "name": "Polymera material: Struktur och egenskaper",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KF2450",
+      "name": "Fiberteknologi - Naturliga och syntetiska fibrer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KF2460",
+      "name": "Biofibrernas kemi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KF2480",
+      "name": "Bioraffinaderiets kemi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KF2495",
+      "name": "Polymera kompositer - mikro- och nanoskala",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2814",
+      "name": "Idégenerering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KD2170",
+      "name": "Nanostrukturerade material",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "KD2300",
+      "name": "Biomedicinska material",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KD2380",
+      "name": "Korrosion och ytskydd",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KE2351",
+      "name": "Riskanalys och riskhantering för kemiingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "KF2150",
+      "name": "Ytbehandlingskemi",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "KF2470",
+      "name": "Massa- och pappersprocesser",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KF2505",
+      "name": "Polymera materials bearbetning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 1
+    }
+  ]
+}

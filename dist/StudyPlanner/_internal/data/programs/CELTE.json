@@ -1,0 +1,295 @@
+{
+  "code": "CELTE",
+  "name": "Civilingenjörsutbildning i elektroteknik",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH1010",
+      "name": "Elektroprojekt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EH1110",
+      "name": "Elektroteknikens betydelse för ett modernt samhälle",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EI1110",
+      "name": "Elkretsanalys, utökad kurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "EP1200",
+      "name": "Introduktion till datorsystemteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "IE1205",
+      "name": "Digital design",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1624",
+      "name": "Algebra och geometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1625",
+      "name": "Envariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1626",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD1320",
+      "name": "Tillämpad datalogi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "DD1388",
+      "name": "Programsystemkonstruktion med C++",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "ED1110",
+      "name": "Vektoranalys",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EI1220",
+      "name": "Teoretisk elektroteknik E",
+      "hp": 10.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "EI1222",
+      "name": "Teoretisk elektroteknik, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EN1020",
+      "name": "Elektroprojekt, del II",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EP1100",
+      "name": "Datakommunikation och datornät",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "EQ1110",
+      "name": "Tidskontinuerliga signaler och system",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "EQ1120",
+      "name": "Tidsdiskreta signaler och system",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "IL2240",
+      "name": "Halvledarkomponenter för integrerade kretsar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1546",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1679",
+      "name": "Diskret matematik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1691",
+      "name": "Komplex analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1861",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF1920",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SG1130",
+      "name": "Mekanik I",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SH1012",
+      "name": "Modern fysik",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SI1200",
+      "name": "Fysikens matematiska metoder",
+      "hp": 4.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SK1108",
+      "name": "Klassisk fysik, mekanik och våg",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SK1119",
+      "name": "Termodynamik och statistisk fysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "EF112X",
+      "name": "Examensarbete inom elektroteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EJ1200",
+      "name": "Eleffektsystem",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "EK1191",
+      "name": "Mätteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EL1020",
+      "name": "Reglerteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EQ1270",
+      "name": "Stokastiska signaler och system",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "IE1207",
+      "name": "Analog Elektronik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "MH1023",
+      "name": "Praktiskt jämställdhets- och mångfaldsarbete i vetenskapliga, tekniska och industriella miljöer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    }
+  ]
+}

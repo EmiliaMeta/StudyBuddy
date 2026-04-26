@@ -1,0 +1,207 @@
+{
+  "code": "TFOFK",
+  "name": "Kandidatprogram, fastighet och finans",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AI1125",
+      "name": "Organisation och ledarskap",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI1126",
+      "name": "Samhällsbyggnadsprocessen för fastighet och finans",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AI1128",
+      "name": "Samhällsbyggnadsekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AI1175",
+      "name": "Grundläggande statistik för ekonomer",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AI1178",
+      "name": "Tillämpad matematik och statistik för ekonomer",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AI1550",
+      "name": "Juridisk översiktskurs",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF0003",
+      "name": "Introduktion i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF1627",
+      "name": "Matematik för ekonomer",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AG1421",
+      "name": "Fastighetsinformationsteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI1108",
+      "name": "Investeringsanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI1142",
+      "name": "Finansiell rapportering och analys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AI1144",
+      "name": "Fastighetsfinansiering och investering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AI1177",
+      "name": "Finansiell ekonometri",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AI1179",
+      "name": "Företags- och fastighetsbeskattning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI1509",
+      "name": "Allmän fastighetsrätt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AI1512",
+      "name": "Kredit- och obeståndsrätt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AI105X",
+      "name": "Examensarbete inom finans, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "AI107X",
+      "name": "Examensarbete inom fastighetsekonomi, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "AI1134",
+      "name": "Kapitalmarknader och finansiella instrument",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI1141",
+      "name": "Kreditbedömning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI1145",
+      "name": "Ekonomisk fastighetsförvaltning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "AI1147",
+      "name": "Fastighetsvärdering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "AI1170",
+      "name": "Relationsmarknadsföring och marknadsanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "AI1171",
+      "name": "Management och etik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "AI1519",
+      "name": "Speciell fastighetsrätt",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "code": "TSEDM",
+  "name": "Masterprogram, programvaruteknik för distribuerade system",
+  "level": "Elektroteknik och datavetenskap",
+  "courses": [
+    {
+      "code": "ID2201",
+      "name": "Distribuerade system, grundkurs",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ID2207",
+      "name": "Moderna metoder inom programvaruutveckling (software engineering)",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ID2209",
+      "name": "Distribuerad AI och Intelligenta Agenter",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    }
+  ]
+}

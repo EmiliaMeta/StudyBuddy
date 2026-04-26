@@ -1,0 +1,439 @@
+{
+  "code": "CTFYS",
+  "name": "Civilingenjörsutbildning i teknisk fysik",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "DD1301",
+      "name": "Datorintroduktion",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1331",
+      "name": "Grundläggande programmering",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1672",
+      "name": "Linjär algebra",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SF1673",
+      "name": "Analys i en variabel",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF1674",
+      "name": "Flervariabelanalys",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF1922",
+      "name": "Sannolikhetsteori och statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SG1112",
+      "name": "Mekanik I",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SI1121",
+      "name": "Termodynamik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SK1104",
+      "name": "Klassisk fysik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SK1105",
+      "name": "Experimentell fysik",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD1327",
+      "name": "Grundläggande datalogi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SE1055",
+      "name": "Hållfasthetslära, grundkurs med energimetoder",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1544",
+      "name": "Numeriska metoder, grundkurs IV",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "SF1681",
+      "name": "Linjär algebra, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SF1683",
+      "name": "Differentialekvationer och transformmetoder",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SG1113",
+      "name": "Mekanik, fortsättningskurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SH1014",
+      "name": "Modern fysik",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "SI1146",
+      "name": "Vektoranalys",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "SI1155",
+      "name": "Teoretisk fysik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SI1200",
+      "name": "Fysikens matematiska metoder",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AK2011",
+      "name": "Teknik och etik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "AK2014",
+      "name": "Beslutsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD1380",
+      "name": "Javaprogrammering för Pythonprogrammerare",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD2352",
+      "name": "Algoritmer och komplexitet",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "DD2380",
+      "name": "Artificiell intelligens",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EF112X",
+      "name": "Examensarbete inom elektroteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "EI1320",
+      "name": "Teoretisk elektroteknik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EL1000",
+      "name": "Reglerteknik, allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "EQ1120",
+      "name": "Tidsdiskreta signaler och system",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "IL2240",
+      "name": "Halvledarkomponenter för integrerade kretsar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "ME2075",
+      "name": "Ledarskap och makt i industriella organisationer: genusperspektiv och aspekter på mångfald",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "MH1023",
+      "name": "Praktiskt jämställdhets- och mångfaldsarbete i vetenskapliga, tekniska och industriella miljöer",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SA114X",
+      "name": "Examensarbete inom teknisk fysik, grundnivå",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1677",
+      "name": "Analysens grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1678",
+      "name": "Grupper och ringar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1679",
+      "name": "Diskret matematik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1691",
+      "name": "Komplex analys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF1811",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SF1861",
+      "name": "Optimeringslära",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF1904",
+      "name": "Markovprocesser, grundkurs",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF2701",
+      "name": "Finansiell matematik, grundkurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF2930",
+      "name": "Regressionsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SF2940",
+      "name": "Sannolikhetsteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SG1218",
+      "name": "Strömningsmekanik",
+      "hp": 4.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SH1015",
+      "name": "Tillämpad modern fysik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "SH2402",
+      "name": "Astrofysik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SI1142",
+      "name": "Fysikens matematiska metoder, tilläggskurs",
+      "hp": 3.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SI1162",
+      "name": "Statistisk fysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "SI1336",
+      "name": "Simulering och modellering",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SI2360",
+      "name": "Analytisk mekanik och klassisk fältteori",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SI2371",
+      "name": "Speciell relativitetsteori",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "SK2712",
+      "name": "Miljöfysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SK2758",
+      "name": "Fasta tillståndets fysik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

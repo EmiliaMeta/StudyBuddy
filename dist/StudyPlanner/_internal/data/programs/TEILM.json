@@ -1,0 +1,71 @@
+{
+  "code": "TEILM",
+  "name": "Magisterprogram, entreprenörskap och innovationsledning",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME205X",
+      "name": "Examensarbete inom entreprenörskap och innovationsledning, avancerad nivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2092",
+      "name": "Ledarskap för teknologisk innovation och kreativitet",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2093",
+      "name": "Teknisk och industriell omvandling",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2098",
+      "name": "Industriell marknadsföring och nätverk",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2603",
+      "name": "Entrepreneurship",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2614",
+      "name": "Idégenerering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2615",
+      "name": "Affärsmodellen",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    }
+  ]
+}

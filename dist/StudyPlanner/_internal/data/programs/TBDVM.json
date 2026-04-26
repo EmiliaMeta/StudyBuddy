@@ -1,0 +1,103 @@
+{
+  "code": "TBDVM",
+  "name": "Masterprogram, biostatistik och datavetenskap",
+  "level": "Teknikvetenskap",
+  "courses": [
+    {
+      "code": "DD2401",
+      "name": "Neurovetenskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2526",
+      "name": "Numeriska algoritmer för vetenskapliga problem med stora datamängder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2930",
+      "name": "Regressionsanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "SF2940",
+      "name": "Sannolikhetsteori",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SF2943",
+      "name": "Tidsserieanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SF2955",
+      "name": "Datorintensiva metoder inom matematisk statistik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD2434",
+      "name": "Maskininlärning, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "DD2610",
+      "name": "Djupinlärning, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2935",
+      "name": "Moderna metoder för statistisk inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2956",
+      "name": "Topologisk dataanalys",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "SF2957",
+      "name": "Statistisk maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

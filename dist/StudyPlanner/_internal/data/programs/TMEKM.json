@@ -1,0 +1,343 @@
+{
+  "code": "TMEKM",
+  "name": "Masterprogram, mekatronik",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "DD2380",
+      "name": "Artificiell intelligens",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2410",
+      "name": "Introduktion till robotik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2419",
+      "name": "Projektkurs i robotik och autonoma system",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2421",
+      "name": "Maskininlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2423",
+      "name": "Bildbehandling och datorseende",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2424",
+      "name": "Djupinlärning i Data Science",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "DD2434",
+      "name": "Maskininlärning, avancerad kurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "DD2437",
+      "name": "Artificiella neuronnät och djupa arkitekturer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2438",
+      "name": "Artificiell intelligens och multiagentsystem",
+      "hp": 15.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2443",
+      "name": "Parallella och distribuerade beräkningar",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD2480",
+      "name": "Programutvecklingsteknikens grunder",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "DD2482",
+      "name": "Automatiserad programtestning och DevOps",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DH2670",
+      "name": "Haptisk och taktil interaktionsteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EL2520",
+      "name": "Reglerteknik, fortsättningskurs",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "EL2620",
+      "name": "Olinjär reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2700",
+      "name": "Modell-prediktiv reglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EL2805",
+      "name": "Förstärkande inlärning",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "EL2820",
+      "name": "Modellering av dynamiska system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "EQ2330",
+      "name": "Bild- och videobehandling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "IL2236",
+      "name": "Arkitekturer för inbyggda mångkärniga system",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2087",
+      "name": "Energiföretagande",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2827",
+      "name": "Förhandlingsteknik för start-ups",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MF2007",
+      "name": "Dynamik och rörelsestyrning",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2010",
+      "name": "Komponentkonstruktion",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2011",
+      "name": "Systemkonstruktion",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MF2018",
+      "name": "Tribologi",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MF2019",
+      "name": "CAD 3D-modellering och visualisering",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2030",
+      "name": "Mekatronik allmän kurs",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2043",
+      "name": "Robust mekatronik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2046",
+      "name": "Produktinnovation",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2068",
+      "name": "Maskindynamik",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2071",
+      "name": "Forskningsmetodik i mekatronik",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MF2084",
+      "name": "Ledning av forskning och utveckling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF2085",
+      "name": "Innovations- och produktutvecklingsprocesser",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MF2095",
+      "name": "Programmering i C för inbyggda styrsystem",
+      "hp": 3.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2103",
+      "name": "Inbyggda system för mekatronik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "MF2121",
+      "name": "Mekatronik högre kurs",
+      "hp": 18.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "MF2140",
+      "name": "Smarta Cyberfysiska system - perspektiv och konsekvenser i ett sociotekniskt skifte",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "SD2231",
+      "name": "Tillämpad fordonsdynamikreglering",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "SE2126",
+      "name": "Materialmekanik",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "SE2860",
+      "name": "Modellering i FEM",
+      "hp": 8.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "MF224X",
+      "name": "Examensarbete inom mekatronik, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

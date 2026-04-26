@@ -1,0 +1,151 @@
+{
+  "code": "TBYPH",
+  "name": "Högskoleutbildning i byggproduktion",
+  "level": "Arkitektur och samhällsbyggnad",
+  "courses": [
+    {
+      "code": "AF1721",
+      "name": "Miljö- och arbetsvetenskap",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF1722",
+      "name": "Byggprocessen",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF1737",
+      "name": "Byggteknik 1",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "AF1742",
+      "name": "Byggekonomi och kvalitet",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF1744",
+      "name": "Byggteknik, värme och fuktlära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "AF1745",
+      "name": "Byggteknik, småhusprojektering",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF1754",
+      "name": "Building Information Modeling i produktionen",
+      "hp": 2.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF1761",
+      "name": "Inledande matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "AF1762",
+      "name": "Matematik för byggproduktion",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HS1722",
+      "name": "Statik och hållfasthetslära",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "AF109X",
+      "name": "Examensarbete inom anläggningsteknik - Byggproduktion, grundnivå",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "AF1718",
+      "name": "Installationsteknik 1 inom bygg - anläggning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AF1719",
+      "name": "Installationsteknik 2 inom bygg-anläggning",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "AF1750",
+      "name": "Bygglogistik och riskhantering",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "AH1907",
+      "name": "Anläggning 1. Väg-, järnvägs- och VA-teknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "AH1908",
+      "name": "Anläggning 2. Byggande, drift och underhåll av vägar och järnvägar",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HS1725",
+      "name": "Byggproduktion och ledarskap",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HS1733",
+      "name": "Betongkonstruktion",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

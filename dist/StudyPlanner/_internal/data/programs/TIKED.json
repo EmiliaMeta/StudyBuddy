@@ -1,0 +1,239 @@
+{
+  "code": "TIKED",
+  "name": "Högskoleingenjörsutbildning i kemiteknik",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "KH0001",
+      "name": "Introduktionskurs i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KH0002",
+      "name": "Introduktionskurs i kemi",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KH1111",
+      "name": "Matematik",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KH1121",
+      "name": "Organisk kemi",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KH1122",
+      "name": "Analytisk kemi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KH1123",
+      "name": "Allmän kemi 1",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KH1124",
+      "name": "Allmän kemi 2",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "KH1130",
+      "name": "Kemiteknik 1",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "KH1150",
+      "name": "Informationsteknik och ingenjörsmetodik",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "KH1406",
+      "name": "Skriftlig presentationsteknik för ingenjörer",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "KH1407",
+      "name": "Praktikkurs för högskoleingenjörer i kemiteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "DD1310",
+      "name": "Programmeringsteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "KH1212",
+      "name": "Matematisk statistik",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "KH1221",
+      "name": "Tillämpad fysikalisk kemi",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "KH1222",
+      "name": "Tillämpad kemi",
+      "hp": 5.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "KH1223",
+      "name": "Bioteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "KH1231",
+      "name": "Kemiteknik 2",
+      "hp": 21.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "KH1242",
+      "name": "Hållbar utveckling med kemiingenjören",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "ME1041",
+      "name": "Industriell ekonomi för kemi- och bioteknik",
+      "hp": 4.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "BB1190",
+      "name": "Genteknik",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "BB1210",
+      "name": "Rening av biomolekyler",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "KA1015",
+      "name": "Kemi för hållbar utveckling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "KF1165",
+      "name": "Materialens kemi och egenskaper",
+      "hp": 9.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "KH1324",
+      "name": "Analytisk kemi 2",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "KH1332",
+      "name": "Kemiteknik 3",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "KH1341",
+      "name": "Miljöskyddsteknik",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    },
+    {
+      "code": "KH1353",
+      "name": "Ledarskap, grupp- och organisationsutveckling för ingenjörer",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "KH138X",
+      "name": "Examensarbete inom kemiteknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 0
+    },
+    {
+      "code": "SF1514",
+      "name": "Numeriska metoder, grundkurs",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 2,
+      "period": 0
+    }
+  ]
+}

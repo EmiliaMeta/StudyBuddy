@@ -1,0 +1,183 @@
+{
+  "code": "TTBEM",
+  "name": "Masterprogram, teknikbaserad entreprenörskap",
+  "level": "Industriell teknik och management",
+  "courses": [
+    {
+      "code": "ME2016",
+      "name": "Project Management: Leadership and Control",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2075",
+      "name": "Ledarskap och makt i industriella organisationer: genusperspektiv och aspekter på mångfald",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2085",
+      "name": "Omvandling av energisystem och energirelaterad industri",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2086",
+      "name": "Globala energimarknader och system i omvandling",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2094",
+      "name": "Internetmarknadsföring",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2095",
+      "name": "e-businesstrategier",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2620",
+      "name": "Teknikbaserat entreprenörskap",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2621",
+      "name": "Skapa och utveckla affärsidéer",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "ME2622",
+      "name": "Innovativa affärsmodeller",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2623",
+      "name": "Teknikbaserat nyföretagande",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2624",
+      "name": "Ledning av tillväxtföretag",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2710",
+      "name": "Tillämpad ekonometri",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "ME2825",
+      "name": "Finansiering av Start-ups",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2826",
+      "name": "Socialt entreprenörskap",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2827",
+      "name": "Förhandlingsteknik för start-ups",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "ME2832",
+      "name": "Entreprenörskap - Personlig Utveckling",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2836",
+      "name": "Entreprenöriella familjeföretag",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "MF2080",
+      "name": "Utmaningar för den växande staden, tvärdiciplinär projektkurs A:1 (OpenLab projektkurs)",
+      "hp": 7.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "ME2003",
+      "name": "Forskningsmetod inom industriell ekonomi",
+      "hp": 7.5,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "ME2092",
+      "name": "Ledarskap för teknologisk innovation och kreativitet",
+      "hp": 6.0,
+      "mandatory": false,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "ME210X",
+      "name": "Examensarbete inom industriell ekonomi, avancerad nivå",
+      "hp": 30.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "ME2625",
+      "name": "Utmaningsdrivet teknikbaserat entreprenörskap",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "code": "TIMEL",
+  "name": "Högskoleingenjörsutbildning i medicinsk teknik",
+  "level": "Kemi, bioteknologi och hälsa",
+  "courses": [
+    {
+      "code": "CM0001",
+      "name": "Introduktionskurs i matematik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "CM0002",
+      "name": "Introduktionskurs i datateknik",
+      "hp": 1.5,
+      "mandatory": false,
+      "year": 0,
+      "period": 0
+    },
+    {
+      "code": "HE1026",
+      "name": "Digitalteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 2
+    },
+    {
+      "code": "HE1027",
+      "name": "Ellära",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HE1041",
+      "name": "Mikrodatorteknik, projektkurs",
+      "hp": 11.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HF1005",
+      "name": "Informationsteknik och ingenjörsmetodik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HF1006",
+      "name": "Linjär algebra och analys",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 1
+    },
+    {
+      "code": "HI1024",
+      "name": "Programmering, grundkurs",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "HL1201",
+      "name": "Medicin och medicinsk teknik",
+      "hp": 12.0,
+      "mandatory": true,
+      "year": 0,
+      "period": 3
+    },
+    {
+      "code": "CM1006",
+      "name": "Klinisk kemi och mikrobiologi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HE1030",
+      "name": "Analog elektronik",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 2
+    },
+    {
+      "code": "HE1037",
+      "name": "Data- och telekommunikation",
+      "hp": 10.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HE1201",
+      "name": "Företagsekonomi och entreprenörskap",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HF1011",
+      "name": "Signaler, system och transformer",
+      "hp": 8.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HF1012",
+      "name": "Matematisk statistik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HL1014",
+      "name": "Medicinteknisk verksamhet",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 3
+    },
+    {
+      "code": "HL1015",
+      "name": "Teknik i intensivvård och kirurgi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 1
+    },
+    {
+      "code": "HL1016",
+      "name": "Medicinsk mätteknik",
+      "hp": 7.0,
+      "mandatory": true,
+      "year": 1,
+      "period": 0
+    },
+    {
+      "code": "HE1039",
+      "name": "Reglerteknik",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HF1201",
+      "name": "Hållbar utveckling och ergonomi",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HL1013",
+      "name": "Medicinska bilder",
+      "hp": 6.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 2
+    },
+    {
+      "code": "HL101X",
+      "name": "Examensarbete inom medicinsk teknik, grundnivå",
+      "hp": 15.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 3
+    },
+    {
+      "code": "HL2032",
+      "name": "Medicinsk teknik, projektkurs",
+      "hp": 9.0,
+      "mandatory": true,
+      "year": 2,
+      "period": 1
+    }
+  ]
+}
